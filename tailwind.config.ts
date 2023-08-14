@@ -5,6 +5,7 @@ export default {
     "./app.vue",
     "./{pages,components,content}/**/*.{vue,js,ts,jsx,tsx,html,md}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
