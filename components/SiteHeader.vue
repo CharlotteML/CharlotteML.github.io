@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav
-      class="bg-main-50 border-main-100 px-4 lg:px-6 py-2.5 dark:bg-main-950"
+      class="bg-main-50 shadow-lg px-4 lg:px-6 py-2.5 dark:bg-main-950 dark:shadow-xl"
     >
       <div
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
@@ -82,9 +82,9 @@ const showMenu = ref(false);
 
 <style scoped>
 .nav-bar-button {
-  @apply items-center p-2 ml-1 text-sm text-main-950 rounded-lg  hover:bg-main-100 focus:outline-none focus:ring-2 focus:ring-main-200 dark:text-main-50 dark:hover:bg-main-900 dark:focus:ring-main-800;
+  @apply items-center p-2 ml-1 rounded-lg text-sm text-main-950 dark:text-main-50  hover:bg-main-100 dark:hover:bg-main-900 focus:outline-none focus:ring-2 focus:ring-main-200 dark:focus:ring-main-800;
 }
 .nav-bar-item {
-  @apply block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-900 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700;
+  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-100 hover:text-primary-900 bg-main-50 hover:bg-main-100 focus:bg-main-100 dark:bg-main-950 dark:hover:bg-main-900 dark:focus:bg-main-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-main-200 dark:border-main-800;
 }
 </style>
