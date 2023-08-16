@@ -57,17 +57,10 @@
           <ul
             class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
           >
-            <li>
-              <NuxtLink href="/" class="nav-bar-item">Home</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink href="/news" class="nav-bar-item">News</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink href="/faculty" class="nav-bar-item">Faculty</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink href="/blog" class="nav-bar-item">Blog</NuxtLink>
+            <li v-for="nvi in navBarItems">
+              <NuxtLink :href="nvi.href" class="nav-bar-item">{{
+                nvi.name
+              }}</NuxtLink>
             </li>
           </ul>
         </div>
@@ -78,6 +71,16 @@
 
 <script setup lang="ts">
 const showMenu = ref(false);
+const navBarItems = ref([
+  { name: "Home", href: "/" },
+  { name: "Research", href: "/research" },
+  { name: "Publication", href: "/publication" },
+  { name: "Member", href: "/member" },
+  { name: "Teaching", href: "/teaching" },
+  { name: "Blog", href: "/blog" },
+  { name: "News", href: "/news" },
+  { name: "Contact", href: "/contact" },
+]);
 </script>
 
 <style scoped>
