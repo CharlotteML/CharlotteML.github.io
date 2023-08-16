@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav
-      class="bg-main-50 shadow-lg px-4 lg:px-6 py-2.5 dark:bg-main-950 dark:shadow-xl"
+      class="bg-main-50 shadow dark:shadow-lg px-4 lg:px-6 py-2.5 dark:bg-main-950 border-accent-200 dark:border-accent-600 border-b"
     >
       <div
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
