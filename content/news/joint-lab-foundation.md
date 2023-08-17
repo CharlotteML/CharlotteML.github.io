@@ -1,5 +1,6 @@
 ---
-date: 2023-08-16
+date: 2023-08-16 12:00:00
+cover: /banner-image/campus_fall_11-12-2017_img135.jpg
 ---
 
 # UNC Charlotte Launches Machine Learning Lab: A Hub for AI Innovation
@@ -9,6 +10,8 @@ CHARLOTTE, NC - The University of North Carolina at Charlotte has announced the 
 <!-- more -->
 
 ## Major Research Areas
+
+![](/pictures/computer-engineer-4.png)
 
 The Machine Learning Lab will focus on several major AI research areas, reflecting the breadth and depth of this transformative technology:
 
@@ -23,12 +26,29 @@ The Machine Learning Lab will focus on several major AI research areas, reflecti
 
 ## Collaborative Innovation
 
+![](/pictures/computer-engineer-6.png)
+
 The Machine Learning Lab will foster collaboration across various domains, leading to innovative solutions and advancements in technology. By integrating multidisciplinary research from security, networking, reliability, risk management, economics, and behavioral sciences, the lab aims to offer a unique opportunity for students and industry collaborators.
+
+---
 
 ## Conclusion
 
 UNC Charlotte's Machine Learning Lab represents a significant step forward in AI research and education. By aligning with major AI research fields and focusing on real-world applications, the lab is poised to make substantial contributions to the technology community and beyond.
 
+![](/pictures/computer-engineer-7.png)
+
 The establishment of this lab underscores UNC Charlotte's commitment to technological innovation and academic excellence. It positions the university as a leader in shaping the future of computing and informatics, reflecting a broad spectrum of research interests and a dedication to societal impact.
 
 For more information about UNC Charlotte's Machine Learning Lab and other initiatives in AI, machine learning, and related fields, visit UNC Charlotte's College of Computing and Informatics.
+
+> This article was written by GPT, and is not a real news article.
+
+```py
+import os
+```
+
+| a   |   b | c   |  d  |
+| --- | --: | :-- | :-: |
+| 1   |   2 | 3   |  4  |
+| 1   |   2 | 3   |  4  |
