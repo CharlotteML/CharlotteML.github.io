@@ -10,10 +10,10 @@
           <NuxtImg
             src="/logo.svg"
             alt="UNC Charlotte Logo"
-            class="mr-3 h-6 sm:h-9"
+            class="mr-3 h-6 sm:h-12"
           />
           <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-main-50"
+            class="self-center text-xl font-semibold whitespace-nowrap text-primary-900"
             >ML Lab</span
           >
         </NuxtLink>
