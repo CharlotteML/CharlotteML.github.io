@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "nuxt-icon",
   ],
+  content: {
+    documentDriven: true,
+  },
   colorMode: {
     classSuffix: "",
   },

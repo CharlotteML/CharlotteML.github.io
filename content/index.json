@@ -1,0 +1,44 @@
+{
+  "banners": [
+    {
+      "src": "/banner-image/bio_pano2a.jpg",
+      "alt": "Bioinformatics Panorama",
+      "link": "/",
+      "title": "Click to learn more"
+    },
+    {
+      "src": "/banner-image/campus_fall_11-12-2017_img135.jpg",
+      "alt": "Woodward Hall from Hauser Alumni Pavilion"
+    },
+    {
+      "src": "/banner-image/spring_campus_04-14-20_img556.jpg",
+      "alt": "Woodward Hall"
+    }
+  ],
+  "fields": [
+    {
+      "title": "AI Theory",
+      "src": "/fields/AI-theory.svg"
+    },
+    {
+      "title": "Computer Vision",
+      "src": "/fields/CV.svg"
+    },
+    {
+      "title": "Data Science",
+      "src": "/fields/DS.svg"
+    },
+    {
+      "title": "Natural Language Processing",
+      "src": "/fields/NLP.svg"
+    },
+    {
+      "title": "Reinforcement Learning",
+      "src": "/fields/RL.svg"
+    },
+    {
+      "title": "Time Series Analysis",
+      "src": "/fields/TS.svg"
+    }
+  ]
+}
