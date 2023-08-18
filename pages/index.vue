@@ -91,7 +91,7 @@
       <ol
         class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-main-900 dark:border-main-100"
       >
-        <li class="mb-10 ml-4 group" v-for="news of list" :key="news._path">
+        <li class="mb-10 ml-4 group" v-for="news in list" :key="news.slug">
           <NuxtLink :href="news._path" class="cursor-pointer">
             <span
               class="absolute w-4 h-4 border-2 bg-main-50 dark:bg-main-950 rounded-full mt-1 -left-[9px] border-main-900 dark:border-main-100"

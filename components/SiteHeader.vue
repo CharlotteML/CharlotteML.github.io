@@ -58,9 +58,9 @@
             class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
           >
             <li v-for="nvi in navBarItems">
-              <NuxtLink :href="nvi.href" class="nav-bar-item">{{
-                nvi.name
-              }}</NuxtLink>
+              <NuxtLink :href="nvi.href" class="nav-bar-item">
+                {{ nvi.name }}
+              </NuxtLink>
             </li>
           </ul>
         </div>

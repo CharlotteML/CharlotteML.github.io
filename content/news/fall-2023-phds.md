@@ -22,7 +22,7 @@ A Bright Future
 
 The significant increase in PhD students is a promising sign for the future of the College of Computing and Informatics at UNC Charlotte. It underscores the college's dedication to nurturing the next generation of technology leaders, researchers, and innovators.
 
-Dr. [Name], Dean of the College of Computing and Informatics, expressed excitement about the upcoming academic year, stating, "This remarkable growth in our PhD program is a reflection of our commitment to excellence in research and education. We look forward to welcoming our new students and supporting them in their academic and professional pursuits."
+Dr. Name, Dean of the College of Computing and Informatics, expressed excitement about the upcoming academic year, stating, "This remarkable growth in our PhD program is a reflection of our commitment to excellence in research and education. We look forward to welcoming our new students and supporting them in their academic and professional pursuits."
 Conclusion
 
 The Fall 2023 semester at UNC Charlotte's College of Computing and Informatics promises to be an exciting time, with a record number of PhD students set to embark on their academic journey. This growth signifies not only the college's success but also its potential to shape the future of technology and innovation.

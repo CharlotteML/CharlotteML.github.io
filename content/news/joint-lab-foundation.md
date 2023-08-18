@@ -11,7 +11,7 @@ CHARLOTTE, NC - The University of North Carolina at Charlotte has announced the 
 
 ## Major Research Areas
 
-![](/pictures/computer-engineer-4.png)
+![avatar](/pictures/computer-engineer-4.png)
 
 The Machine Learning Lab will focus on several major AI research areas, reflecting the breadth and depth of this transformative technology:
 
@@ -26,7 +26,7 @@ The Machine Learning Lab will focus on several major AI research areas, reflecti
 
 ## Collaborative Innovation
 
-![](/pictures/computer-engineer-6.png)
+![avatar](/pictures/computer-engineer-6.png)
 
 The Machine Learning Lab will foster collaboration across various domains, leading to innovative solutions and advancements in technology. By integrating multidisciplinary research from security, networking, reliability, risk management, economics, and behavioral sciences, the lab aims to offer a unique opportunity for students and industry collaborators.
 
@@ -36,7 +36,7 @@ The Machine Learning Lab will foster collaboration across various domains, leadi
 
 UNC Charlotte's Machine Learning Lab represents a significant step forward in AI research and education. By aligning with major AI research fields and focusing on real-world applications, the lab is poised to make substantial contributions to the technology community and beyond.
 
-![](/pictures/computer-engineer-7.png)
+![avatar](/pictures/computer-engineer-7.png)
 
 The establishment of this lab underscores UNC Charlotte's commitment to technological innovation and academic excellence. It positions the university as a leader in shaping the future of computing and informatics, reflecting a broad spectrum of research interests and a dedication to societal impact.
 
