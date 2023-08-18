@@ -13,7 +13,7 @@
             class="mr-3 h-6 sm:h-12"
           />
           <span
-            class="self-center text-xl font-semibold whitespace-nowrap text-primary-900"
+            class="self-center text-xl font-semibold whitespace-nowrap text-primary-800"
             >ML Lab</span
           >
         </NuxtLink>
@@ -88,6 +88,6 @@ const navBarItems = ref([
   @apply items-center p-2 ml-1 rounded-lg text-sm text-main-950 dark:text-main-50  hover:bg-main-100 dark:hover:bg-main-900 focus:outline-none focus:ring-2 focus:ring-main-200 dark:focus:ring-main-800;
 }
 .nav-bar-item {
-  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-100 hover:text-primary-900 bg-main-50 hover:bg-main-100 focus:bg-main-100 dark:bg-main-950 dark:hover:bg-main-900 dark:focus:bg-main-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-main-200 dark:border-main-800;
+  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-100 hover:text-primary-800 bg-main-50 hover:bg-main-100 focus:bg-main-100 dark:bg-main-950 dark:hover:bg-main-900 dark:focus:bg-main-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-main-200 dark:border-main-800;
 }
 </style>

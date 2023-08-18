@@ -104,9 +104,7 @@
                   .value
               }}
             </time>
-            <h3
-              class="text-xl font-black text-primary-900 dark:text-primary-700"
-            >
+            <h3 class="text-xl font-black text-primary-800">
               {{ news.title }}
             </h3>
             <div
@@ -139,11 +137,7 @@
             >
               Earlier along the line
             </span>
-            <h3
-              class="text-xl font-black text-primary-900 dark:text-primary-700"
-            >
-              Check out more
-            </h3>
+            <h3 class="text-xl font-black text-primary-800">Check out more</h3>
           </NuxtLink>
         </li>
       </ol>

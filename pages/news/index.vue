@@ -27,7 +27,7 @@
               }}
             </time>
             <h3
-              class="text-xl font-black text-primary-900 dark:text-primary-700"
+              class="text-xl font-black text-primary-800 dark:text-primary-700"
             >
               {{ news.title }}
             </h3>

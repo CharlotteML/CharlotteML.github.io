@@ -48,7 +48,7 @@
       <ContentDoc>
         <ContentRenderer
           :value="page"
-          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-900 prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-main-100/80 prose-blockquote:dark:bg-main-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-main-100/50 dark:even:prose-tr:bg-main-900/30 prose-li:list-inside prose-a:text-inherit prose-a:decoration-transparent"
+          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-main-100/80 prose-blockquote:dark:bg-main-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-main-100/50 dark:even:prose-tr:bg-main-900/30 prose-li:list-inside prose-a:text-inherit prose-a:decoration-transparent"
         />
       </ContentDoc>
     </main>
