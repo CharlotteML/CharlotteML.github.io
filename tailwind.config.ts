@@ -72,7 +72,7 @@ export default {
           700: "#315573",
           800: "#2c4960",
           900: "#293e51",
-          950: "#101820", // bg (dark), text (light)
+          950: "#0d131a", // bg (dark), text (light)
         },
       },
     },
