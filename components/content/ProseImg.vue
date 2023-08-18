@@ -1,5 +1,23 @@
 <template>
-  <img :src="refinedSrc" :alt="alt" :width="width" :height="height" />
+  <component
+    :is="isMP4 || isWebM || isMOV ? 'video' : 'img'"
+    :src="refinedSrc"
+    :alt="alt"
+    :width="width"
+    :height="height"
+    :type="
+      isMP4
+        ? 'video/mp4'
+        : isWebM
+        ? 'video/webm'
+        : isMOV
+        ? 'video/mov'
+        : undefined
+    "
+    :controls="isMP4 || isWebM || isMOV"
+    :autoplay="isMP4 || isWebM || isMOV"
+    :loop="isMP4 || isWebM || isMOV"
+  ></component>
 </template>
 
 <script setup lang="ts">
@@ -23,6 +41,10 @@ const props = defineProps({
     default: undefined,
   },
 });
+
+const isMP4 = computed(() => props.src.endsWith(".mp4"));
+const isWebM = computed(() => props.src.endsWith(".webm"));
+const isMOV = computed(() => props.src.endsWith(".mov"));
 
 const refinedSrc = computed(() => {
   const { src } = props;
