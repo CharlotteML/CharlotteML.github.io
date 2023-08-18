@@ -7,12 +7,6 @@ Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn mor
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
 # pnpm
 pnpm install
 ```
@@ -22,21 +16,21 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Production
 
-Build the application for production:
+Build the application for production (static mode):
 
 ```bash
-npm run build
+pnpm generate
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
