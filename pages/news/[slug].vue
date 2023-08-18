@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtImg
+    <img
       :src="page.cover"
       v-if="page.cover"
       class="pb-8 w-screen h-1/2 md:h-screen object-cover overflow-visible dark:opacity-80"

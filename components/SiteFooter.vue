@@ -30,7 +30,7 @@
           </span>
         </span>
       </span>
-      <NuxtImg
+      <img
         src="/logo-full.svg"
         alt="UNC Charlotte logo"
         class="w-full max-w-xs mx-auto"

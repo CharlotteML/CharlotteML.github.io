@@ -5,7 +5,7 @@
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden md:h-96">
         <Transition>
-          <NuxtImg
+          <img
             :src="slideState.src"
             :key="slideState.src"
             class="absolute block w-full h-full object-cover transition-all duration-700 ease-in-out"
@@ -114,7 +114,7 @@
             >
               <div class="flex flex-col sm:flex-row justify-center w-full">
                 <p class="flex-grow">{{ news.description }}</p>
-                <NuxtImg
+                <img
                   v-if="news.cover"
                   :src="news.cover"
                   class="h-48 object-cover rounded-lg"
@@ -162,7 +162,7 @@
         :key="field.title"
         class="flex flex-col justify-center items-center w-24 md:w-36 lg:w-48"
       >
-        <NuxtImg :src="field.src" />
+        <img :src="field.src" />
         <h2 class="pt-1 sm:pt-2 text-center font-medium md:text-lg lg:text-xl">
           {{ field.title }}
         </h2>

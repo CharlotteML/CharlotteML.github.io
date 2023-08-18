@@ -7,7 +7,7 @@
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
       >
         <NuxtLink href="/" class="flex items-center">
-          <NuxtImg
+          <img
             src="/logo.svg"
             alt="UNC Charlotte Logo"
             class="mr-3 h-6 sm:h-12"

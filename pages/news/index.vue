@@ -36,7 +36,7 @@
             >
               <div class="flex flex-col sm:flex-row justify-center w-full">
                 <p class="flex-grow">{{ news.description }}</p>
-                <NuxtImg
+                <img
                   v-if="news.cover"
                   :src="news.cover"
                   class="h-48 object-cover rounded-lg"
