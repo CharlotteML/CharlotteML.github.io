@@ -5,7 +5,7 @@
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden md:h-96">
         <Transition>
-          <img
+          <NuxtImg
             :src="slideState.src"
             :key="slideState.src"
             class="absolute block w-full h-full object-cover transition-all duration-700 ease-in-out"
