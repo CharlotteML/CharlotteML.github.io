@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
-    "@nuxt/image", // This seems to be completely broken with pnpm generate
+    // "@nuxt/image", // This seems to be completely broken with pnpm generate
     "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
