@@ -8,7 +8,7 @@
     <ContentDoc>
       <ContentRenderer
         :value="page"
-        class="max-w-none bg-main-100/80 dark:bg-main-900/20 p-8 rounded-2xl border border-accent-200 dark:border-accent-600 shadow-xl dark:shadow-2xl prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 odd:prose-img:float-left even:prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-main-100/80 prose-blockquote:dark:bg-main-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-main-100/50 dark:even:prose-tr:bg-main-900/30 prose-li:list-inside prose-video:w-full prose-video:rounded-lg"
+        class="max-w-none bg-secondary-100/80 dark:bg-secondary-900/20 p-8 rounded-2xl border border-accent-200 dark:border-accent-600 shadow-xl dark:shadow-2xl prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 dark:prose-headings:text-primary-600 odd:prose-img:float-left even:prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-secondary-100/80 prose-blockquote:dark:bg-secondary-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-secondary-100/50 dark:even:prose-tr:bg-secondary-900/30 prose-li:list-inside prose-video:w-full prose-video:rounded-lg"
         :class="{ 'prose-h1:-translate-y-10': page.cover }"
       />
     </ContentDoc>
@@ -19,7 +19,7 @@
       >
         <NuxtLink
           :href="prev._path"
-          class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-main-50 dark:bg-main-950 group-hover:bg-opacity-0"
+          class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-secondary-50 dark:bg-secondary-950 group-hover:bg-opacity-0"
         >
           <Icon name="ph:caret-left-bold" size="32" class="flex-shrink-0" />
           <span class="flex-grow text-lg">
@@ -33,7 +33,7 @@
       >
         <NuxtLink
           :href="next._path"
-          class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-main-50 dark:bg-main-950 group-hover:bg-opacity-0"
+          class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-secondary-50 dark:bg-secondary-950 group-hover:bg-opacity-0"
         >
           <span class="flex-grow text-lg">
             {{ next.title }}

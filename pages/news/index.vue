@@ -11,12 +11,12 @@
       :query="{ sort: [{ date: -1 }] }"
     >
       <ol
-        class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-main-900 dark:border-main-100"
+        class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-secondary-900 dark:border-secondary-100"
       >
         <li class="mb-10 ml-4 group" v-for="news in list" :key="news.slug">
           <NuxtLink :href="news._path" class="cursor-pointer">
             <span
-              class="absolute w-4 h-4 border-2 bg-main-50 dark:bg-main-950 rounded-full mt-1 -left-[9px] border-main-900 dark:border-main-100"
+              class="absolute w-4 h-4 border-2 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
             ></span>
             <time
               class="mb-1 text-sm font-medium leading-none text-main-900 dark:text-main-100"
@@ -27,7 +27,7 @@
               }}
             </time>
             <h3
-              class="text-xl font-black text-primary-800 dark:text-primary-700"
+              class="text-xl font-black text-primary-800 dark:text-primary-600"
             >
               {{ news.title }}
             </h3>
@@ -47,12 +47,12 @@
         </li>
         <li class="mb-10 ml-4 group">
           <span
-            class="absolute w-4 h-4 border-4 bg-main-50 dark:bg-main-950 rounded-full mt-1 -left-[9px] border-main-900 dark:border-main-100"
+            class="absolute w-4 h-4 border-4 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
           >
             <Icon
               name="ph:arrow-line-down"
               size="24"
-              class="absolute bg-main-50 dark:bg-main-950 rounded-full -left-2 -top-1.5"
+              class="absolute bg-secondary-50 dark:bg-secondary-950 rounded-full -left-2 -top-1.5"
             />
           </span>
           <span

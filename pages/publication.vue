@@ -3,7 +3,7 @@
     <form class="pt-10" @submit.prevent="search()">
       <div class="flex">
         <button
-          class="flex-shrink-0 z-10 inline-flex items-center gap-2 py-2.5 px-4 text-sm font-medium text-center rounded-l-lg text-main-900 dark:text-main-100 bg-main-100 dark:bg-main-900/60 border border-accent-200 dark:border-accent-600 hover:bg-main-200 focus:ring-4 focus:outline-none focus:ring-accent-200 dark:hover:bg-main-800 dark:focus:ring-accent-600"
+          class="flex-shrink-0 z-10 inline-flex items-center gap-2 py-2.5 px-4 text-sm font-medium text-center rounded-l-lg text-main-900 dark:text-main-100 bg-secondary-100 dark:bg-secondary-900/60 border border-accent-200 dark:border-accent-600 hover:bg-secondary-200 focus:ring-4 focus:outline-none focus:ring-accent-200 dark:hover:bg-secondary-800 dark:focus:ring-accent-600"
           type="button"
           @click="showTypeSelection = !showTypeSelection"
         >
@@ -13,7 +13,7 @@
         <div class="relative w-full">
           <input
             type="search"
-            class="block p-2.5 w-full z-20 text-sm bg-main-100/30 dark:bg-main-900/30 rounded-r-lg border border-l-0 border-accent-200 dark:border-accent-600 focus:ring-accent-200 dark:focus:ring-accent-600 focus:border-accent-200 dark:focus:border-accent-600 dark:placeholder-gray-500"
+            class="block p-2.5 w-full z-20 text-sm bg-secondary-100/30 dark:bg-secondary-900/30 rounded-r-lg border border-l-0 border-accent-200 dark:border-accent-600 focus:ring-accent-200 dark:focus:ring-accent-600 focus:border-accent-200 dark:focus:border-accent-600 dark:placeholder-gray-500"
             placeholder="Search category, conference, journal, title, author..."
             v-model="searchTerm"
           />
@@ -38,7 +38,7 @@
           type="checkbox"
           :checked="type.select"
           name="bordered-checkbox"
-          class="w-4 h-4 text-primary-800 bg-main-100 border-accent-200 dark:border-accent-600 rounded focus:ring-primary-900 dark:ring-offset-main-800 focus:ring-2 dark:bg-main-700"
+          class="w-4 h-4 text-primary-800 dark:text-primary-600 bg-secondary-100 border-accent-200 dark:border-accent-600 rounded focus:ring-primary-900 dark:ring-offset-main-800 focus:ring-2 dark:bg-secondary-700"
         />
         <label
           class="w-full py-4 ml-2 text-sm font-medium text-main-900 dark:text-main-100"
@@ -121,6 +121,6 @@ const HTMLoutput = computed(() => {
   @apply text-lg whitespace-pre-line;
 }
 .csl-entry {
-  @apply my-0.5 list-item list-inside bg-main-100/50 dark:bg-main-900/30 p-4 rounded-xl border border-accent-200 dark:border-accent-600 shadow-md dark:shadow-lg;
+  @apply my-0.5 list-item list-inside bg-secondary-100/50 dark:bg-secondary-900/30 p-4 rounded-xl border border-accent-200 dark:border-accent-600 shadow-md dark:shadow-lg;
 }
 </style>

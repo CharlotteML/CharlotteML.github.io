@@ -68,8 +68,8 @@
           class="w-3 h-3 rounded-full cursor-pointer"
           :class="
             slideState.src === slide.src
-              ? 'grow bg-main-950/90 dark:bg-main-50/80'
-              : 'flex-none bg-main-950/60 dark:bg-main-50/50'
+              ? 'grow bg-secondary-950/90 dark:bg-secondary-50/80'
+              : 'flex-none bg-secondary-950/60 dark:bg-secondary-50/50'
           "
           @click="slideState.src !== slide.src && nextSlide(index - slideIndex)"
           @mouseenter="pauseAutoSlide()"
@@ -89,22 +89,24 @@
       :query="{ limit: 5, sort: [{ date: -1 }] }"
     >
       <ol
-        class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-main-900 dark:border-main-100"
+        class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-secondary-900 dark:border-secondary-100"
       >
         <li class="mb-10 ml-4 group" v-for="news in list" :key="news.slug">
           <NuxtLink :href="news._path" class="cursor-pointer">
             <span
-              class="absolute w-4 h-4 border-2 bg-main-50 dark:bg-main-950 rounded-full mt-1 -left-[9px] border-main-900 dark:border-main-100"
+              class="absolute w-4 h-4 border-2 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
             ></span>
             <time
-              class="mb-1 text-sm font-medium leading-none text-main-900 dark:text-main-100"
+              class="mb-1 text-sm font-medium leading-none text-secondary-900 dark:text-secondary-100"
             >
               {{
                 useDateFormat(news.date, "MMM DD, YYYY", { locales: "en-US" })
                   .value
               }}
             </time>
-            <h3 class="text-xl font-black text-primary-800">
+            <h3
+              class="text-xl font-black text-primary-800 dark:text-primary-600"
+            >
               {{ news.title }}
             </h3>
             <div
@@ -124,12 +126,12 @@
         <li class="mb-10 ml-4 group">
           <NuxtLink href="/news" class="cursor-pointer">
             <span
-              class="absolute w-4 h-4 border-4 bg-main-50 dark:bg-main-950 rounded-full mt-1 -left-[9px] border-main-900 dark:border-main-100"
+              class="absolute w-4 h-4 border-4 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
             >
               <Icon
                 name="ph:dots-three-bold"
                 size="24"
-                class="absolute bg-main-50 dark:bg-main-950 rounded-full -left-2 -top-1.5 rotate-90"
+                class="absolute bg-secondary-50 dark:bg-secondary-950 rounded-full -left-2 -top-1.5 rotate-90"
               />
             </span>
             <span
@@ -137,7 +139,11 @@
             >
               Earlier along the line
             </span>
-            <h3 class="text-xl font-black text-primary-800">Check out more</h3>
+            <h3
+              class="text-xl font-black text-primary-800 dark:text-primary-600"
+            >
+              Check out more
+            </h3>
           </NuxtLink>
         </li>
       </ol>

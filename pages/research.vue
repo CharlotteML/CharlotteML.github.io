@@ -4,7 +4,7 @@
       <div ref="drawer">
         <!-- drawer component -->
         <div
-          class="lg:fixed lg:top-0 lg:left-0 z-40 lg:w-80 lg:h-screen lg:py-12 lg:m-0 lg:rounded-none lg:border-none rounded-xl border border-accent-200 dark:border-accent-600 my-4 p-2 overflow-y-auto transition-transform bg-white dark:bg-gray-800"
+          class="lg:fixed lg:top-0 lg:left-0 z-40 lg:w-80 lg:h-screen lg:py-12 lg:m-0 lg:rounded-none lg:border-none rounded-xl border border-accent-200 dark:border-accent-600 my-4 p-2 overflow-y-auto transition-transform bg-secondary-100 dark:bg-secondary-900"
           tabindex="-1"
           :class="{
             'lg:translate-x-0 ease-out': value,
@@ -14,7 +14,7 @@
           <button
             type="button"
             v-if="width >= 1024"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+            class="text-secondary-500 bg-transparent hover:bg-secondary-200 dark:hover:bg-secondary-800 hover:text-secondary-800 dark:hover:text-secondary-200 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center"
             @click="toggle()"
           >
             <Icon name="ph:x-bold" size="32" />
@@ -25,7 +25,8 @@
               <li v-for="h2 in toc.links">
                 <NuxtLink
                   :href="`#${h2.id}`"
-                  class="flex items-center p-2 rounded-lg hover:bg-main-100 dark:hover:bg-main-900 text-lg font-semibold"
+                  class="flex items-center p-2 rounded-lg hover:bg-secondary-50/50 dark:hover:bg-secondary-950/50 text-lg font-semibold"
+                  @click="toggle()"
                 >
                   <span class="ml-3">{{ h2.text }}</span>
                 </NuxtLink>
@@ -48,7 +49,7 @@
       <ContentDoc>
         <ContentRenderer
           :value="page"
-          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-main-100/80 prose-blockquote:dark:bg-main-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-main-100/50 dark:even:prose-tr:bg-main-900/30 prose-li:list-inside prose-a:text-inherit prose-a:decoration-transparent"
+          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 dark:prose-headings:text-primary-600 prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-secondary-100/80 prose-blockquote:dark:bg-secondary-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-secondary-100/50 dark:even:prose-tr:bg-secondary-900/30 prose-li:list-inside prose-a:text-inherit prose-a:decoration-transparent"
         />
       </ContentDoc>
     </main>

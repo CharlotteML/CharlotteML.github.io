@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-main-50 dark:bg-main-950 border border-accent-200 dark:border-accent-600 rounded-lg shadow-lg dark:shadow-xl m-4"
+    class="bg-secondary-50 dark:bg-secondary-950 border border-accent-200 dark:border-accent-600 rounded-lg shadow-lg dark:shadow-xl m-4"
   >
     <div
       class="w-full mx-auto max-w-screen-xl p-4 grid grid-cols-1 md:grid-cols-3 md:items-center md:justify-between"

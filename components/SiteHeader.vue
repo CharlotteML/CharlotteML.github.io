@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="z-50">
     <nav
-      class="bg-main-50 shadow dark:shadow-lg px-4 lg:px-6 py-2.5 dark:bg-main-950 border-accent-200 dark:border-accent-600 border-b"
+      class="bg-secondary-50 dark:bg-secondary-950 shadow dark:shadow-lg px-4 lg:px-6 py-2.5 border-accent-200 dark:border-accent-600 border-b"
     >
       <div
         class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
@@ -85,9 +85,9 @@ const navBarItems = ref([
 
 <style scoped>
 .nav-bar-button {
-  @apply items-center p-2 ml-1 rounded-lg text-sm text-main-950 dark:text-main-50  hover:bg-main-100 dark:hover:bg-main-900 focus:outline-none focus:ring-2 focus:ring-main-200 dark:focus:ring-main-800;
+  @apply items-center p-2 ml-1 rounded-lg text-sm text-main-950 dark:text-main-50  hover:bg-secondary-50 dark:hover:bg-secondary-950 focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:focus:ring-secondary-800;
 }
 .nav-bar-item {
-  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-100 hover:text-primary-800 bg-main-50 hover:bg-main-100 focus:bg-main-100 dark:bg-main-950 dark:hover:bg-main-900 dark:focus:bg-main-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-main-200 dark:border-main-800;
+  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-600 hover:text-primary-800 bg-secondary-50 hover:bg-secondary-100 focus:bg-secondary-100 dark:bg-secondary-950 dark:hover:bg-secondary-900 dark:focus:bg-secondary-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-secondary-200 dark:border-secondary-800;
 }
 </style>

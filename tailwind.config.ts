@@ -23,8 +23,8 @@ export default {
           950: "#0b231b",
         },
         secondary: {
-          50: "#f6f5f5",
-          100: "#e7e6e6", // light
+          50: "#f6f5f5", // light
+          100: "#e7e6e6",
           200: "#d1d0d0",
           300: "#b1afb0",
           400: "#8a8686",
@@ -33,7 +33,7 @@ export default {
           700: "#504e4f",
           800: "#464444",
           900: "#3d3c3c",
-          950: "#212020", // dark
+          950: "#1c1b1b", // dark
         },
         accent: {
           50: "#f8f7ee",
