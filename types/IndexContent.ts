@@ -8,5 +8,6 @@ export default interface IndexContent {
   fields: {
     title: string; // Title of field
     src: string; // Image source for field
+    link: string; // Link to research page section
   }[];
 }

@@ -157,16 +157,17 @@
     <div
       class="max-w-8xl container mx-auto my-12 flex flex-wrap items-start justify-center gap-6 px-6 sm:px-8"
     >
-      <span
+      <NuxtLink
         v-for="field in page.fields"
         :key="field.title"
+        :href="field.link"
         class="flex w-24 flex-col items-center justify-center md:w-36 lg:w-48"
       >
         <img :src="field.src" />
         <h2 class="pt-1 text-center font-medium sm:pt-2 md:text-lg lg:text-xl">
           {{ field.title }}
         </h2>
-      </span>
+      </NuxtLink>
     </div>
   </div>
 </template>

@@ -18,27 +18,33 @@
   "fields": [
     {
       "title": "AI Theory",
-      "src": "/fields/AI-theory.svg"
+      "src": "/fields/AI-theory.svg",
+      "link": "/research#ai-theory"
     },
     {
       "title": "Computer Vision",
-      "src": "/fields/CV.svg"
+      "src": "/fields/CV.svg",
+      "link": "/research#computer-vision"
     },
     {
       "title": "Data Science",
-      "src": "/fields/DS.svg"
+      "src": "/fields/DS.svg",
+      "link": "/research#data-science"
     },
     {
       "title": "Natural Language Processing",
-      "src": "/fields/NLP.svg"
+      "src": "/fields/NLP.svg",
+      "link": "/research#natural-language-processing"
     },
     {
       "title": "Reinforcement Learning",
-      "src": "/fields/RL.svg"
+      "src": "/fields/RL.svg",
+      "link": "/research#reinforcement-learning"
     },
     {
       "title": "Time Series Analysis",
-      "src": "/fields/TS.svg"
+      "src": "/fields/TS.svg",
+      "link": "/research#time-series"
     }
   ]
 }
