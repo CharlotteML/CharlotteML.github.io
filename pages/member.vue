@@ -108,6 +108,8 @@
 </template>
 
 <script setup lang="ts">
+import Person from "types/Person";
+
 const idFromName = (
   first: string | null,
   middle: string | null,
@@ -133,7 +135,10 @@ const abbrevName = (
     .join(" ");
 };
 
-const { page } = useContent();
+const {
+  page,
+}: { page: Ref<{ faculty: Person[]; student: Person[]; alumni: Person[] }> } =
+  useContent();
 const faculty = page.value.faculty;
 const student = page.value.student;
 const alumni = page.value.alumni;

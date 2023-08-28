@@ -81,5 +81,3 @@ const { width } = useWindowSize();
 const drawer = ref(null as HTMLElement | null);
 onClickOutside(drawer, () => toggle(false));
 </script>
-
-<style scoped></style>

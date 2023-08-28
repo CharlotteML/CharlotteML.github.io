@@ -172,7 +172,9 @@
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+import IndexContent from "types/IndexContent";
+
+const { page }: { page: Ref<IndexContent> } = useContent();
 const slides = ref(page.value.banners as any[]);
 const {
   state: slideState,

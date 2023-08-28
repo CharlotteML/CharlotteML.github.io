@@ -54,7 +54,9 @@
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+import Publication from "types/Publication";
+
+const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
 const entries = page.value.collection;
 const bibliography = ref(entries);
 const searchTerm = ref("");
@@ -105,6 +107,7 @@ const search = () => {
   return;
 };
 
+// @ts-ignore
 import Cite from "citation-js";
 const HTMLoutput = computed(() => {
   const cite = new Cite(bibliography.value);

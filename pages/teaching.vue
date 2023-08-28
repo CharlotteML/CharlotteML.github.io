@@ -112,5 +112,3 @@ const searchResult = computed(() => {
   return fuse.search(searchTerm.value).map((x) => x.item);
 });
 </script>
-
-<style scoped></style>
