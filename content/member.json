@@ -1,0 +1,56 @@
+{
+  "faculty": [
+    {
+      "name": {
+        "first": "Xiang",
+        "middle": null,
+        "last": "Zhang"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Data Mining",
+        "Machine Learning",
+        "Pervasive Healthcare",
+        "Medical Time Series",
+        "Brain-Computer Interfaces"
+      ],
+      "introduction": "Xiang is an Assistant Professor in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he was a postdoctoral fellow at Harvard University from March 2020 to July 2022. Xiang received his Ph.D. degree (in 2020) in Computer Science from the University of New South Wales (UNSW). His research interests lie in data mining and machine learning with applications in pervasive healthcare, medical time series, and Brain-Computer Interfaces (BCIs). Xiang's research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, and KDD) and journals (like Nature Computational Science).",
+      "teaching": [
+        "ITCS 4156, Introduction to Machine Learning, Fall 2023",
+        "ITCS 4156, Introduction to Machine Learning, Spring 2023",
+        "ITCS 4156, Introduction to Machine Learning, Fall 2022"
+      ],
+      "contact": {
+        "email": ["xiang.alan.zhang@gmail.com", "xiang.zhang@uncc.edu"],
+        "address": "Room 230A, Woodward Hall",
+        "website": "https://xiangzhang.info/"
+      },
+      "photo": "/photos/xiang-zhang.png"
+    }
+  ],
+  "student": [
+    {
+      "name": {
+        "first": "Nan",
+        "middle": null,
+        "last": "Huang"
+      },
+      "position": ["Ph.D. Student"],
+      "research": [
+        "Machine Learning",
+        "Data Mining",
+        "Graph Neural Networks",
+        "Computational Neuroscience"
+      ],
+      "introduction": "Nan is a Ph.D. student in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he received his B.S. degree in Bioinformatics from Peking University in 2023. His research interests lie in machine learning and data mining with applications in computational neuroscience.",
+      "contact": {
+        "email": ["teddyhuangnan@gmail.com", "nhuang1@uncc.edu"],
+        "phone": ["000-000-0000"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://teddyhuang-00.github.io/"
+      },
+      "photo": "/photos/nan-huang.png"
+    }
+  ],
+  "alumni": []
+}
