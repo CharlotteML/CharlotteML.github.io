@@ -1,0 +1,116 @@
+<template>
+  <div class="mx-auto max-w-4xl p-6">
+    <div class="relative overflow-x-auto">
+      <div class="mx-auto w-fit pb-4">
+        <label class="sr-only">Search</label>
+        <div class="relative mt-1">
+          <div
+            class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+          >
+            <Icon name="ph:magnifying-glass-bold" size="18" />
+          </div>
+          <input
+            type="text"
+            class="block w-96 rounded-lg border border-secondary-200 bg-secondary-100/50 p-2 pl-10 text-sm placeholder-secondary-600 shadow-md focus:border-accent-200 focus:ring-accent-200 dark:border-secondary-800 dark:bg-secondary-900/30 dark:placeholder-secondary-400 dark:focus:border-accent-600 dark:focus:ring-accent-600 sm:rounded-lg"
+            placeholder="Search for courses, instructors, titles, terms..."
+            v-model.trim.lazy="searchTerm"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="relative overflow-x-auto shadow-md sm:rounded-lg"
+      v-if="searchResult.length"
+    >
+      <table
+        class="w-full text-left text-sm text-secondary-800 dark:text-secondary-200"
+      >
+        <thead class="bg-secondary-100 text-sm uppercase dark:bg-secondary-900">
+          <tr>
+            <th
+              scope="col"
+              class="px-6 py-3"
+              v-for="h in ['Title', 'Course', 'Term', 'Instructor']"
+            >
+              {{ h }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="border-b bg-secondary-100/50 dark:border-secondary-900 dark:bg-secondary-900/30"
+            v-for="c in searchResult"
+          >
+            <th scope="row" class="whitespace-nowrap px-6 py-4 font-semibold">
+              {{ c.title }}
+            </th>
+            <td class="px-6 py-4">{{ c.course }}</td>
+            <td class="px-6 py-4">{{ c.term }}</td>
+            <td class="px-6 py-4">{{ c.name }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="flex flex-col items-center justify-center p-6 text-secondary-800 dark:text-secondary-200"
+      v-else
+    >
+      <Icon name="ph:circle-dashed-bold" size="64" />
+      <p class="mt-4 text-lg font-medium">No results found.</p>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import Person from "types/Person";
+
+const content = await useAsyncData(async () =>
+  queryContent("member").findOne(),
+);
+const faculty = content.data.value?.faculty;
+const courses = ref(
+  [] as { name: string; course: string; title: string; term: string }[],
+);
+faculty.map(
+  (f: Person) =>
+    f.teaching?.map((c) =>
+      courses.value.push({
+        name: [f.name.first, f.name.middle, f.name.last].join(" "),
+        course: c.course,
+        title: c.title,
+        term: c.term,
+      }),
+    ),
+);
+
+const term2date = (term: string) => {
+  const [season, year] = term.split(" ");
+  const month =
+    season.toLowerCase() === "spring"
+      ? "01"
+      : season.toLowerCase() === "fall"
+      ? "09"
+      : "05";
+  return new Date(`${year}-${month}-01`);
+};
+const sortedCourses = useSorted(courses, (a, b) => {
+  const aDate = term2date(a.term);
+  const bDate = term2date(b.term);
+  if (aDate < bDate) return 1;
+  if (aDate > bDate) return -1;
+  return a.course.localeCompare(b.course);
+});
+
+import Fuse from "fuse.js";
+const searchTerm = ref("");
+const searchResult = computed(() => {
+  if (searchTerm.value === "") return sortedCourses.value;
+  const fuse = new Fuse(sortedCourses.value, {
+    keys: ["name", "course", "title", "term"],
+  });
+  return fuse.search(searchTerm.value).map((x) => x.item);
+});
+</script>
+
+<style scoped></style>
