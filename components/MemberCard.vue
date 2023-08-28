@@ -82,7 +82,7 @@
       ></div>
       <ul v-if="person.teaching?.length">
         <li v-for="course in person.teaching" class="list-inside list-disc">
-          {{ course }}
+          {{ course.course }} - {{ course.title }} ({{ course.term }})
         </li>
       </ul>
     </div>
@@ -90,24 +90,7 @@
 </template>
 
 <script setup lang="ts">
-interface Person {
-  name: {
-    first: string | null;
-    middle: string | null;
-    last: string | null;
-  };
-  position: string[];
-  research: string[];
-  introduction: string;
-  teaching: string[] | null | undefined;
-  contact: {
-    email: string[] | null | undefined;
-    phone: string[] | null | undefined;
-    address: string | null | undefined;
-    website: string | null | undefined;
-  };
-  photo: string | null | undefined;
-}
+import Person from "types/Person";
 
 defineProps({
   person: {
