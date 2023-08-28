@@ -3,8 +3,8 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@vueuse"],
-      "followTag": "latest"
+      "groupName": "vueuse",
+      "matchPackagePatterns": ["^@vueuse"]
     }
   ]
 }
