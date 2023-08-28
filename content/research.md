@@ -37,3 +37,7 @@ Reinforcement Learning (RL) is a type of machine learning where an agent learns 
 ![TS](/fields/TS.svg)
 
 Time Series analysis involves the study of ordered, often temporal data points. It is used to analyze trends, seasonality, and patterns in data over time. Time Series analysis is crucial in various fields such as economics, finance, environmental science, and healthcare. It helps in forecasting future values, understanding underlying structures, and making informed decisions. Techniques in Time Series analysis include statistical methods, machine learning models, and frequency domain methods.
+
+## Grants
+
+- Some grant
