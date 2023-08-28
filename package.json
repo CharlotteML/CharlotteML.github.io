@@ -4,7 +4,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "format": "prettier -w ."
   },
   "devDependencies": {
     "@nuxt/content": "^2.7.2",
