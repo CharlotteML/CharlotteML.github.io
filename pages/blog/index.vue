@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2
-      class="w-full text-center mt-6 text-lg md:text-xl lg:text-2xl font-semibold my-6"
+      class="my-6 mt-6 w-full text-center text-lg font-semibold md:text-xl lg:text-2xl"
     >
       See what we're up to
     </h2>
@@ -10,14 +10,14 @@
       v-slot="{ list }"
       :query="{ sort: [{ date: -1 }] }"
     >
-      <ol class="max-w-3xl mx-6 md:mx-auto relative">
+      <ol class="relative mx-6 max-w-3xl md:mx-auto">
         <li class="mb-10 ml-4" v-for="blog in list" :key="blog.slug">
           <NuxtLink
             :href="blog._path"
-            class="flex flex-col mx-auto items-center bg-secondary-100/80 dark:bg-secondary-900/10 hover:bg-secondary-50 dark:hover:bg-secondary-950 border border-accent-200 dark:border-accent-600 rounded-lg shadow md:flex-row md:max-w-2xl overflow-hidden"
+            class="mx-auto flex flex-col items-center overflow-hidden rounded-lg border border-accent-200 bg-secondary-100/80 shadow hover:bg-secondary-50 dark:border-accent-600 dark:bg-secondary-900/10 dark:hover:bg-secondary-950 md:max-w-2xl md:flex-row"
           >
             <img
-              class="object-cover w-full rounded-t-lg h-72 md:h-auto md:w-48 md:rounded-none"
+              class="h-72 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none"
               :src="blog.cover || '/logo.svg'"
               alt=""
             />

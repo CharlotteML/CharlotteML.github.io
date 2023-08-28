@@ -3,15 +3,15 @@
     <ContentDoc>
       <template #not-found>
         <section>
-          <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
             <div class="mx-auto max-w-screen-sm text-center">
               <h1
-                class="mb-4 text-9xl tracking-tight font-extrabold lg:text-9xl text-primary-800 dark:text-primary-600"
+                class="mb-4 text-9xl font-extrabold tracking-tight text-primary-800 dark:text-primary-600 lg:text-9xl"
               >
                 404
               </h1>
               <p
-                class="mb-4 text-3xl tracking-tight font-bold text-main-950 md:text-4xl dark:text-main-50"
+                class="mb-4 text-3xl font-bold tracking-tight text-main-950 dark:text-main-50 md:text-4xl"
               >
                 Oops! Page missing.
               </p>
@@ -22,7 +22,7 @@
               </p>
               <NuxtLink
                 href="/"
-                class="inline-flex text-white bg-primary-800 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-800 my-4"
+                class="my-4 inline-flex rounded-lg bg-primary-800 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-800 dark:focus:ring-primary-800"
               >
                 Back to Homepage
               </NuxtLink>
@@ -38,15 +38,15 @@
       </template>
       <template #empty>
         <section>
-          <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
             <div class="mx-auto max-w-screen-sm text-center">
               <h1
-                class="mb-4 text-9xl tracking-tight font-extrabold lg:text-9xl text-primary-800 dark:text-primary-600"
+                class="mb-4 text-9xl font-extrabold tracking-tight text-primary-800 dark:text-primary-600 lg:text-9xl"
               >
                 204
               </h1>
               <p
-                class="mb-4 text-3xl tracking-tight font-bold text-main-950 md:text-4xl dark:text-main-50"
+                class="mb-4 text-3xl font-bold tracking-tight text-main-950 dark:text-main-50 md:text-4xl"
               >
                 Hmmm... Why is this page empty?
               </p>
@@ -58,7 +58,7 @@
               </p>
               <NuxtLink
                 href="/"
-                class="inline-flex text-white bg-primary-800 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-800 my-4"
+                class="my-4 inline-flex rounded-lg bg-primary-800 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-800 dark:focus:ring-primary-800"
               >
                 Back to Homepage
               </NuxtLink>

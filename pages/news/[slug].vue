@@ -3,23 +3,23 @@
     <img
       :src="page.cover"
       v-if="page.cover"
-      class="pb-8 w-screen h-1/2 md:h-screen object-cover overflow-visible dark:opacity-80"
+      class="h-1/2 w-screen overflow-visible object-cover pb-8 dark:opacity-80 md:h-screen"
     />
-    <main class="max-w-3xl mx-auto px-6 pt-8">
+    <main class="mx-auto max-w-3xl px-6 pt-8">
       <ContentDoc>
         <ContentRenderer
           :value="page"
-          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 dark:prose-headings:text-primary-600 odd:prose-img:float-left even:prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-secondary-100/80 prose-blockquote:dark:bg-secondary-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-secondary-100/50 dark:even:prose-tr:bg-secondary-900/30 prose-li:list-inside prose-a:text-inherit"
+          class="prose max-w-none dark:prose-invert md:prose-lg lg:prose-xl prose-headings:text-primary-800 prose-a:text-inherit prose-blockquote:border-accent-200 prose-blockquote:bg-secondary-100/80 prose-blockquote:py-0.5 prose-li:list-inside even:prose-tr:bg-secondary-100/50 prose-th:bg-accent-200/10 prose-th:text-main-950 prose-img:min-w-[10rem] prose-img:max-w-[20vw] odd:prose-img:float-left even:prose-img:float-right dark:prose-headings:text-primary-600 prose-blockquote:dark:border-accent-600 prose-blockquote:dark:bg-secondary-900/80 dark:even:prose-tr:bg-secondary-900/30 prose-th:dark:bg-accent-600/10 dark:prose-th:text-main-50"
         />
       </ContentDoc>
       <div class="my-6 flex flex-col sm:flex-row">
         <button
           v-if="prev"
-          class="flex-grow min-w-[50%] relative p-1 mb-2 mr-2 overflow-hidden font-medium rounded-xl bg-gradient-to-br from-primary-800 to-accent-200 dark:to-accent-600 hover:text-main-50 focus:ring-4 focus:outline-none focus:ring-accent-200 dark:focus:ring-accent-600 group group-hover:from-primary-800 group-hover:to-accent-200"
+          class="group relative mb-2 mr-2 min-w-[50%] flex-grow overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-accent-200 p-1 font-medium hover:text-main-50 focus:outline-none focus:ring-4 focus:ring-accent-200 group-hover:from-primary-800 group-hover:to-accent-200 dark:to-accent-600 dark:focus:ring-accent-600"
         >
           <NuxtLink
             :href="prev._path"
-            class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-secondary-50 dark:bg-secondary-950 group-hover:bg-opacity-0"
+            class="flex h-full flex-row items-center gap-4 rounded-md bg-secondary-50 px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-secondary-950"
           >
             <Icon name="ph:caret-left-bold" size="32" class="flex-shrink-0" />
             <span class="flex-grow text-lg">
@@ -29,11 +29,11 @@
         </button>
         <button
           v-if="next"
-          class="flex-grow min-w-[50%] relative p-1 mb-2 mr-2 overflow-hidden font-medium rounded-xl bg-gradient-to-br from-primary-800 to-accent-200 dark:to-accent-600 hover:text-main-50 focus:ring-4 focus:outline-none focus:ring-accent-200 dark:focus:ring-accent-600 group group-hover:from-primary-800 group-hover:to-accent-200"
+          class="group relative mb-2 mr-2 min-w-[50%] flex-grow overflow-hidden rounded-xl bg-gradient-to-br from-primary-800 to-accent-200 p-1 font-medium hover:text-main-50 focus:outline-none focus:ring-4 focus:ring-accent-200 group-hover:from-primary-800 group-hover:to-accent-200 dark:to-accent-600 dark:focus:ring-accent-600"
         >
           <NuxtLink
             :href="next._path"
-            class="flex flex-row h-full items-center gap-4 px-5 py-2.5 transition-all ease-in duration-75 rounded-md bg-secondary-50 dark:bg-secondary-950 group-hover:bg-opacity-0"
+            class="flex h-full flex-row items-center gap-4 rounded-md bg-secondary-50 px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-secondary-950"
           >
             <span class="flex-grow text-lg">
               {{ next.title }}

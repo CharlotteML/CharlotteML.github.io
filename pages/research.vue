@@ -1,31 +1,31 @@
 <template>
-  <div class="w-full relative">
-    <main class="max-w-3xl mx-auto px-6 pt-8">
+  <div class="relative w-full">
+    <main class="mx-auto max-w-3xl px-6 pt-8">
       <div ref="drawer">
         <!-- drawer component -->
         <div
-          class="lg:fixed lg:top-0 lg:left-0 z-40 lg:w-80 lg:h-screen lg:py-12 lg:m-0 lg:rounded-none lg:border-none rounded-xl border border-accent-200 dark:border-accent-600 my-4 p-2 overflow-y-auto transition-transform bg-secondary-100 dark:bg-secondary-900"
+          class="z-40 my-4 overflow-y-auto rounded-xl border border-accent-200 bg-secondary-100 p-2 transition-transform dark:border-accent-600 dark:bg-secondary-900 lg:fixed lg:left-0 lg:top-0 lg:m-0 lg:h-screen lg:w-80 lg:rounded-none lg:border-none lg:py-12"
           tabindex="-1"
           :class="{
-            'lg:translate-x-0 ease-out': value,
-            'lg:-translate-x-full ease-in': !value,
+            'ease-out lg:translate-x-0': value,
+            'ease-in lg:-translate-x-full': !value,
           }"
         >
           <button
             type="button"
             v-if="width >= 1024"
-            class="text-secondary-500 bg-transparent hover:bg-secondary-200 dark:hover:bg-secondary-800 hover:text-secondary-800 dark:hover:text-secondary-200 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center"
+            class="absolute right-2.5 top-2.5 inline-flex items-center rounded-lg bg-transparent p-1.5 text-sm text-secondary-500 hover:bg-secondary-200 hover:text-secondary-800 dark:hover:bg-secondary-800 dark:hover:text-secondary-200"
             @click="toggle()"
           >
             <Icon name="ph:x-bold" size="32" />
             <span class="sr-only">Close menu</span>
           </button>
-          <div class="py-4 overflow-y-auto">
+          <div class="overflow-y-auto py-4">
             <ul class="space-y-2 font-medium">
               <li v-for="h2 in toc.links">
                 <NuxtLink
                   :href="`#${h2.id}`"
-                  class="flex items-center p-2 rounded-lg hover:bg-secondary-50/50 dark:hover:bg-secondary-950/50 text-lg font-semibold"
+                  class="flex items-center rounded-lg p-2 text-lg font-semibold hover:bg-secondary-50/50 dark:hover:bg-secondary-950/50"
                   @click="toggle()"
                 >
                   <span class="ml-3">{{ h2.text }}</span>
@@ -36,7 +36,7 @@
         </div>
         <div
           v-if="width >= 1024"
-          class="fixed left-2 top-1/2 -translate-y-1/2 h-fit min-h-0 hover:min-h-[75vh] bg-accent-200 dark:bg-accent-600 border border-accent-200/50 dark:border-accent-600/50 rounded-xl flex justify-center items-center bg-opacity-10 dark:bg-opacity-10 hover:bg-opacity-30 dark:hover:bg-opacity-30 z-10 backdrop-blur-sm cursor-pointer p-1"
+          class="fixed left-2 top-1/2 z-10 flex h-fit min-h-0 -translate-y-1/2 cursor-pointer items-center justify-center rounded-xl border border-accent-200/50 bg-accent-200 bg-opacity-10 p-1 backdrop-blur-sm hover:min-h-[75vh] hover:bg-opacity-30 dark:border-accent-600/50 dark:bg-accent-600 dark:bg-opacity-10 dark:hover:bg-opacity-30"
           @click="toggle()"
         >
           <Icon
@@ -49,7 +49,7 @@
       <ContentDoc>
         <ContentRenderer
           :value="page"
-          class="max-w-none prose md:prose-lg lg:prose-xl dark:prose-invert prose-headings:text-primary-800 dark:prose-headings:text-primary-600 prose-img:float-right prose-img:max-w-[20vw] prose-img:min-w-[10rem] prose-blockquote:border-accent-200 prose-blockquote:dark:border-accent-600 prose-blockquote:bg-secondary-100/80 prose-blockquote:dark:bg-secondary-900/80 prose-blockquote:py-0.5 prose-th:bg-accent-200/10 prose-th:dark:bg-accent-600/10 prose-th:text-main-950 dark:prose-th:text-main-50 even:prose-tr:bg-secondary-100/50 dark:even:prose-tr:bg-secondary-900/30 prose-li:list-inside prose-a:text-inherit prose-a:decoration-transparent"
+          class="prose max-w-none dark:prose-invert md:prose-lg lg:prose-xl prose-headings:text-primary-800 prose-a:text-inherit prose-a:decoration-transparent prose-blockquote:border-accent-200 prose-blockquote:bg-secondary-100/80 prose-blockquote:py-0.5 prose-li:list-inside even:prose-tr:bg-secondary-100/50 prose-th:bg-accent-200/10 prose-th:text-main-950 prose-img:float-right prose-img:min-w-[10rem] prose-img:max-w-[20vw] dark:prose-headings:text-primary-600 prose-blockquote:dark:border-accent-600 prose-blockquote:dark:bg-secondary-900/80 dark:even:prose-tr:bg-secondary-900/30 prose-th:dark:bg-accent-600/10 dark:prose-th:text-main-50"
         />
       </ContentDoc>
     </main>

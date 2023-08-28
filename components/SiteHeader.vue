@@ -1,10 +1,10 @@
 <template>
   <header class="z-50">
     <nav
-      class="bg-secondary-50 dark:bg-secondary-950 shadow dark:shadow-lg px-4 lg:px-6 py-2.5 border-accent-200 dark:border-accent-600 border-b"
+      class="border-b border-accent-200 bg-secondary-50 px-4 py-2.5 shadow dark:border-accent-600 dark:bg-secondary-950 dark:shadow-lg lg:px-6"
     >
       <div
-        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
+        class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between"
       >
         <NuxtLink href="/" class="flex items-center">
           <img
@@ -13,7 +13,7 @@
             class="mr-3 h-6 sm:h-12"
           />
           <span
-            class="self-center text-xl font-semibold whitespace-nowrap text-primary-800"
+            class="self-center whitespace-nowrap text-xl font-semibold text-primary-800"
             >ML Lab</span
           >
         </NuxtLink>
@@ -39,7 +39,7 @@
                     : 'ph:monitor'
                   : 'ph:dots-nine'
               "
-              class="w-6 h-6"
+              class="h-6 w-6"
             />
           </button>
           <button
@@ -47,15 +47,15 @@
             @click="showMenu = !showMenu"
           >
             <span class="sr-only">Open main menu</span>
-            <Icon name="ph:list" class="w-6 h-6" />
+            <Icon name="ph:list" class="h-6 w-6" />
           </button>
         </div>
         <div
-          class="justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+          class="w-full items-center justify-between lg:order-1 lg:flex lg:w-auto"
           :class="{ hidden: !showMenu }"
         >
           <ul
-            class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+            class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8"
           >
             <li v-for="nvi in navBarItems">
               <NuxtLink :href="nvi.href" class="nav-bar-item">
@@ -85,9 +85,9 @@ const navBarItems = ref([
 
 <style scoped>
 .nav-bar-button {
-  @apply items-center p-2 ml-1 rounded-lg text-sm text-main-950 dark:text-main-50  hover:bg-secondary-50 dark:hover:bg-secondary-950 focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:focus:ring-secondary-800;
+  @apply ml-1 items-center rounded-lg p-2 text-sm text-main-950 hover:bg-secondary-50  focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:text-main-50 dark:hover:bg-secondary-950 dark:focus:ring-secondary-800;
 }
 .nav-bar-item {
-  @apply block py-2 pr-4 pl-3 lg:p-0 border-b lg:border-0 text-main-950 dark:text-main-50 dark:hover:text-primary-600 hover:text-primary-800 bg-secondary-50 hover:bg-secondary-100 focus:bg-secondary-100 dark:bg-secondary-950 dark:hover:bg-secondary-900 dark:focus:bg-secondary-900 lg:bg-transparent lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent border-secondary-200 dark:border-secondary-800;
+  @apply block border-b border-secondary-200 bg-secondary-50 py-2 pl-3 pr-4 text-main-950 hover:bg-secondary-100 hover:text-primary-800 focus:bg-secondary-100 dark:border-secondary-800 dark:bg-secondary-950 dark:text-main-50 dark:hover:bg-secondary-900 dark:hover:text-primary-600 dark:focus:bg-secondary-900 lg:border-0 lg:bg-transparent lg:p-0 lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent;
 }
 </style>

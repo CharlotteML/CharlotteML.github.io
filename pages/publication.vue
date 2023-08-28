@@ -1,9 +1,9 @@
 <template>
-  <main class="max-w-3xl mx-auto px-6">
+  <main class="mx-auto max-w-3xl px-6">
     <form class="pt-10" @submit.prevent="search()">
       <div class="flex">
         <button
-          class="flex-shrink-0 z-10 inline-flex items-center gap-2 py-2.5 px-4 text-sm font-medium text-center rounded-l-lg text-main-900 dark:text-main-100 bg-secondary-100 dark:bg-secondary-900/60 border border-accent-200 dark:border-accent-600 hover:bg-secondary-200 focus:ring-4 focus:outline-none focus:ring-accent-200 dark:hover:bg-secondary-800 dark:focus:ring-accent-600"
+          class="z-10 inline-flex flex-shrink-0 items-center gap-2 rounded-l-lg border border-accent-200 bg-secondary-100 px-4 py-2.5 text-center text-sm font-medium text-main-900 hover:bg-secondary-200 focus:outline-none focus:ring-4 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/60 dark:text-main-100 dark:hover:bg-secondary-800 dark:focus:ring-accent-600"
           type="button"
           @click="showTypeSelection = !showTypeSelection"
         >
@@ -13,13 +13,13 @@
         <div class="relative w-full">
           <input
             type="search"
-            class="block p-2.5 w-full z-20 text-sm bg-secondary-100/30 dark:bg-secondary-900/30 rounded-r-lg border border-l-0 border-accent-200 dark:border-accent-600 focus:ring-accent-200 dark:focus:ring-accent-600 focus:border-accent-200 dark:focus:border-accent-600 dark:placeholder-gray-500"
+            class="z-20 block w-full rounded-r-lg border border-l-0 border-accent-200 bg-secondary-100/30 p-2.5 text-sm focus:border-accent-200 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/30 dark:placeholder-gray-500 dark:focus:border-accent-600 dark:focus:ring-accent-600"
             placeholder="Search category, conference, journal, title, author..."
             v-model="searchTerm"
           />
           <button
             type="submit"
-            class="absolute top-0 right-0 p-2.5 text-sm font-medium h-full text-main-50 bg-primary-800 rounded-r-lg border border-accent-200 dark:border-accent-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-800 focus:border-primary-800"
+            class="absolute right-0 top-0 h-full rounded-r-lg border border-accent-200 bg-primary-800 p-2.5 text-sm font-medium text-main-50 hover:bg-primary-700 focus:border-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-800 dark:border-accent-600"
           >
             <Icon name="ph:magnifying-glass-bold" size="20" />
             <span class="sr-only">Search</span>
@@ -30,7 +30,7 @@
 
     <ul v-show="showTypeSelection" class="pt-1">
       <li
-        class="flex items-center pl-4 mt-1 border border-accent-200/80 rounded-lg dark:border-accent-600/50"
+        class="mt-1 flex items-center rounded-lg border border-accent-200/80 pl-4 dark:border-accent-600/50"
         v-for="type in types"
         @click="type.select = !type.select"
       >
@@ -38,13 +38,13 @@
           type="checkbox"
           :checked="type.select"
           name="bordered-checkbox"
-          class="w-4 h-4 text-primary-800 dark:text-primary-600 bg-secondary-100 border-accent-200 dark:border-accent-600 rounded focus:ring-primary-900 dark:ring-offset-main-800 focus:ring-2 dark:bg-secondary-700"
+          class="h-4 w-4 rounded border-accent-200 bg-secondary-100 text-primary-800 focus:ring-2 focus:ring-primary-900 dark:border-accent-600 dark:bg-secondary-700 dark:text-primary-600 dark:ring-offset-main-800"
         />
         <label
-          class="w-full py-4 ml-2 text-sm font-medium text-main-900 dark:text-main-100"
+          class="ml-2 w-full py-4 text-sm font-medium text-main-900 dark:text-main-100"
         >
           {{ type.name.toUpperCase() }}
-          <span class="text-gray-500 font-semibold"> - {{ type.count }}</span>
+          <span class="font-semibold text-gray-500"> - {{ type.count }}</span>
         </label>
       </li>
     </ul>
@@ -75,7 +75,7 @@ for (const entry of entries) {
 }
 types.value = types.value.filter((type) => type.count > 0);
 const typeFilter = computed(() =>
-  types.value.filter((type) => type.select).map((type) => type.name)
+  types.value.filter((type) => type.select).map((type) => type.name),
 );
 const showTypeSelection = ref(false);
 
@@ -83,7 +83,7 @@ import Fuse from "fuse.js";
 const search = () => {
   const filtered = typeFilter.value.length
     ? entries.filter((entry) =>
-        typeFilter.value.some((type) => entry.type.includes(type))
+        typeFilter.value.some((type) => entry.type.includes(type)),
       )
     : entries;
   if (searchTerm.value === "") {
@@ -118,9 +118,9 @@ const HTMLoutput = computed(() => {
 
 <style>
 .csl-bib-body {
-  @apply text-lg whitespace-pre-line;
+  @apply whitespace-pre-line text-lg;
 }
 .csl-entry {
-  @apply my-0.5 list-item list-inside bg-secondary-100/50 dark:bg-secondary-900/30 p-4 rounded-xl border border-accent-200 dark:border-accent-600 shadow-md dark:shadow-lg;
+  @apply my-0.5 list-item list-inside rounded-xl border border-accent-200 bg-secondary-100/50 p-4 shadow-md dark:border-accent-600 dark:bg-secondary-900/30 dark:shadow-lg;
 }
 </style>

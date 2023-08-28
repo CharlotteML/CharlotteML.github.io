@@ -1,25 +1,25 @@
 <template>
   <footer
-    class="bg-secondary-50 dark:bg-secondary-950 border border-accent-200 dark:border-accent-600 rounded-lg shadow-lg dark:shadow-xl m-4"
+    class="m-4 rounded-lg border border-accent-200 bg-secondary-50 shadow-lg dark:border-accent-600 dark:bg-secondary-950 dark:shadow-xl"
   >
     <div
-      class="w-full mx-auto max-w-screen-xl p-4 grid grid-cols-1 md:grid-cols-3 md:items-center md:justify-between"
+      class="mx-auto grid w-full max-w-screen-xl grid-cols-1 p-4 md:grid-cols-3 md:items-center md:justify-between"
     >
       <span
-        class="flex flex-col items-start mt-3 mx-auto sm:mt-0 text-sm font-medium text-main-900 dark:text-main-200"
+        class="mx-auto mt-3 flex flex-col items-start text-sm font-medium text-main-900 dark:text-main-200 sm:mt-0"
       >
         <span class="text-base">Machine Learning Lab</span>
         <span>
           <Icon name="ph:envelope" class="mr-1" />
-          <a :href="`mailto:${contactEmail}`" class="hover:underline">{{
-            contactEmail
-          }}</a>
+          <a :href="`mailto:${contactEmail}`" class="hover:underline">
+            {{ contactEmail }}
+          </a>
         </span>
         <span>
           <Icon name="ph:phone" class="mr-1" />
-          <a :href="`tel:+1-${contactPhone}`" class="hover:underline">{{
-            contactPhone
-          }}</a>
+          <a :href="`tel:+1-${contactPhone}`" class="hover:underline">
+            {{ contactPhone }}
+          </a>
         </span>
         <span class="flex flex-row">
           <Icon name="ph:house" class="mr-1 mt-1" />
@@ -33,10 +33,10 @@
       <img
         src="/logo-full.svg"
         alt="UNC Charlotte logo"
-        class="w-full max-w-xs mx-auto"
+        class="mx-auto w-full max-w-xs"
       />
       <span
-        class="text-sm text-main-900 dark:text-main-200 text-center mx-auto flex flex-wrap gap-1 justify-center"
+        class="mx-auto flex flex-wrap justify-center gap-1 text-center text-sm text-main-900 dark:text-main-200"
       >
         <span>
           © 2023

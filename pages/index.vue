@@ -1,14 +1,14 @@
 <template>
   <div>
     <!-- Carousel  -->
-    <div class="relative w-full mb-4 md:mb-8 lg:mb-16">
+    <div class="relative mb-4 w-full md:mb-8 lg:mb-16">
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden md:h-96">
         <Transition>
           <img
             :src="slideState.src"
             :key="slideState.src"
-            class="absolute block w-full h-full object-cover transition-all duration-700 ease-in-out"
+            class="absolute block h-full w-full object-cover transition-all duration-700 ease-in-out"
             :class="{ 'opacity-80': $colorMode.value === 'dark' }"
             :alt="slideState.alt || 'Banner image'"
           />
@@ -17,14 +17,14 @@
       <!-- Slider controls -->
       <button
         type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        class="group absolute left-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
         @click="prevSlide()"
         @mouseenter="pauseAutoSlide()"
         @mouseleave="resumeAutoSlide()"
       >
         <span class="gallery-button">
           <Icon
-            class="w-6 h-6 text-main-950 dark:text-main-50"
+            class="h-6 w-6 text-main-950 dark:text-main-50"
             name="ph:caret-left-bold"
           />
           <span class="sr-only">Previous</span>
@@ -32,14 +32,14 @@
       </button>
       <button
         type="button"
-        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        class="group absolute right-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
         @click="nextSlide()"
         @mouseenter="pauseAutoSlide()"
         @mouseleave="resumeAutoSlide()"
       >
         <span class="gallery-button">
           <Icon
-            class="w-6 h-6 text-main-950 dark:text-main-50"
+            class="h-6 w-6 text-main-950 dark:text-main-50"
             name="ph:caret-right-bold"
           />
           <span class="sr-only">Next</span>
@@ -48,7 +48,7 @@
       <Transition>
         <button
           v-if="slideState.title && slideState.link"
-          class="absolute bottom-2 left-1/2 -translate-x-1/2 min-w-fit h-10 p-4 rounded-full bg-accent-200/80 dark:bg-accent-600/80 hover:bg-accent-200 dark:hover:bg-accent-600 text-center transition-all duration-300 ease-in-out group focus:outline-none flex items-center justify-center font-bold"
+          class="group absolute bottom-2 left-1/2 flex h-10 min-w-fit -translate-x-1/2 items-center justify-center rounded-full bg-accent-200/80 p-4 text-center font-bold transition-all duration-300 ease-in-out hover:bg-accent-200 focus:outline-none dark:bg-accent-600/80 dark:hover:bg-accent-600"
         >
           <NuxtLink
             :href="slideState.link"
@@ -60,12 +60,12 @@
         </button>
       </Transition>
       <span
-        class="absolute -bottom-5 left-1/2 -translate-x-1/2 flex flex-row gap-1 w-32"
+        class="absolute -bottom-5 left-1/2 flex w-32 -translate-x-1/2 flex-row gap-1"
       >
         <span
           v-for="(slide, index) in slides"
           :key="index"
-          class="w-3 h-3 rounded-full cursor-pointer"
+          class="h-3 w-3 cursor-pointer rounded-full"
           :class="
             slideState.src === slide.src
               ? 'grow bg-secondary-950/90 dark:bg-secondary-50/80'
@@ -79,7 +79,7 @@
     </div>
     <!-- News -->
     <h2
-      class="w-full text-center mt-6 text-lg md:text-xl lg:text-2xl font-semibold"
+      class="mt-6 w-full text-center text-lg font-semibold md:text-xl lg:text-2xl"
     >
       What's New
     </h2>
@@ -89,12 +89,12 @@
       :query="{ limit: 5, sort: [{ date: -1 }] }"
     >
       <ol
-        class="max-w-3xl mx-6 md:mx-auto relative border-l-2 border-secondary-900 dark:border-secondary-100"
+        class="relative mx-6 max-w-3xl border-l-2 border-secondary-900 dark:border-secondary-100 md:mx-auto"
       >
-        <li class="mb-10 ml-4 group" v-for="news in list" :key="news.slug">
+        <li class="group mb-10 ml-4" v-for="news in list" :key="news.slug">
           <NuxtLink :href="news._path" class="cursor-pointer">
             <span
-              class="absolute w-4 h-4 border-2 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
+              class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-2 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
             ></span>
             <time
               class="mb-1 text-sm font-medium leading-none text-secondary-900 dark:text-secondary-100"
@@ -110,28 +110,28 @@
               {{ news.title }}
             </h3>
             <div
-              class="mb-4 text-base font-normal text-main-900/80 dark:text-main-100/80 max-h-0 group-hover:max-h-96 h-fit overflow-hidden transition-all duration-500 ease-linear"
+              class="mb-4 h-fit max-h-0 overflow-hidden text-base font-normal text-main-900/80 transition-all duration-500 ease-linear group-hover:max-h-96 dark:text-main-100/80"
             >
-              <div class="flex flex-col sm:flex-row justify-center w-full">
+              <div class="flex w-full flex-col justify-center sm:flex-row">
                 <p class="flex-grow">{{ news.description }}</p>
                 <img
                   v-if="news.cover"
                   :src="news.cover"
-                  class="h-48 object-cover rounded-lg"
+                  class="h-48 rounded-lg object-cover"
                 />
               </div>
             </div>
           </NuxtLink>
         </li>
-        <li class="mb-10 ml-4 group">
+        <li class="group mb-10 ml-4">
           <NuxtLink href="/news" class="cursor-pointer">
             <span
-              class="absolute w-4 h-4 border-4 bg-secondary-50 dark:bg-secondary-950 rounded-full mt-1 -left-[9px] border-secondary-900 dark:border-secondary-100"
+              class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-4 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
             >
               <Icon
                 name="ph:dots-three-bold"
                 size="24"
-                class="absolute bg-secondary-50 dark:bg-secondary-950 rounded-full -left-2 -top-1.5 rotate-90"
+                class="absolute -left-2 -top-1.5 rotate-90 rounded-full bg-secondary-50 dark:bg-secondary-950"
               />
             </span>
             <span
@@ -150,20 +150,20 @@
     </ContentList>
     <!-- Research Fields -->
     <h2
-      class="w-full text-center mt-6 text-lg md:text-xl lg:text-2xl font-semibold"
+      class="mt-6 w-full text-center text-lg font-semibold md:text-xl lg:text-2xl"
     >
       Research Fields
     </h2>
     <div
-      class="container max-w-8xl px-6 sm:px-8 mx-auto flex flex-wrap justify-center items-start gap-6 my-12"
+      class="max-w-8xl container mx-auto my-12 flex flex-wrap items-start justify-center gap-6 px-6 sm:px-8"
     >
       <span
         v-for="field in page.fields"
         :key="field.title"
-        class="flex flex-col justify-center items-center w-24 md:w-36 lg:w-48"
+        class="flex w-24 flex-col items-center justify-center md:w-36 lg:w-48"
       >
         <img :src="field.src" />
-        <h2 class="pt-1 sm:pt-2 text-center font-medium md:text-lg lg:text-xl">
+        <h2 class="pt-1 text-center font-medium sm:pt-2 md:text-lg lg:text-xl">
           {{ field.title }}
         </h2>
       </span>
@@ -182,13 +182,13 @@ const {
 } = useCycleList(slides);
 const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
   nextSlide,
-  5000
+  5000,
 );
 </script>
 
 <style scoped>
 .gallery-button {
-  @apply inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-200/60 dark:bg-accent-600/60 group-hover:bg-accent-200/90 dark:group-hover:bg-accent-600/90 group-focus:ring-4 group-focus:ring-accent-200 dark:group-focus:ring-accent-600 group-focus:outline-none;
+  @apply inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent-200/60 group-hover:bg-accent-200/90 group-focus:outline-none group-focus:ring-4 group-focus:ring-accent-200 dark:bg-accent-600/60 dark:group-hover:bg-accent-600/90 dark:group-focus:ring-accent-600;
 }
 
 .v-enter-from,
