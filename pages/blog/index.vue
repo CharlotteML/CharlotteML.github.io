@@ -14,7 +14,7 @@
         <li class="mb-10 ml-4" v-for="blog in list" :key="blog.slug">
           <NuxtLink
             :href="blog._path"
-            class="mx-auto flex flex-col items-center overflow-hidden rounded-lg border border-accent-200 bg-secondary-100/80 shadow hover:bg-secondary-50 dark:border-accent-600 dark:bg-secondary-900/10 dark:hover:bg-secondary-950 md:max-w-2xl md:flex-row"
+            class="hover:bg-secondary-30 mx-auto flex flex-col items-center overflow-hidden rounded-lg border border-accent-200 bg-secondary-100/50 shadow dark:border-accent-600 dark:bg-secondary-900/30 dark:hover:bg-secondary-900/10 md:max-w-2xl md:flex-row"
           >
             <img
               class="h-72 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none"

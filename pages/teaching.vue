@@ -11,7 +11,7 @@
           </div>
           <input
             type="text"
-            class="block w-96 rounded-lg border border-secondary-200 bg-secondary-100/50 p-2 pl-10 text-sm placeholder-secondary-600 shadow-md focus:border-accent-200 focus:ring-accent-200 dark:border-secondary-800 dark:bg-secondary-900/30 dark:placeholder-secondary-400 dark:focus:border-accent-600 dark:focus:ring-accent-600 sm:rounded-lg"
+            class="block w-96 rounded-lg border border-accent-200 bg-secondary-100/50 p-2 pl-10 text-sm placeholder-secondary-600 shadow-md focus:border-accent-200 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/30 dark:placeholder-secondary-400 dark:focus:border-accent-600 dark:focus:ring-accent-600 sm:rounded-lg"
             placeholder="Search for courses, instructors, titles, terms..."
             v-model.trim.lazy="searchTerm"
           />
@@ -20,7 +20,7 @@
     </div>
 
     <div
-      class="relative overflow-x-auto shadow-md sm:rounded-lg"
+      class="relative overflow-x-auto border border-accent-200 shadow-md dark:border-accent-600 sm:rounded-lg"
       v-if="searchResult.length"
     >
       <table
@@ -39,7 +39,7 @@
         </thead>
         <tbody>
           <tr
-            class="border-b bg-secondary-100/50 dark:border-secondary-900 dark:bg-secondary-900/30"
+            class="border-t border-accent-200/50 odd:bg-secondary-100/30 even:bg-secondary-100/80 dark:border-accent-600/30 dark:odd:bg-secondary-900/10 dark:even:bg-secondary-900/50"
             v-for="c in searchResult"
           >
             <th scope="row" class="whitespace-nowrap px-6 py-4 font-semibold">

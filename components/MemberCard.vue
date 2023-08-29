@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col rounded-lg border border-secondary-100 bg-secondary-100/50 dark:border-secondary-900 dark:bg-secondary-900/30"
+    class="flex flex-col rounded-lg border border-accent-200 bg-secondary-100/50 dark:border-accent-600 dark:bg-secondary-900/30"
   >
     <div class="flex flex-col items-center sm:flex-row">
       <img
