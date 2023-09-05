@@ -6,7 +6,7 @@ export default interface Person {
   };
   position: string[];
   research: string[];
-  introduction: string;
+  introduction: string | null | undefined;
   teaching:
     | { course: string; title: string; term: string }[]
     | null

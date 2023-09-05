@@ -70,21 +70,12 @@
         </div>
       </div>
     </div>
-    <div class="my-4 h-fit w-full px-6">
+    <div class="my-4 h-fit w-full px-6" v-if="person.introduction">
       <p class="text-justify text-lg">
         <ContentSlot>
           {{ person.introduction }}
         </ContentSlot>
       </p>
-      <div
-        class="my-4 w-full border-t border-dashed"
-        v-if="person.teaching?.length"
-      ></div>
-      <ul v-if="person.teaching?.length">
-        <li v-for="course in person.teaching" class="list-inside list-disc">
-          {{ course.course }} - {{ course.title }} ({{ course.term }})
-        </li>
-      </ul>
     </div>
   </div>
 </template>
