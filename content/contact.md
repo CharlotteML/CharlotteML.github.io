@@ -1,33 +1,23 @@
-# How to Reach Us
+# Join the CharML Lab!
 
-Our lab is dedicated to advancing the field of machine learning, and we're always eager to collaborate, answer questions, and engage with the community.
+At the UNC Charlotte Machine Learning Lab, innovation knows no bounds. Whether you hail from academia, industry, or are an eager undergraduate or a curious high schooler, our doors are always open to those with a passion for pushing the boundaries of machine learning. We believe that the most groundbreaking discoveries often come from diverse perspectives, interdisciplinary collaborations, and unbridled enthusiasm. If you're ready to contribute to pioneering research, engage in hands-on learning, and become a part of a community dedicated to excellence and growth, then the Machine Learning Lab is your new academic home. Dive into a world of algorithms, data, and transformative applications, and together, let's shape the future of technology. Welcome aboard!
 
-## Physical Address:
+## How to reach us
 
-UNC Charlotte Machine Learning Lab,
-Woodward Hall,
-8723 Cameron Blvd,
-Charlotte, NC 28262
-
-## Email:
-
-[contact@charlotte.edu](mailto:contact@charlotte.edu)
-
-## Phone:
-
-(704) 687-2000
-
-## Office Hours:
-
-Monday - Friday: 9:00 AM - 5:00 PM
-
-## Social Media:
-
-- [Twitter](https://twitter.com/UNCC_ML_Lab)
-- [LinkedIn](https://www.linkedin.com/in/uncc-ml-lab/)
-- [Facebook](https://www.facebook.com/UNCCMLLab)
-
-## Map:
+- **Address**:
+  UNC Charlotte Machine Learning Lab,
+  Woodward Hall,
+  8723 Cameron Blvd,
+  Charlotte, NC 28262
+- **Email**:
+  [xiang.zhang@charlotte.edu](mailto:xiang.zhang@charlotte.edu)
+- **Phone**:
+  [(704) 687-1898](tel:+1-704-687-1898)
+- **Social Media**:
+  - [Twitter](https://twitter.com/UNCC_ML_Lab)
+  - [LinkedIn](https://www.linkedin.com/in/uncc-ml-lab/)
+  - [Facebook](https://www.facebook.com/UNCCMLLab)
+- **Map**:
 
 <iframe src="https://maps.uncc.edu/#/?nav=plds&ctr=35.30753689251226,-80.7355421138382&z=17"></iframe>
 

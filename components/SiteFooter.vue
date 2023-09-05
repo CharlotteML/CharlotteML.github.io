@@ -49,6 +49,6 @@
 </template>
 
 <script setup lang="ts">
-const contactEmail = "contact@charlotte.edu";
-const contactPhone = "704-687-2000";
+const contactEmail = "xiang.zhang@charlotte.edu";
+const contactPhone = "704-687-1898";
 </script>

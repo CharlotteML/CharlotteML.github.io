@@ -14,7 +14,7 @@
           />
           <span
             class="self-center whitespace-nowrap text-xl font-semibold text-primary-800"
-            >ML Lab</span
+            >CharML Lab</span
           >
         </NuxtLink>
         <div class="flex items-center lg:order-2">
