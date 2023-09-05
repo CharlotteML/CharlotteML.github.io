@@ -8,7 +8,7 @@
     <ContentList
       path="/news"
       v-slot="{ list }"
-      :query="{ sort: [{ date: -1 }] }"
+      :query="{ where: [{ _partial: false }], sort: [{ date: -1 }] }"
     >
       <ol
         class="relative mx-6 max-w-3xl border-l-2 border-secondary-900 dark:border-secondary-100 md:mx-auto"

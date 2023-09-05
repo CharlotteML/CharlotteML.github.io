@@ -63,11 +63,13 @@ const unwrapImgFromP = (tree: any) => {
 };
 
 const { page, surround } = useContent();
-const prev = surround.value[0]?._path.startsWith("/news")
-  ? surround.value[0]
-  : null;
-const next = surround.value[1]?._path.startsWith("/news")
-  ? surround.value[1]
-  : null;
+const prev =
+  surround.value[0]?._path.startsWith("/news") && !surround.value[0]?._partial
+    ? surround.value[0]
+    : null;
+const next =
+  surround.value[1]?._path.startsWith("/news") && !surround.value[1]?._partial
+    ? surround.value[1]
+    : null;
 page.value.body = unwrapImgFromP(page.value.body);
 </script>
