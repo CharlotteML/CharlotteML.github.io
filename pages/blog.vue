@@ -8,7 +8,7 @@
     <ContentList
       path="/blog"
       v-slot="{ list }"
-      :query="{ where: [{ _partial: false }], sort: [{ date: -1 }] }"
+      :query="{ sort: [{ date: -1 }] }"
     >
       <ol class="relative mx-6 max-w-3xl md:mx-auto">
         <li class="mb-10 ml-4" v-for="blog in list" :key="blog.slug">
