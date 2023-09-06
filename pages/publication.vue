@@ -48,13 +48,12 @@
         </label>
       </li>
     </ul>
-
     <span v-html="HTMLoutput"></span>
   </main>
 </template>
 
 <script setup lang="ts">
-import Publication from "types/Publication";
+import Publication from "@/types/Publication";
 
 const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
 const entries = page.value.collection;
@@ -62,10 +61,10 @@ const bibliography = ref(entries);
 const searchTerm = ref("");
 // See https://github.com/citation-style-language/schema/blob/master/schemas/input/csl-data.json
 const types = ref([
-  { name: "article", select: false, count: 0 },
-  { name: "book", select: false, count: 0 },
-  { name: "chapter", select: false, count: 0 },
-  { name: "conference", select: false, count: 0 },
+  { name: "article", select: true, count: 0 },
+  { name: "book", select: true, count: 0 },
+  { name: "chapter", select: true, count: 0 },
+  { name: "conference", select: true, count: 0 },
 ]);
 for (const entry of entries) {
   for (const type of types.value) {
@@ -79,7 +78,7 @@ types.value = types.value.filter((type) => type.count > 0);
 const typeFilter = computed(() =>
   types.value.filter((type) => type.select).map((type) => type.name),
 );
-const showTypeSelection = ref(false);
+const showTypeSelection = ref(true);
 
 import Fuse from "fuse.js";
 const search = () => {
@@ -124,6 +123,6 @@ const HTMLoutput = computed(() => {
   @apply whitespace-pre-line text-lg;
 }
 .csl-entry {
-  @apply my-0.5 list-item list-inside rounded-xl border border-accent-200 bg-secondary-100/50 p-4 shadow-md dark:border-accent-600 dark:bg-secondary-900/30 dark:shadow-lg;
+  @apply my-0.5 list-item list-inside list-decimal whitespace-break-spaces rounded-xl border border-accent-200 bg-secondary-100/50 p-4 shadow-md dark:border-accent-600 dark:bg-secondary-900/30 dark:shadow-lg;
 }
 </style>

@@ -63,7 +63,7 @@
 </template>
 
 <script setup lang="ts">
-import Person from "types/Person";
+import Person from "@/types/Person";
 
 const content = await useAsyncData(async () =>
   queryContent("member").findOne(),

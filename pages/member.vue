@@ -108,7 +108,7 @@
 </template>
 
 <script setup lang="ts">
-import Person from "types/Person";
+import Person from "@/types/Person";
 
 const idFromName = (
   first: string | null,

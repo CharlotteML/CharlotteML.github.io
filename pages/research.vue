@@ -75,7 +75,7 @@ const unwrapImgFromP = (tree: any) => {
 const { page, toc } = useContent();
 page.value.body = unwrapImgFromP(page.value.body);
 
-const [value, toggle] = useToggle();
+const [value, toggle] = useToggle(true);
 const { width } = useWindowSize();
 
 const drawer = ref(null as HTMLElement | null);
