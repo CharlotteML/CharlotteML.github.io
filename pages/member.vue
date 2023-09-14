@@ -1,12 +1,12 @@
 <template>
   <main class="relative mx-auto mt-0.5 min-h-screen max-w-3xl px-6">
     <aside
-      class="sticky top-0 z-40 mb-2 h-20 w-full rounded-b-lg bg-secondary-100/30 py-4 backdrop-blur-sm dark:bg-secondary-900/10 lg:fixed lg:right-2 lg:top-1/2 lg:mb-0 lg:h-3/4 lg:w-36 lg:-translate-y-1/2 lg:rounded-lg lg:py-0"
+      class="sticky top-0 z-40 mb-2 h-20 w-full rounded-b-lg bg-secondary-50/90 py-2 backdrop-blur-sm dark:bg-secondary-950/70 lg:fixed lg:right-2 lg:top-1/2 lg:mb-0 lg:h-3/4 lg:w-36 lg:-translate-y-1/2 lg:rounded-lg lg:py-0"
     >
       <ul class="flex h-full w-full flex-row gap-1 rounded-xl p-2 lg:flex-col">
         <li
           v-if="faculty.length"
-          class="nav rounded-lg border border-primary-800 bg-primary-800/30 text-sm"
+          class="nav min-h-full rounded-lg border border-primary-800 bg-primary-800/30 text-sm lg:min-h-0"
         >
           Faculty
         </li>
