@@ -38,6 +38,44 @@
         "website": "https://xiangzhang.info/"
       },
       "photo": "/photos/xiang-zhang.png"
+    },
+    {
+      "name": {
+        "first": "Srijan",
+        "middle": null,
+        "last": "Das"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Computer Vision",
+        "Video Representation Learning",
+        "Robotic Vision"
+      ],
+      "introduction": "Srijan is an Assistant Professor in the Department of Computer Science at the University of North Carolina at Charlotte. At UNC Charlotte, he is working on Video Representation Learning and Robotic Vision. Prior to UNC Charlotte, Srijan was a Postdoctoral Associate at Stony Brook University under the supervision of Michael Ryoo. In 2020, he successfully completed their Ph.D. in Computer Science at INRIA, Sophia Antipolis, France, under the guidance of Francois Bremond and Monique Thonnat. His Ph.D. thesis focused on \"Spatio-temporal attention mechanisms for Action Recognition,\" Srijan pursued their Post-Graduate studies in Computer Science at the National Institute of Technology (NIT), Rourkela.",
+      "teaching": [
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Fall 2022"
+        },
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["sdas24@charlotte.edu"],
+        "phone": ["704-687-1898"],
+        "address": "Room 230A, Woodward Hall",
+        "website": "https://srijandas07.github.io/"
+      },
+      "photo": "/photos/srijan.png"
     }
   ],
   "student": [
@@ -62,6 +100,92 @@
         "website": "https://teddyhuang-00.github.io/"
       },
       "photo": "/photos/nan-huang.png"
+    },
+    {
+      "name": {
+        "first": "Dominick",
+        "middle": null,
+        "last": "Reilly"
+      },
+      "position": ["PhD Student"],
+      "research": ["Computer Vision", "Video Understanding"],
+      "introduction": "Dominick is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on understanding human actions in videos, specifically activities of daily living that are observed in real-world environments. He is interested in utilizing both egocentric and third person viewpoints, as well as multiple modalities, to solve the challenges of activities of daily living.",
+      "contact": {
+        "email": ["dreilly1@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://dominickrei.github.io/"
+      },
+      "photo": "/photos/dominick.jpg"
+    },
+    {
+      "name": {
+        "first": "Arkaprava",
+        "middle": null,
+        "last": "Sinha"
+      },
+      "position": ["PhD Student"],
+      "research": [
+        "Computer Vision",
+        "Video Understanding",
+        "Multi-Modal Learning"
+      ],
+      "introduction": "Arkaprava is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on Action Recognition for videos for Actions of Daily Living. He is currently working on Self-Supervised Learning and Multi-Modal Learning for Video Understanding.",
+      "contact": {
+        "email": ["asinha13@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/asinha13/"
+      },
+      "photo": "/photos/arkaprava.jpeg"
+    },
+    {
+      "name": {
+        "first": "Rajatsubhra",
+        "middle": null,
+        "last": "Chakraborty"
+      },
+      "position": ["PhD Student"],
+      "research": [
+        "Computer Vision",
+        "Video Understanding",
+        "Object Detection"
+      ],
+      "introduction": "Rajatsubhra (Raj) is a first year PhD student in the Department of Computer Science advised by Dr. Srijan Das. He is exploring the areas of object detection through semi-supervised learning and video activity understanding. In his leisure time he likes to play fifa and read Batman comics.",
+      "contact": {
+        "email": ["rchakra6@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://web pages.charlotte.edu/rchakra6/"
+      },
+      "photo": "/photos/rajatsubhra.jpg"
+    },
+    {
+      "name": {
+        "first": "Jonathan",
+        "middle": null,
+        "last": "Lorray"
+      },
+      "position": ["Masters Student"],
+      "research": ["Computer Vision"],
+      "introduction": "Jonathan is a Masters student in the Department of Computer Science. His research focuses on object detection, specifically the use of semi-supervised learning to leverage large quantities of unlabeled data. He is interested in utilizing a number of different architectures and methods to solve the challenges semi-supervised object detection.",
+      "contact": {
+        "email": ["jlorray1@uncc.edu"],
+        "address": "Room 437, Woodward Hall"
+      },
+      "photo": "/photos/johnathan.jpg"
+    },
+    {
+      "name": {
+        "first": "Vishal",
+        "middle": null,
+        "last": "Bondili"
+      },
+      "position": ["Masters Student"],
+      "research": ["Computer Vision", "Video Understanding"],
+      "introduction": "Vishal is a Masters student in the Department of Computer Science advised by Dr. Srijan Das. His research work focuses on creating baseline benchmarks for various action recognition algorithms primarily assisting  Dominick Reilly. ",
+      "contact": {
+        "email": ["rbondili@charlotte.edu"],
+        "address": "Room 437, Woodward Hall"
+      },
+      "photo": "/photos/vishal.jpg"
     }
   ],
   "alumni": []
