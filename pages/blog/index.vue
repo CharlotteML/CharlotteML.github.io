@@ -6,7 +6,7 @@
       See what we're up to
     </h2>
     <ContentList
-      path="/blog"
+      path="/blog/"
       v-slot="{ list }"
       :query="{ sort: [{ date: -1 }] }"
     >

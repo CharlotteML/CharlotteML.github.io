@@ -6,7 +6,7 @@
       What's going on here at ML Lab
     </h2>
     <ContentList
-      path="/news"
+      path="/news/"
       v-slot="{ list }"
       :query="{ sort: [{ date: -1 }] }"
     >
