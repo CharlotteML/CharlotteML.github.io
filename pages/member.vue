@@ -134,14 +134,19 @@ const abbrevName = (
     .filter((x) => x)
     .join(" ");
 };
+const cmpPerson = (a: Person, b: Person) => {
+  const aName = concatName(a.name.first, a.name.middle, a.name.last);
+  const bName = concatName(b.name.first, b.name.middle, b.name.last);
+  return aName.localeCompare(bName);
+};
 
 const {
   page,
 }: { page: Ref<{ faculty: Person[]; student: Person[]; alumni: Person[] }> } =
   useContent();
-const faculty = page.value.faculty;
-const student = page.value.student;
-const alumni = page.value.alumni;
+const faculty = page.value.faculty.sort(cmpPerson);
+const student = page.value.student.sort(cmpPerson);
+const alumni = page.value.alumni.sort(cmpPerson);
 
 const stuRefs = ref([] as HTMLElement[]);
 const facRefs = ref([] as HTMLElement[]);
