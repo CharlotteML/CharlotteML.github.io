@@ -75,9 +75,22 @@ const unwrapImgFromP = (tree: any) => {
 const { page, toc } = useContent();
 page.value.body = unwrapImgFromP(page.value.body);
 
+const storage = useLocalStorage(
+  "charmlab",
+  { "research-sidebar-seen": false },
+  { mergeDefaults: true },
+);
 const [value, toggle] = useToggle(true);
 const { width } = useWindowSize();
 
 const drawer = ref(null as HTMLElement | null);
 onClickOutside(drawer, () => toggle(false));
+watchOnce(value, () => {
+  storage.value["research-sidebar-seen"] = true;
+});
+onMounted(() => {
+  if (storage.value["research-sidebar-seen"]) {
+    toggle(false);
+  }
+});
 </script>
