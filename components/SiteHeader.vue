@@ -14,10 +14,11 @@
           />
           <span
             class="self-center whitespace-nowrap text-xl font-semibold text-primary-800"
-            >CharMLab</span
           >
+            CharMLab
+          </span>
         </NuxtLink>
-        <div class="flex items-center lg:order-2">
+        <div class="flex items-center pl-16 lg:order-2">
           <button
             class="nav-bar-button"
             @click="
