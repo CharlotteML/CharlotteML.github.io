@@ -175,9 +175,9 @@ onMounted(() => {
   @apply flex items-center justify-center border-primary-800 p-2 py-4 lg:py-2;
 }
 .inactive {
-  @apply max-w-[10px] flex-grow-0 overflow-hidden border-t text-sm delay-75 lg:max-w-none lg:border-l lg:border-t-0;
+  @apply max-w-[10px] flex-grow-0 overflow-hidden border-t text-center text-sm delay-75 lg:max-w-none lg:border-l lg:border-t-0;
 }
 .active {
-  @apply flex-grow border-t-4 delay-75 lg:border-l-4 lg:border-t-0;
+  @apply flex-grow border-t-4 text-center delay-75 lg:border-l-4 lg:border-t-0;
 }
 </style>
