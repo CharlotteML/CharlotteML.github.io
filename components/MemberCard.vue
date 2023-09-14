@@ -26,10 +26,7 @@
         <p
           class="flex w-1/2 flex-row flex-wrap justify-center gap-x-1 font-normal text-secondary-800 dark:text-secondary-200 sm:w-full sm:justify-start"
         >
-          <span> Research: </span>
-          <span v-for="(research, i) in person.research">
-            {{ i == person.research.length ? research : research + ", " }}
-          </span>
+          <span> <b>Research</b>: {{ person.research.join(", ") }}</span>
         </p>
         <div
           class="flex flex-row flex-wrap text-sm font-light text-secondary-800 dark:text-secondary-200"
