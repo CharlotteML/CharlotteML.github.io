@@ -1313,6 +1313,465 @@
       "issued": {
         "date-parts": [["2018", 3]]
       }
+    },
+    {
+      "id": "7bb47603b687f08f57a33cbe2e5a8337",
+      "type": "article-journal",
+      "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "DOI": "10.1609/aaai.v34i04.6138",
+      "ISSN": "2374-3468",
+      "issue": "04",
+      "language": "en",
+      "license": "Copyright (c) 2020 Association for the Advancement of Artificial Intelligence",
+      "note": "number: 04",
+      "page": "6623-6630",
+      "source": "ojs.aaai.org",
+      "title": "Harmonious Coexistence of Structured Weight Pruning and Ternarization for Deep Neural Networks",
+      "URL": "https://ojs.aaai.org/index.php/AAAI/article/view/6138",
+      "volume": "34",
+      "author": [
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "He",
+          "given": "Zhezhi"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2020", 4, 3]]
+      }
+    },
+    {
+      "id": "c536f5621cbdacb263825426abb1785f",
+      "type": "document",
+      "title": "Yang \u7b49 - 2021 - KSM Fast Multiple Task Adaption via Kernel-wise S.pdf",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_KSM_Fast_Multiple_Task_Adaption_via_Kernel-Wise_Soft_Mask_Learning_CVPR_2021_paper.pdf",
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      }
+    },
+    {
+      "id": "87132af26fc85ecc2b86ea4c98b3f74a",
+      "type": "paper-conference",
+      "container-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR46437.2021.01363",
+      "event-place": "Nashville, TN, USA",
+      "event-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "ISBN": "978-1-66544-509-2",
+      "language": "en",
+      "page": "13840-13848",
+      "publisher": "IEEE",
+      "publisher-place": "Nashville, TN, USA",
+      "source": "DOI.org (Crossref)",
+      "title": "KSM: Fast Multiple Task Adaption via Kernel-wise Soft Mask Learning",
+      "title-short": "KSM",
+      "URL": "https://ieeexplore.ieee.org/document/9578302/",
+      "author": [
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "He",
+          "given": "Zhezhi"
+        },
+        {
+          "family": "Zhang",
+          "given": "Junshan"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2021", 6]]
+      }
+    },
+    {
+      "id": "cf700f7e91f1b3ec3540f3bb4a167f70",
+      "type": "document",
+      "title": "Yang \u7b49 - Get More at Once Alternating Sparse Training with.pdf",
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2022/file/c7207c38b6e809a83d0688936a91c3b5-Paper-Conference.pdf",
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      }
+    },
+    {
+      "id": "d18b4ae15e7e24a9e9c916c624c6981c",
+      "type": "article-journal",
+      "language": "en",
+      "source": "Zotero",
+      "title": "Get More at Once: Alternating Sparse Training with Gradient Correction",
+      "author": [
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "Meng",
+          "given": "Jian"
+        },
+        {
+          "family": "Seo",
+          "given": "Jae-Sun"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ]
+    },
+    {
+      "id": "cce15c034853edd4c92e273690956477",
+      "type": "document",
+      "title": "Yang \u7b49 - 2022 - RepNet Efficient On-Device Learning via Feature R.pdf",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Rep-Net_Efficient_On-Device_Learning_via_Feature_Reprogramming_CVPR_2022_paper.pdf",
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      }
+    },
+    {
+      "id": "8d2dcee5b673233a930284faf7e90e17",
+      "type": "paper-conference",
+      "container-title": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "DOI": "10.1109/CVPR52688.2022.01196",
+      "event-place": "New Orleans, LA, USA",
+      "event-title": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "ISBN": "978-1-66546-946-3",
+      "language": "en",
+      "page": "12267-12276",
+      "publisher": "IEEE",
+      "publisher-place": "New Orleans, LA, USA",
+      "source": "DOI.org (Crossref)",
+      "title": "RepNet: Efficient On-Device Learning via Feature Reprogramming",
+      "title-short": "RepNet",
+      "URL": "https://ieeexplore.ieee.org/document/9880448/",
+      "author": [
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "Rakin",
+          "given": "Adnan Siraj"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2022", 6]]
+      }
+    },
+    {
+      "id": "0e3d2bc05bdb14f8e6578acd410deb66",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2202.02931",
+      "note": "arXiv:2202.02931 [cs]",
+      "number": "arXiv:2202.02931",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "TRGP: Trust Region Gradient Projection for Continual Learning",
+      "title-short": "TRGP",
+      "URL": "http://arxiv.org/abs/2202.02931",
+      "author": [
+        {
+          "family": "Lin",
+          "given": "Sen"
+        },
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        },
+        {
+          "family": "Zhang",
+          "given": "Junshan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2022", 2, 6]]
+      }
+    },
+    {
+      "id": "d22bc2e711b7cc5a7ff27d8fa24599b2",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2112.03902",
+      "note": "arXiv:2112.03902 [cs]",
+      "number": "arXiv:2112.03902",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "MS-TCT: Multi-Scale Temporal ConvTransformer for Action Detection",
+      "title-short": "MS-TCT",
+      "URL": "http://arxiv.org/abs/2112.03902",
+      "author": [
+        {
+          "family": "Dai",
+          "given": "Rui"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Kahatapitiya",
+          "given": "Kumara"
+        },
+        {
+          "family": "Ryoo",
+          "given": "Michael S."
+        },
+        {
+          "family": "Bremond",
+          "given": "Francois"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2022", 3, 29]]
+      }
+    },
+    {
+      "id": "2c728a1f498546f1fca99f75c55c21dd",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2206.11895",
+      "note": "arXiv:2206.11895 [cs]",
+      "number": "arXiv:2206.11895",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "Learning Viewpoint-Agnostic Visual Representations by Recovering Tokens in 3D Space",
+      "URL": "http://arxiv.org/abs/2206.11895",
+      "author": [
+        {
+          "family": "Shang",
+          "given": "Jinghuan"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Ryoo",
+          "given": "Michael S."
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 1, 12]]
+      }
+    },
+    {
+      "id": "54cdd82790e47199e6c474fadadfab6f",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2206.05266",
+      "note": "arXiv:2206.05266 [cs]",
+      "number": "arXiv:2206.05266",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?",
+      "URL": "http://arxiv.org/abs/2206.05266",
+      "author": [
+        {
+          "family": "Li",
+          "given": "Xiang"
+        },
+        {
+          "family": "Shang",
+          "given": "Jinghuan"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Ryoo",
+          "given": "Michael S."
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 1, 13]]
+      }
+    },
+    {
+      "id": "b6ad027996f73fb37a5490e17eab4c10",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2309.06439",
+      "note": "arXiv:2309.06439 [cs]",
+      "number": "arXiv:2309.06439",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "Attention De-sparsification Matters: Inducing Diversity in Digital Pathology Representation Learning",
+      "title-short": "Attention De-sparsification Matters",
+      "URL": "http://arxiv.org/abs/2309.06439",
+      "author": [
+        {
+          "family": "Kapse",
+          "given": "Saarthak"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jingwei"
+        },
+        {
+          "family": "Gupta",
+          "given": "Rajarsi R."
+        },
+        {
+          "family": "Saltz",
+          "given": "Joel"
+        },
+        {
+          "family": "Samaras",
+          "given": "Dimitris"
+        },
+        {
+          "family": "Prasanna",
+          "given": "Prateek"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 9, 12]]
+      }
+    },
+    {
+      "id": "7f1a08f4bd846ff21db22ef241e7ce9d",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2308.13503",
+      "note": "arXiv:2308.13503 [cs]",
+      "number": "arXiv:2308.13503",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "Attending Generalizability in Course of Deep Fake Detection by Exploring Multi-task Learning",
+      "URL": "http://arxiv.org/abs/2308.13503",
+      "author": [
+        {
+          "family": "Balaji",
+          "given": "Pranav"
+        },
+        {
+          "family": "Das",
+          "given": "Abhijit"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Dantcheva",
+          "given": "Antitza"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 8, 25]]
+      }
+    },
+    {
+      "id": "c3c0f7363758ed663c757d996dfaf23c",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2309.00696",
+      "note": "arXiv:2309.00696 [cs]",
+      "number": "arXiv:2309.00696",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "AAN: Attributes-Aware Network for Temporal Action Detection",
+      "title-short": "AAN",
+      "URL": "http://arxiv.org/abs/2309.00696",
+      "author": [
+        {
+          "family": "Dai",
+          "given": "Rui"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Ryoo",
+          "given": "Michael S."
+        },
+        {
+          "family": "Bremond",
+          "given": "Francois"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 9, 1]]
+      }
+    },
+    {
+      "id": "a7126cce7cac03a6405b74d897738a4b",
+      "type": "article",
+      "DOI": "10.48550/arXiv.2306.09331",
+      "note": "arXiv:2306.09331 [cs]",
+      "number": "arXiv:2306.09331",
+      "publisher": "arXiv",
+      "source": "arXiv.org",
+      "title": "Seeing the Pose in the Pixels: Learning Pose-Aware Representations in Vision Transformers",
+      "title-short": "Seeing the Pose in the Pixels",
+      "URL": "http://arxiv.org/abs/2306.09331",
+      "author": [
+        {
+          "family": "Reilly",
+          "given": "Dominick"
+        },
+        {
+          "family": "Chadha",
+          "given": "Aman"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2023", 9, 14]]
+      },
+      "issued": {
+        "date-parts": [["2023", 6, 15]]
+      }
     }
   ]
 }
