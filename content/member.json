@@ -71,11 +71,38 @@
       ],
       "contact": {
         "email": ["sdas24@charlotte.edu"],
-        "phone": ["704-687-1898"],
         "address": "Room 230A, Woodward Hall",
         "website": "https://srijandas07.github.io/"
       },
       "photo": "/photos/srijan.png"
+    },
+    {
+      "name": {
+        "first": "Li",
+        "middle": null,
+        "last": "Yang"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Efficient Machine Learning",
+        "Transfer Learning/Continual Learning",
+        "Computer Vision",
+        "Hardware Acceleration"
+      ],
+      "introduction": "Li is an Assistant Professor in the Department of Computer Science at University of North Carolina at Charlotte. Prior to that, Li received his Ph.D. degree from Arizona State University, Master’s degree from the University of Central Florida, and Bachelor's degree at Northeastern University, China. His research interests include 1) efficient and on-device Machine Learning; 2) computer vision; 3)transfer/continual Learning; 4) efficient AI computing hardware accelerator design.",
+      "teaching": [
+        {
+          "course": "ITCS 3153",
+          "title": "Introduction to Artificial Intelligence ",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["lyang50@uncc.edu"],
+        "address": "Room 435A, Woodward Hall",
+        "website": "https://lyang-666.github.io/"
+      },
+      "photo": "/photos/liyang.jpg"
     }
   ],
   "student": [
