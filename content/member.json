@@ -124,7 +124,7 @@
         "email": ["teddyhuangnan@gmail.com", "nhuang1@uncc.edu"],
         "phone": ["000-000-0000"],
         "address": "Room 437, Woodward Hall",
-        "website": "https://teddyhuang-00.github.io/"
+        "website": "https://webpages.charlotte.edu/nhuang1/"
       },
       "photo": "/photos/nan-huang.png"
     },
@@ -180,7 +180,7 @@
       "contact": {
         "email": ["rchakra6@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
-        "website": "https://web pages.charlotte.edu/rchakra6/"
+        "website": "https://webpages.charlotte.edu/rchakra6/"
       },
       "photo": "/photos/rajatsubhra.jpg"
     },
@@ -213,6 +213,27 @@
         "address": "Room 437, Woodward Hall"
       },
       "photo": "/photos/vishal.jpg"
+    },
+    {
+      "name": {
+        "first": "Taida",
+        "middle": null,
+        "last": "Li"
+      },
+      "position": ["PhD student"],
+      "research": [
+        "Machine Learning",
+        "Medical Time Series",
+        "Domain Generalization"
+      ],
+      "introduction": "Taida \"Trent\" Li is a Ph.D student in the Department of Computer Science at the University of North Carolina at Charlotte (UNCC), currently affiliated with Charlotte Machine Learning Lab (CML). Li received his master's degree in computer science from Rice University in May 2023. His research interests lie in machine learning in medical time series.",
+      "contact": {
+        "email": ["tli14@uncc.edu", "taidalee@gmail.com"],
+        "phone": ["704-775-8396"],
+        "address": "Room 412, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/tli14/"
+      },
+      "photo": ""
     }
   ],
   "alumni": []
