@@ -8,13 +8,13 @@
       },
       "position": ["Assistant Professor"],
       "research": [
-        "Data Mining",
         "Machine Learning",
         "Pervasive Healthcare",
         "Medical Time Series",
-        "Brain-Computer Interfaces"
+        "Brain-Computer Interfaces",
+        "Neurological Disorder Diagnosis"
       ],
-      "introduction": "Xiang is an Assistant Professor in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he was a postdoctoral fellow at Harvard University from March 2020 to July 2022. Xiang received his Ph.D. degree (in 2020) in Computer Science from the University of New South Wales (UNSW). His research interests lie in data mining and machine learning with applications in pervasive healthcare, medical time series, and Brain-Computer Interfaces (BCIs). Xiang's research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, and KDD) and journals (like Nature Computational Science).",
+      "introduction": "Xiang is an Assistant Professor in the Department of Computer Science at UNC Charlotte Since 2022. He was a postdoctoral fellow at Harvard University working on deep learning for medical data analysis. Xiang received his Ph.D. degree (in 2020) in Computer Science from the University of New South Wales (UNSW). His research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, and KDD) and journals (like Nature Computational Science), attracted 1700+ citations.",
       "teaching": [
         {
           "course": "ITCS 4156",
@@ -33,11 +33,12 @@
         }
       ],
       "contact": {
-        "email": ["xiang.alan.zhang@gmail.com", "xiang.zhang@uncc.edu"],
-        "address": "Room 230A, Woodward Hall",
+        "email": ["xiang.zhang@uncc.edu"],
+        "phone": ["704-687-1898"],
+        "address": "Room 410-F, Woodward Hall",
         "website": "https://xiangzhang.info/"
       },
-      "photo": "/photos/xiang-zhang.png"
+      "photo": "/photos/xiang-zhang.jpg"
     },
     {
       "name": {
@@ -112,7 +113,7 @@
         "middle": null,
         "last": "Huang"
       },
-      "position": ["Ph.D. Student"],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Data Mining",
@@ -122,7 +123,6 @@
       "introduction": "Nan is a Ph.D. student in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he received his B.S. degree in Bioinformatics from Peking University in 2023. His research interests lie in machine learning and data mining with applications in computational neuroscience.",
       "contact": {
         "email": ["teddyhuangnan@gmail.com", "nhuang1@uncc.edu"],
-        "phone": ["000-000-0000"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/nhuang1/"
       },
@@ -234,6 +234,61 @@
         "website": "https://webpages.charlotte.edu/tli14/"
       },
       "photo": ""
+    },
+    {
+      "name": {
+        "first": "Yihe",
+        "middle": null,
+        "last": "Wang"
+      },
+      "position": ["PhD student"],
+      "research": [
+        "Machine Learning",
+        "Medical Time Series",
+        "Self-supervised Learning"
+      ],
+      "introduction": "Yihe is a Ph.D. student in the Department of Computer Science at the University of North Carolina(UNC) - Charlotte. Yihe received his Bachelor's degree in Electrical and Computer Engineering from University of Missouri - Columbia and his Master's degree in Computer Science from New York University. His research interests lie in medical time series and self-supervised learning.",
+      "contact": {
+        "email": ["ywang145@uncc.edu"],
+        "phone": ["573-356-2559"],
+        "address": "Room 437-7, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/ywang145/"
+      },
+      "photo": "/photos/yihe-wang.png"
+    },
+    {
+      "name": {
+        "first": "Yu",
+        "middle": null,
+        "last": "Han"
+      },
+      "position": ["Research Intern"],
+      "research": [
+        "Machine Learning",
+        "Graph Representation Learning",
+        "Medical Time Series",
+        "Clinical Trial Outcome Prediction"
+      ],
+      "introduction": "Yu has joined the CharMLab as a research intern since Fall 2022. He is a master student at the University of Chinese Academy of Sciences (UCAS) working on machine learning for healthcare now. Yu received his B.S. degree (in 2021) in Fintech and Software Engineering from Northeastern University.",
+      "contact": {
+        "email": ["hanyu21@mails.ucas.edu.cn"]
+      },
+      "photo": "/photos/yu-han.jpg"
+    },
+    {
+      "name": {
+        "first": "Aniqa",
+        "middle": "Ayesha",
+        "last": "Arif"
+      },
+      "position": ["Master's Student"],
+      "research": ["Machine Learning", "Medical Imaging", "Neuro-imaging"],
+      "introduction": "Aniqa is a master's candidate in the Department of Computer Science at UNC Charlotte. She is currently working on Multimodal Machine Learning for neurological disease diagnosis under the supervision of Dr. Zhang. She has previously worked extensively with neuro-imaging acquisition, databases and processing.",
+      "contact": {
+        "email": ["aarif2@uncc.edu"],
+        "website": "https://linkedin.com/in/aniqa-arif/"
+      },
+      "photo": "/photos/aniqa.jpg"
     }
   ],
   "alumni": []
