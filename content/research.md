@@ -63,6 +63,42 @@ Reinforcement Learning (RL) is a type of machine learning where an agent learns 
 
 Time Series analysis involves the study of ordered, often temporal data points. It is used to analyze trends, seasonality, and patterns in data over time. Time Series analysis is crucial in various fields such as economics, finance, environmental science, and healthcare. It helps in forecasting future values, understanding underlying structures, and making informed decisions. Techniques in Time Series analysis include statistical methods, machine learning models, and frequency domain methods.
 
+### Semi-/Un-Supervised Learning for Medical Time Series
+
+![TFC](/fields/TFC.png)
+
+In healthcare, medical time series data like physiological signals and vital signs are crucial for patient care but often lack sufficient labels for analysis. The challenge is to interpret this complex data with limited labeled samples. We develop semi-supervised and unsupervised learning to tackle this issue, utilizing deep learning techniques to develop robust, interpretable models. These models effectively analyze medical time series data, aiding healthcare professionals in making better decisions when fully annotated data is scarce.
+
+Recent publications:
+
+- [Self-Supervised Contrastive Pre-Training For Time Series via Time-Frequency Consistency](https://openreview.net/forum?id=OJ4mMfGKLN)
+- [Adversarial Variational Embedding for Robust Semi-supervised Learning](https://dl.acm.org/doi/10.1145/3292500.3330966)
+
+### Deep Learning for Brain Signal Analysis
+
+![DL-EEG](/fields/DL_EEG.png)
+
+Deep learning have revolutionized the field of brain signal analysis by effectively captures high-level representations from noisy EEG data, offering promising advances in neuroscience and healthcare. This project dedicate to design a set of advanced deep learning algorithms and frameworks to seize the complex patterns within EEG signals. Our models enable more accurate classification performance, better monitoring of cognitive states, and improved patient diagnosis of neurological diseases, offering a significant upgrade over conventional methods.
+
+Recent publications:
+
+- [A survey on deep learning-based non-invasive brain signals: recent advances and new frontiers](https://iopscience.iop.org/article/10.1088/1741-2552/abc902/meta)
+- [MindID: Person Identification from Brain Waves through Attention-based Recurrent Neural Network](https://dl.acm.org/doi/10.1145/3264959)
+- [Deep Learning for EEG-Based Brain–Computer Interfaces](https://doi.org/10.1142/q0282)
+- [Interpretable Sparsification of Brain Graphs: Better Practices and Effective Designs for Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3580305.3599394)
+
+### Graph Nerual Networks for Relational Representation Learning
+
+![raindrop](/fields/raindrop.png)
+
+Graph Neural Networks (GNNs) have emerged as a powerful tool for learning on graph-structured data, capturing relationships that traditional neural networks often miss. The challenge in relational representation learning is to efficiently model and interpret complex, interdependent relationships within large datasets. Our research addresses this by applying GNNs to relational representation learning. Using innovative architectures and optimization techniques, these GNN-based models can automatically capture intricate dependencies within the data. Additionally, we extend this approach to uncover hidden relationships in informative time series data, such as vital signs in healthcare. In terms of cybersecurity, we've also created a model that defends GNNs against adversarial attacks.
+
+Recent publications:
+
+- [Interpretable Sparsification of Brain Graphs: Better Practices and Effective Designs for Graph Neural Networks](https://dl.acm.org/doi/abs/10.1145/3580305.3599394)
+- [Graph-Guided Network for Irregularly Sampled Multivariate Time Series](https://openreview.net/forum?id=Kwm8I7dU-l5)
+- [GNNGUARD: defending graph neural networks against adversarial attacks](https://dl.acm.org/doi/abs/10.5555/3495724.3496501)
+
 <!--
 ## Grants
 
