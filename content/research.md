@@ -8,6 +8,21 @@ Machine learning is a dynamic and multifaceted field that encompasses various re
 
 AI Theory is the foundational bedrock of artificial intelligence, focusing on the mathematical and computational principles that govern the behavior and capabilities of AI systems. It explores algorithms, complexity, logic, and statistical methods to understand how machines can mimic human intelligence. Research in AI Theory seeks to create models that can explain, predict, and enhance the performance of AI, ensuring robustness, efficiency, and ethical considerations.
 
+### Democratizing AI through Multi-Hop Federated Learning Over-the-Air
+
+![FLAir](/fields/FLAir.png)
+
+Federated learning (FL) has emerged as a key technology for enabling next-generation privacy-preserving AI at-scale, where a large number of edge devices, e.g., mobile phones, collaboratively learn a shared global model while keeping their data locally to prevent privacy leakage. Enabling FL over wireless multi-hop networks, such as wireless community mesh networks and wireless Internet over satellite constellations, not only can augment AI experiences for urban mobile users, but also can democratize AI and make it accessible in a low-cost manner to everyone, including people in low-income communities, rural areas, under-developed regions, and disaster areas. The overall objective of this project is to develop a novel wireless multi-hop FL system with guaranteed stability, high accuracy and fast convergence speed. This project is expected to advance the design of distributed deep learning (DL) systems, to promote the understanding of the strong synergy between distributed computing and distributed networking, and to bridge the gap between the theoretical foundations of distributed DL and its real-life applications. The project will also provide unique interdisciplinary training opportunities for graduate and undergraduate students through both research work and related courses that the PIs will develop and offer.
+
+Recent publications:
+
+- [EdgeML: Towards network-accelerated federated learning over wireless edge](https://www.sciencedirect.com/science/article/pii/S1389128622004303)
+- [Toward scalable and robust AIoT via decentralized federated learning](https://ieeexplore.ieee.org/abstract/document/9773089)
+- [Local learning matters: Rethinking data heterogeneity in federated learning](https://openaccess.thecvf.com/content/CVPR2022/html/Mendieta_Local_Learning_Matters_Rethinking_Data_Heterogeneity_in_Federated_Learning_CVPR_2022_paper.html)
+- [MutualNet: Adaptive ConvNet via Mutual Learning From Different Model Configurations](https://ieeexplore.ieee.org/abstract/document/9664344)
+- [Fedair: Towards multi-hop federated learning over-the-air](https://ieeexplore.ieee.org/abstract/document/9154266)
+- [Delay-Optimal Traffic Engineering through Multi-agent Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/8845154)
+
 ## Computer Vision
 
 ![CV](/fields/CV.svg)
@@ -45,6 +60,12 @@ Vision language models (such as CLIP) are trained on image-text pairs and exhibi
 
 Data Science is the interdisciplinary field that uses scientific methods, algorithms, processes, and systems to extract knowledge and insights from structured and unstructured data. It encompasses statistics, data mining, machine learning, and big data technologies to analyze and interpret complex data. Data Science is vital in various industries, including healthcare, finance, retail, and government, enabling data-driven decision-making, predictive analytics, and actionable insights.
 
+### SocialBit: Establishing the Accuracy of a Wearable Sensor to Detect Social Interactions after Stroke
+
+![SocialBit](/fields/socialbit.svg)
+
+Stroke survivors are vulnerable to reduced social interactions. Reduced interactions are related to worse physical recovery after stroke. Enhancing social interactions after stroke may be one of the most powerful strategies to improve stroke recovery. A new wearable social sensor, SocialBit can detect audio signatures of social interactions in real-world settings.
+
 ## Natural Language Processing
 
 ![NLP](/fields/NLP.svg)
@@ -56,6 +77,17 @@ Natural Language Processing (NLP) is a branch of AI that focuses on the interact
 ![RL](/fields/RL.svg)
 
 Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties and aims to maximize cumulative rewards over time. RL is inspired by behavioral psychology and has applications in various domains, including robotics, game playing, finance, and healthcare. Research in RL explores algorithms, exploration-exploitation trade-offs, multi-agent systems, and real-world implementations.
+
+### Example-based Reinforcement Learning
+
+A significant hurdle in the successful application of reinforcement learning (RL) across various domains is the voracious appetite for data. The performance of RL models hinges heavily on having access to copious amounts of high-quality data. However, in practical terms, obtaining such data proves to be a formidable and costly task, thereby complicating the assurance of optimal RL model performance. Interactive RL scenarios contend with limited interactions, influenced by factors like exorbitant costs or financial constraints in real-world settings such as production, healthcare, transportation, finance, or trade. The scarcity of interactions gives rise to apprehensions regarding the generalizability, reliability, and safety of deployed systems, consequently eroding their trustworthiness. The project endeavors to surmount this pivotal challenge through a multifaceted approach, encompassing example-based reinforcement learning, graph inference to forge new knowledge representations, multimodal feedback to enhance data quality, and an exploration into the impact of human involvement on data efficiency.
+
+Recent publications:
+
+- [Learning sparse evidence-driven interpretation to understand deep reinforcement learning agents](https://ieeexplore.ieee.org/abstract/document/9660192)
+- [Efficient practice for deep reinforcement learning](https://ieeexplore.ieee.org/abstract/document/9003129)
+- [Relevant experiences in replay buffer](https://ieeexplore.ieee.org/abstract/document/9002745)
+- [Deep reinforcement learning monitor for snapshot recording](https://ieeexplore.ieee.org/abstract/document/8614120)
 
 ## Time Series
 
