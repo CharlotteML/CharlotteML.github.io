@@ -1,12 +1,12 @@
 <template>
-  <main class="relative mx-auto mt-0.5 min-h-screen max-w-3xl px-6">
+  <main class="relative mr-32 mt-0.5 min-h-screen px-6 lg:mx-auto lg:max-w-3xl">
     <aside
-      class="sticky top-0 z-40 mb-2 h-20 w-full rounded-b-lg bg-secondary-50/90 py-2 backdrop-blur-sm dark:bg-secondary-950/70 lg:fixed lg:right-2 lg:top-1/2 lg:mb-0 lg:h-3/4 lg:w-36 lg:-translate-y-1/2 lg:rounded-lg lg:py-0"
+      class="fixed right-2 top-1/2 z-40 mb-0 h-3/4 w-36 -translate-y-1/2 rounded-lg rounded-b-lg bg-secondary-50/90 py-0 backdrop-blur-sm dark:bg-secondary-950/70"
     >
-      <ul class="flex h-full w-full flex-row gap-1 rounded-xl p-2 lg:flex-col">
+      <ul class="flex h-full w-full flex-col gap-1 rounded-xl p-2">
         <li
           v-if="faculty.length"
-          class="nav min-h-full rounded-lg border border-primary-800 bg-primary-800/30 text-sm lg:min-h-0"
+          class="nav min-h-0 rounded-lg border border-primary-800 bg-primary-800/30 text-sm"
         >
           Faculty
         </li>
@@ -75,7 +75,7 @@
         </li>
       </ul>
     </aside>
-    <ul class="flex flex-col gap-6 pt-0 lg:pt-6">
+    <ul class="flex flex-col gap-6 pt-6">
       <li
         v-for="f in faculty"
         :key="idFromName(f.name.first, f.name.middle, f.name.last)"
@@ -217,12 +217,12 @@ onMounted(() => {
 
 <style>
 .nav {
-  @apply flex items-center justify-center border-primary-800 p-2 py-4 lg:py-2;
+  @apply flex items-center justify-center border-primary-800 p-2 py-2;
 }
 .inactive {
-  @apply max-w-[10px] flex-grow-0 overflow-hidden border-t text-center text-sm delay-75 lg:max-w-none lg:border-l lg:border-t-0;
+  @apply max-w-none flex-grow-0 overflow-hidden border-l text-center text-sm delay-75;
 }
 .active {
-  @apply flex-grow border-t-4 text-center delay-75 lg:border-l-4 lg:border-t-0;
+  @apply flex-grow border-l-4 text-center delay-75;
 }
 </style>
