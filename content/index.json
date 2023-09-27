@@ -1,17 +1,17 @@
 {
   "banners": [
     {
-      "src": "/banner-image/bio_pano2a.jpg",
+      "src": "/banner/bio_pano2a.jpg",
       "alt": "Bioinformatics Panorama",
       "link": "/",
       "title": "Click to learn more"
     },
     {
-      "src": "/banner-image/campus_fall_11-12-2017_img135.jpg",
+      "src": "/banner/campus_fall_11-12-2017_img135.jpg",
       "alt": "Woodward Hall from Hauser Alumni Pavilion"
     },
     {
-      "src": "/banner-image/spring_campus_04-14-20_img556.jpg",
+      "src": "/banner/spring_campus_04-14-20_img556.jpg",
       "alt": "Woodward Hall"
     }
   ],

@@ -79,13 +79,13 @@ The publication page's data is stored in `content/publications.json`. The data s
 
 Assets are all stored in `public` directory, and they will be copied to the root of the generated website on build. The assets are organized in a tree structure, and the path of the asset will be preserved in the generated website.
 
-- `banner-image`: This directory contains the banner images for the landing page.
+- `banner`: This directory contains the banner images for the landing page.
 - `fields`: This directory contains the images for the fields logos (e.g. ones on the bottom of the landing page).
 - `photos`: This directory contains the photos for the members page. The photos should be named after the member's name and do not include space (e.g. `John-Doe.jpg`). It is recommended to use square photos otherwise the photos will be cropped. Please make sure the photos are not too large (say 1 MB) to reduce the loading time.
 - `pictures`: This directory contains the images for the blog posts and news.
 - `videos`: This directory contains the videos for the blog posts and news. **DO NOT** upload unoptimized videos to the repository. And it is highly recommended uploading the videos to a video hosting service (e.g. YouTube) and embed the videos in the blog posts and news.
 
-When referencing an asset in the content, use the path relative to the `public` directory. For example, if you want to reference the `public/banner-image/landing.jpg` image in the `blog/some-new-blog.md` file, you should use `/banner-image/landing.jpg` as the path.
+When referencing an asset in the content, use the path relative to the `public` directory. For example, if you want to reference the `public/images/landing.jpg` image in the `blog/some-new-blog.md` file, you should use `/images/landing.jpg` as the path.
 
 ## Development
 

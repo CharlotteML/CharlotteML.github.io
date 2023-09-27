@@ -1,6 +1,6 @@
 ---
 date: 2023-08-16 12:00:00
-cover: /banner-image/campus_fall_11-12-2017_img135.jpg
+cover: /banner/campus_fall_11-12-2017_img135.jpg
 ---
 
 # UNC Charlotte Launches Machine Learning Lab: A Hub for AI Innovation
