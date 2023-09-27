@@ -134,6 +134,46 @@ const abbrevName = (
     .filter((x) => x)
     .join(" ");
 };
+const cmpFaculty = (a: Person, b: Person) => {
+  const positionMap = (p: string) => {
+    switch (p) {
+      case "Lab Director":
+        return 0;
+      case "Lab Co-Director":
+        return 1;
+      case "Professor":
+        return 2;
+      case "Associate Professor":
+        return 3;
+      case "Assistant Professor":
+        return 4;
+      default:
+        return 5;
+    }
+  };
+  const aTier = a.position.map(positionMap).sort()[0];
+  const aName = concatName(a.name.first, a.name.middle, a.name.last);
+  const bTier = b.position.map(positionMap).sort()[0];
+  const bName = concatName(b.name.first, b.name.middle, b.name.last);
+  return aTier - bTier || aName.localeCompare(bName);
+};
+const cmpStudent = (a: Person, b: Person) => {
+  const positionMap = (p: string) => {
+    switch (p) {
+      case "PhD Student":
+        return 0;
+      case "Masters Student":
+        return 1;
+      default:
+        return 2;
+    }
+  };
+  const aTier = a.position.map(positionMap).sort()[0];
+  const aName = concatName(a.name.first, a.name.middle, a.name.last);
+  const bTier = b.position.map(positionMap).sort()[0];
+  const bName = concatName(b.name.first, b.name.middle, b.name.last);
+  return aTier - bTier || aName.localeCompare(bName);
+};
 const cmpPerson = (a: Person, b: Person) => {
   const aName = concatName(a.name.first, a.name.middle, a.name.last);
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
@@ -144,8 +184,8 @@ const {
   page,
 }: { page: Ref<{ faculty: Person[]; student: Person[]; alumni: Person[] }> } =
   useContent();
-const faculty = page.value.faculty.sort(cmpPerson);
-const student = page.value.student.sort(cmpPerson);
+const faculty = page.value.faculty.sort(cmpFaculty);
+const student = page.value.student.sort(cmpStudent);
 const alumni = page.value.alumni.sort(cmpPerson);
 
 const stuRefs = ref([] as HTMLElement[]);
