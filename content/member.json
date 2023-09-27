@@ -6,7 +6,7 @@
         "middle": null,
         "last": "Zhang"
       },
-      "position": ["Assistant Professor"],
+      "position": ["Assistant Professor", "Lab Director"],
       "research": [
         "Machine Learning",
         "Pervasive Healthcare",
@@ -39,6 +39,111 @@
         "website": "https://xiangzhang.info/"
       },
       "photo": "/photos/xiang-zhang.jpg"
+    },
+    {
+      "name": {
+        "first": "Minwoo",
+        "middle": "Jake",
+        "last": "Lee"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Reinforcement Learning",
+        "Distributed Learning",
+        "Knowledge Representation and Transfer",
+        "Human-AI Interactions",
+        "Brain-Computer Interfaces"
+      ],
+      "introduction": "Jake is an Assistant Professor in the Department of Computer Science at the Charlotte. He is working on efficient agent's learning and adaptation encompassing transfer learning, interpretational learning, human-AI interactions, robust and safe exploration, and distributed learning. He received Ph.D. in Computer Science at the Colorado State University under the supervision of Chuck Anderson. His dissertation investigated and developed Sparse Bayesian Models to enable example-based reinforcement learning. His research has been supported by NSF and NIH.",
+      "teaching": [
+        {
+          "course": "ITCS 3153",
+          "title": "Introduction to Artificial Intelligence",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "DSBA 6165",
+          "title": "Artificial Intelligence and Deep Learning",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Fall 2022"
+        },
+        {
+          "course": "DSBA 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2022"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2022"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Fall 2021"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2021"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2020"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Spring 2020"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Fall 2019"
+        },
+        {
+          "course": "ITCS 6010",
+          "title": "Reinforcement Learning",
+          "term": "Fall 2019"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2019"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Fall 2018"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2018"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2017"
+        }
+      ],
+      "contact": {
+        "email": ["minwoo.lee@charlotte.edu"],
+        "phone": ["704-687-8188"],
+        "address": "Room 435G, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/mlee173"
+      },
+      "photo": "/photos/LeeMinwoo.jpg"
     },
     {
       "name": {
@@ -220,7 +325,7 @@
         "middle": null,
         "last": "Li"
       },
-      "position": ["PhD student"],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Medical Time Series",
@@ -241,7 +346,7 @@
         "middle": null,
         "last": "Wang"
       },
-      "position": ["PhD student"],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Medical Time Series",
@@ -281,7 +386,7 @@
         "middle": "Ayesha",
         "last": "Arif"
       },
-      "position": ["Master's Student"],
+      "position": ["Masters Student"],
       "research": ["Machine Learning", "Medical Imaging", "Neuro-imaging"],
       "introduction": "Aniqa is a master's candidate in the Department of Computer Science at UNC Charlotte. She is currently working on Multimodal Machine Learning for neurological disease diagnosis under the supervision of Dr. Zhang. She has previously worked extensively with neuro-imaging acquisition, databases and processing.",
       "contact": {
@@ -289,6 +394,122 @@
         "website": "https://linkedin.com/in/aniqa-arif/"
       },
       "photo": "/photos/aniqa.jpg"
+    },
+    {
+      "name": {
+        "first": "Benjamin",
+        "middle": null,
+        "last": "Poole"
+      },
+      "position": ["PhD Student"],
+      "research": ["Reinforcement Learning", "Brain-Computer Interfaces"],
+      "introduction": "Benjamin is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on understanding different modalities of human feedback to incorporate them to reinforcement learning. He is interested in human brain signals, especially error-related potentials known as to be elicited when humans commit or observe erroneous events to enhance human-guided training of AI. As a senior PhD student, he leads projects guiding junior graduate students.",
+      "contact": {
+        "email": ["bpoole16@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://bpoole908.github.io"
+      },
+      "photo": "/photos/ben.jpg"
+    },
+    {
+      "name": {
+        "first": "Raju",
+        "middle": null,
+        "last": "Challagundla"
+      },
+      "position": ["PhD Student"],
+      "research": ["Anomaly Detection", "Fraud Detection"],
+      "introduction": "Raju is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on anomaly and fraud detection problems, especially in banking and credit card cases. As a senior software engineer, he is passionate about leveraging technology to tackle complex challenges and eager to make a meaningful impact in the field.",
+      "contact": {
+        "email": ["rchalla5@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": null
+      },
+      "photo": "/photos/raju.jpg"
+    },
+    {
+      "name": {
+        "first": "David",
+        "middle": null,
+        "last": "Farynyk"
+      },
+      "position": ["PhD Student"],
+      "research": ["Multi-object Tracking", "Audio/Speech Classificaiton"],
+      "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classifcaiton models with smart watches. His previous research focused on tracking multiple objects.",
+      "contact": {
+        "email": ["dafaryny@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": null
+      },
+      "photo": "/photos/david.jpg"
+    },
+
+    {
+      "name": {
+        "first": "Mohamed",
+        "middle": "Mehdi",
+        "last": "Bourahla"
+      },
+      "position": ["Masters Student"],
+      "research": [
+        "Audio/Speech Classificaiton",
+        "Physical Activity and Social Behavior"
+      ],
+      "introduction": "Mehdi is a MS student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. As a Fullbright scholar from Algeria, he focuses on detecting and identifying the human speech sounds from TV. He generalizes the problem to distinguish natural voice from speaker generated voice.",
+      "contact": {
+        "email": ["mbourahl@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://mehdibourahla.com"
+      },
+      "photo": "/photos/mehdi.png"
+    },
+    {
+      "name": {
+        "first": "Andrew",
+        "middle": null,
+        "last": "Quinn"
+      },
+      "position": ["Masters Student"],
+      "research": ["Reinforcement Learning", "Continual Learning"],
+      "introduction": "Andrew is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
+      "contact": {
+        "email": ["aquinn16@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": null
+      },
+      "photo": "/photos/andrew.jpg"
+    },
+    {
+      "name": {
+        "first": "Rakesh",
+        "middle": null,
+        "last": "Dulam"
+      },
+      "position": ["PhD Student"],
+      "research": ["Reinforcement Learning", "Continual Learning"],
+      "introduction": "Rakesh is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
+      "contact": {
+        "email": ["cdulam@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": null
+      },
+      "photo": "/photos/rakesh.jpg"
+    },
+    {
+      "name": {
+        "first": "Joshua",
+        "middle": null,
+        "last": "Foster"
+      },
+      "position": ["Undergraduate Student"],
+      "research": ["Graph Learning", "Complex System Optimization"],
+      "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarilly assisting Ben.",
+      "contact": {
+        "email": ["jfoste81@charlotte.edu"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://github.com/jfoste81"
+      },
+      "photo": "/photos/JoshuaFoster.jpg"
     }
   ],
   "alumni": []
