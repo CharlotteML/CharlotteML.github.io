@@ -110,11 +110,16 @@ const search = () => {
 import Cite from "citation-js";
 const HTMLoutput = computed(() => {
   const cite = new Cite(bibliography.value);
-  return cite.format("bibliography", {
+  const citationHTML: String = cite.format("bibliography", {
     format: "html",
     template: "apa",
     lang: "en-US",
   });
+  return citationHTML.replaceAll(
+    /(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g,
+    (match: string) =>
+      `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">${match}</a>`,
+  );
 });
 </script>
 
@@ -124,5 +129,8 @@ const HTMLoutput = computed(() => {
 }
 .csl-entry {
   @apply my-0.5 list-item list-inside list-decimal whitespace-break-spaces rounded-xl border border-accent-200 bg-secondary-100/50 p-4 shadow-md dark:border-accent-600 dark:bg-secondary-900/30 dark:shadow-lg;
+}
+.csl-doi {
+  @apply hover:text-accent-200 dark:hover:text-accent-600;
 }
 </style>
