@@ -35,7 +35,7 @@
       "contact": {
         "email": ["xiang.zhang@uncc.edu"],
         "phone": ["704-687-1898"],
-        "address": "Room 410-F, Woodward Hall",
+        "address": "Room 410F, Woodward Hall",
         "website": "https://xiangzhang.info/"
       },
       "photo": "/photos/xiang-zhang.jpg"
@@ -209,6 +209,45 @@
         "website": "https://lyang-666.github.io/"
       },
       "photo": "/photos/liyang.jpg"
+    },
+    {
+      "name": {
+        "first": "Razvan",
+        "middle": "Constantin",
+        "last": "Bunescu"
+      },
+      "position": ["Associate Professor"],
+      "research": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Music Information Retrieval",
+        "Computational Creativity"
+      ],
+      "introduction": "Razvan is an Associate Professor in the Department of Computer Science at UNC Charlotte. Prior to joining Charlotte in 2020, he was a Professor in EECS at Ohio University. He received his PhD in Computer Science from the University of Texas at Austin in 2007. His research interests lie in the general area of machine learning, with a focus on applications in natural language processing, music information retrieval, biomedical informatics, computer architecture, computational creativity, and more recently education. His work has been funded by grants from the National Science Foundation, the National Institutes of Health, and the US Air Force.",
+      "teaching": [
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Spring 2021"
+        },
+        {
+          "course": "ITCS 4111/5111",
+          "title": "Introduction to Natural Language Processing",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2023"
+        }
+      ],
+      "contact": {
+        "email": ["razvan.bunescu@charlotte.edu"],
+        "phone": ["704-687-8444"],
+        "address": "Room 410G, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/rbunescu"
+      },
+      "photo": "/photos/bunescu.jpg"
     }
   ],
   "student": [
@@ -356,7 +395,7 @@
       "contact": {
         "email": ["ywang145@uncc.edu"],
         "phone": ["573-356-2559"],
-        "address": "Room 437-7, Woodward Hall",
+        "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/ywang145/"
       },
       "photo": "/photos/yihe-wang.png"
@@ -435,7 +474,7 @@
       },
       "position": ["PhD Student"],
       "research": ["Multi-object Tracking", "Audio/Speech Classificaiton"],
-      "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classifcaiton models with smart watches. His previous research focused on tracking multiple objects.",
+      "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classification models with smart watches. His previous research focused on tracking multiple objects.",
       "contact": {
         "email": ["dafaryny@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
@@ -503,13 +542,88 @@
       },
       "position": ["Undergraduate Student"],
       "research": ["Graph Learning", "Complex System Optimization"],
-      "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarilly assisting Ben.",
+      "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarily assisting Ben.",
       "contact": {
         "email": ["jfoste81@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://github.com/jfoste81"
       },
       "photo": "/photos/JoshuaFoster.jpg"
+    },
+    {
+      "name": {
+        "first": "Erfan",
+        "middle": null,
+        "last": "Al-Hossami"
+      },
+      "position": ["PhD Student"],
+      "research": [
+        "Natural Language Processing",
+        "Computer Science Education",
+        "Dialogue Systems"
+      ],
+      "introduction": "Erfan is a PhD student in the Department of Computer Science at UNC Charlotte. His research interests lie in natural language processing, dialogue systems, and computer science education. His dissertation research focuses Socratic Debugging defined as a Socratic conversation between an instructor agent and a student where the instructor guides the student to fix a buggy program without giving the solution directly.",
+      "contact": {
+        "email": ["ealhossa@uncc.edu"],
+        "phone": ["704-206-0438"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://ealhossa.netlify.app/"
+      },
+      "photo": "/photos/erfan.png"
+    },
+    {
+      "name": {
+        "first": "Sampada",
+        "middle": "Ravindra",
+        "last": "Sakpal"
+      },
+      "position": ["Masters Student"],
+      "research": ["Machine Learning"],
+      "introduction": "Sampada is a M.S. student in the Department of Computer Science at UNC Charlotte. She received her B.S. degree in Computing and Software Systems from The University of Melbourne in 2017. Her research interests include machine learning.",
+      "contact": {
+        "email": ["ssakpal@charlotte.edu"],
+        "phone": ["704-387-1221"],
+        "address": "Room 437, Woodward Hall",
+        "website": ""
+      },
+      "photo": "/photos/ssakpal.png"
+    },
+    {
+      "name": {
+        "first": "Justin",
+        "middle": "Riley",
+        "last": "Smith"
+      },
+      "position": ["PhD Student"],
+      "research": ["Computer Science Education", "Accessibility Services"],
+      "introduction": "Justin is a Ph.D. student in the Department of Computer Science at UNC Charlotte. He received his B.S. degree in Computer Science from the University of North Carolina at Chapel Hill. His research interests include computer science education and accessibility services.",
+      "contact": {
+        "email": ["jsmit840@uncc.edu"],
+        "phone": ["828-221-5989"],
+        "address": "Room 437, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/jsmit840/"
+      },
+      "photo": "/photos/justin.png"
+    },
+    {
+      "name": {
+        "first": "Tonmoy",
+        "middle": null,
+        "last": "Hasan"
+      },
+      "position": ["PhD Student"],
+      "research": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Recommender Systems"
+      ],
+      "introduction": "Tonmoy Hasan is a PhD student in the Department of Computer Science at UNC Charlotte. His primary areas of research include natural language processing, machine learning, and recommender systems, with a current emphasis on modeling serendipity-oriented recommender systems.",
+      "contact": {
+        "email": ["thasan1@charlotte.edu"],
+        "phone": ["980-282-9969"],
+        "address": "Room 437, Woodward Hall"
+      },
+      "photo": "/photos/tonmoy.jpg"
     }
   ],
   "alumni": []
