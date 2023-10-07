@@ -13,19 +13,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-          run_install: true
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: latest
-          cache: pnpm
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
       - name: Build website
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm generate
+        run: bun generate
