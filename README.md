@@ -91,14 +91,14 @@ When referencing an asset in the content, use the path relative to the `public` 
 
 **You probably don't need this section unless you are trying to modify the template for generating the website**
 
-Note that you need to have [Node.js](https://nodejs.org/en/) installed on your machine. And we use [pnpm](https://pnpm.io/) as the package manager.
+Note that you need to have [Bun](https://bun.sh/) installed on your machine.
 
 ### Setup
 
 Make sure to install the dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 ### Development Server
@@ -106,7 +106,7 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-pnpm dev
+bun dev
 ```
 
 ### Production
@@ -114,13 +114,13 @@ pnpm dev
 Build the application for production (static mode):
 
 ```bash
-pnpm generate
+bun generate
 ```
 
 Locally preview production build:
 
 ```bash
-pnpm preview
+bun preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
