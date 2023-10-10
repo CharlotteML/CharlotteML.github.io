@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "nuxt-icon",
+    "nuxt-og-image",
     "nuxt-simple-robots",
     "nuxt-simple-sitemap",
   ],
