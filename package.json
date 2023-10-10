@@ -19,6 +19,8 @@
     "fuse.js": "^6.6.2",
     "nuxt": "^3.7.4",
     "nuxt-icon": "^0.5.0",
+    "nuxt-simple-robots": "^3.1.6",
+    "nuxt-simple-sitemap": "^3.4.0",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.5"
   }
