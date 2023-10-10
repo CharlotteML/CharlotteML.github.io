@@ -187,6 +187,14 @@ const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
   nextSlide,
   5000,
 );
+
+defineOgImage({
+  title: "Homepage",
+  description: "CharmLab at UNC Charlotte",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:house-duotone",
+});
 </script>
 
 <style scoped>

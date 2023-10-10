@@ -65,3 +65,13 @@
     </ContentList>
   </div>
 </template>
+
+<script setup lang="ts">
+defineOgImage({
+  title: "News",
+  description: "What's going on here at CharmLab",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:newspaper-duotone",
+});
+</script>

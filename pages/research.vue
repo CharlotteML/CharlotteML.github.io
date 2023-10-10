@@ -93,4 +93,12 @@ onMounted(() => {
     toggle(false);
   }
 });
+
+defineOgImage({
+  title: "Publications",
+  description: "See what we've been working on",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:projector-screen-duotone",
+});
 </script>

@@ -121,6 +121,14 @@ const HTMLoutput = computed(() => {
       `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">${match}</a>`,
   );
 });
+
+defineOgImage({
+  title: "Publications",
+  description: "Check out what progress we have made",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:book-bookmark-duotone",
+});
 </script>
 
 <style>

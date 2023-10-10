@@ -213,6 +213,14 @@ onMounted(() => {
     }),
   );
 });
+
+defineOgImage({
+  title: "Members",
+  description: "Meet the stars at CharmLab",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:users-duotone",
+});
 </script>
 
 <style>

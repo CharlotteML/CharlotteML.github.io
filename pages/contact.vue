@@ -16,6 +16,14 @@
 
 <script setup lang="ts">
 const { page } = useContent();
+
+defineOgImage({
+  title: "Contact",
+  description: "Reach out to us",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:envelope-duotone",
+});
 </script>
 
 <style>

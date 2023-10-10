@@ -69,3 +69,13 @@
     </ContentDoc>
   </main>
 </template>
+
+<script setup lang="ts">
+defineOgImage({
+  title: "What's going on?",
+  description: "How did you get here? Why even share this page?",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:egg-crack-duotone",
+});
+</script>

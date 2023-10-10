@@ -45,3 +45,13 @@
     </ContentList>
   </div>
 </template>
+
+<script setup lang="ts">
+defineOgImage({
+  title: "Blogs",
+  description: "Tools, demos, and more",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:brackets-curly-duotone",
+});
+</script>

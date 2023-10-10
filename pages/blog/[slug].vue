@@ -72,4 +72,11 @@ const { data: surround } = await useAsyncData("blog", () =>
 const prev = surround.value?.at(0) || null;
 const next = surround.value?.at(1) || null;
 page.value.body = unwrapImgFromP(page.value.body);
+
+defineOgImage({
+  title: page.value.title,
+  description: " ",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+});
 </script>

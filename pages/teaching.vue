@@ -111,4 +111,12 @@ const searchResult = computed(() => {
   });
   return fuse.search(searchTerm.value).map((x) => x.item);
 });
+
+defineOgImage({
+  title: "Teaching",
+  description: "We teach to shape the future",
+  // siteLogo: "/logo.svg",
+  siteName: "CharmLab",
+  icon: "ph:chalkboard-teacher-duotone",
+});
 </script>
