@@ -6,6 +6,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "nuxt-icon",
+    "nuxt-simple-robots",
+    "nuxt-simple-sitemap",
   ],
   ssr: true,
   content: {
@@ -21,4 +23,5 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+  site: { url: "https://charlotteml.github.io" },
 });
