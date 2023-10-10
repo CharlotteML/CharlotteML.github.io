@@ -94,11 +94,21 @@ onMounted(() => {
   }
 });
 
+// OG meta
+const title = "Publications";
+const description = "See what we've been working on";
+const icon = "ph:projector-screen-duotone";
 defineOgImage({
-  title: "Publications",
-  description: "See what we've been working on",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:projector-screen-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

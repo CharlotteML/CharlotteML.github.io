@@ -47,11 +47,21 @@
 </template>
 
 <script setup lang="ts">
+// OG meta
+const title = "Blogs";
+const description = "Tools, demos, and more";
+const icon = "ph:brackets-curly-duotone";
 defineOgImage({
-  title: "Blogs",
-  description: "Tools, demos, and more",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:brackets-curly-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

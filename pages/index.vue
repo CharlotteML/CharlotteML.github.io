@@ -188,12 +188,22 @@ const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
   5000,
 );
 
+// OG meta
+const title = "Homepage";
+const description = "CharmLab at UNC Charlotte";
+const icon = "ph:house-duotone";
 defineOgImage({
-  title: "Homepage",
-  description: "CharmLab at UNC Charlotte",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:house-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>
 

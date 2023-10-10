@@ -122,12 +122,22 @@ const HTMLoutput = computed(() => {
   );
 });
 
+// OG meta
+const title = "Publications";
+const description = "Check out what progress we have made";
+const icon = "ph:book-bookmark-duotone";
 defineOgImage({
-  title: "Publications",
-  description: "Check out what progress we have made",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:book-bookmark-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>
 

@@ -17,12 +17,22 @@
 <script setup lang="ts">
 const { page } = useContent();
 
+// OG meta
+const title = "Contact";
+const description = "Reach out to us";
+const icon = "ph:envelope-duotone";
 defineOgImage({
-  title: "Contact",
-  description: "Reach out to us",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:envelope-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>
 

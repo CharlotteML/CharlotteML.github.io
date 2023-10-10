@@ -214,12 +214,22 @@ onMounted(() => {
   );
 });
 
+// OG meta
+const title = "Members";
+const description = "Meet the stars at CharmLab";
+const icon = "ph:users-duotone";
 defineOgImage({
-  title: "Members",
-  description: "Meet the stars at CharmLab",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:users-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>
 

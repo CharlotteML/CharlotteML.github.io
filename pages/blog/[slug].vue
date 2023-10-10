@@ -73,10 +73,21 @@ const prev = surround.value?.at(0) || null;
 const next = surround.value?.at(1) || null;
 page.value.body = unwrapImgFromP(page.value.body);
 
+// OG meta
+const title = page.value.title;
+const description = " ";
+const icon = null;
 defineOgImage({
-  title: page.value.title,
-  description: " ",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

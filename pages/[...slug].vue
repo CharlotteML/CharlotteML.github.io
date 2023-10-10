@@ -71,11 +71,21 @@
 </template>
 
 <script setup lang="ts">
+// OG meta
+const title = "What's going on?";
+const description = "How did you get here? Why even share this page?";
+const icon = "ph:egg-crack-duotone";
 defineOgImage({
-  title: "What's going on?",
-  description: "How did you get here? Why even share this page?",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:egg-crack-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>

@@ -112,11 +112,21 @@ const searchResult = computed(() => {
   return fuse.search(searchTerm.value).map((x) => x.item);
 });
 
+// OG meta
+const title = "Teaching";
+const description = "We teach to shape the future";
+const icon = "ph:chalkboard-teacher-duotone";
 defineOgImage({
-  title: "Teaching",
-  description: "We teach to shape the future",
+  title: title,
+  description: description,
   // siteLogo: "/logo.svg",
   siteName: "CharmLab",
-  icon: "ph:chalkboard-teacher-duotone",
+  icon: icon,
+});
+useSeoMeta({
+  title: title,
+  ogTitle: title,
+  description: description,
+  ogDescription: description,
 });
 </script>
