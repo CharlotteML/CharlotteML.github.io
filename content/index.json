@@ -2,9 +2,7 @@
   "banners": [
     {
       "src": "/banner/bio_pano2a.jpg",
-      "alt": "Bioinformatics Panorama",
-      "link": "/",
-      "title": "Click to learn more"
+      "alt": "Bioinformatics Panorama"
     },
     {
       "src": "/banner/campus_fall_11-12-2017_img135.jpg",
