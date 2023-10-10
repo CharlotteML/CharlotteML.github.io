@@ -42,6 +42,35 @@
     },
     {
       "name": {
+        "first": "Christian",
+        "middle": null,
+        "last": "Kümmerle"
+      },
+      "position": ["Assistant Professor", "Lab Co-Director"],
+      "research": [
+        "Machine Learning",
+        "Data Science",
+        "Scalable Algorithms",
+        "AI theory"
+      ],
+      "introduction": "Christian is an Assistant Professor in Computer Science at the University of North Carolina at Charlotte. Prior to joining UNC Charlotte, He was a Postdoctoral Fellow at the Department of Applied Mathematics and Statistics at Johns Hopkins University (mentored by Mauro Maggioni) after completing a Ph.D. in Mathematics at Technical University of Munich in 2019, advised by Felix Krahmer. He obtained M.Sc. and B.Sc. degrees in Mathematics from TU Munich in 2015 and 2013.",
+      "teaching": [
+        {
+          "course": "ITCS 6010/8010",
+          "title": "Optimization for Machine Learning and Data Science (Topics in Computer Science)",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["kuemmerle@uncc.edu"],
+        "phone": ["704-687-1904"],
+        "address": "Room 410D, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/~ckuemme1/"
+      },
+      "photo": "/photos/christian.jpg"
+    },
+    {
+      "name": {
         "first": "Minwoo",
         "middle": "Jake",
         "last": "Lee"
