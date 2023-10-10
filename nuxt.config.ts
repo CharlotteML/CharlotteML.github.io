@@ -10,6 +10,14 @@ export default defineNuxtConfig({
     "nuxt-simple-robots",
     "nuxt-simple-sitemap",
   ],
+  app: {
+    head: {
+      templateParams: {
+        separator: "|",
+      },
+      titleTemplate: "%s %separator CharmLab",
+    },
+  },
   ssr: true,
   content: {
     documentDriven: true,
