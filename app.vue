@@ -1,7 +1,7 @@
 <template>
-  <div class="scroll-smooth">
+  <div class="flex min-h-screen flex-col scroll-smooth">
     <SiteHeader />
-    <NuxtPage />
+    <NuxtPage class="flex-grow" />
     <SiteFooter />
   </div>
 </template>
