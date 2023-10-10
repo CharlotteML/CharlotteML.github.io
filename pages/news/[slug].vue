@@ -62,12 +62,15 @@ const unwrapImgFromP = (tree: any) => {
   return tree;
 };
 
-const { page, surround } = useContent();
-const prev = surround.value[0]?._path.startsWith("/news/")
-  ? surround.value[0]
-  : null;
-const next = surround.value[1]?._path.startsWith("/news/")
-  ? surround.value[1]
-  : null;
+const { page } = useContent();
+const { data: surround } = await useAsyncData("news", () =>
+  queryContent("/news/")
+    .sort({ date: 1 })
+    .where({ _partial: false })
+    .findSurround(page.value._path),
+);
+
+const prev = surround.value?.at(0) || null;
+const next = surround.value?.at(1) || null;
 page.value.body = unwrapImgFromP(page.value.body);
 </script>
