@@ -56,7 +56,10 @@
 import Publication from "@/types/Publication";
 
 const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
-const entries = page.value.collection;
+const entries = page.value.collection.sort((a, b) => {
+  if (a.issued === undefined || b.issued === undefined) return 0;
+  return a.issued["date-parts"][0] > b.issued["date-parts"][0] ? -1 : 1;
+});
 const bibliography = ref(entries);
 const searchTerm = ref("");
 // See https://github.com/citation-style-language/schema/blob/master/schemas/input/csl-data.json
@@ -114,6 +117,7 @@ const HTMLoutput = computed(() => {
     format: "html",
     template: "apa",
     lang: "en-US",
+    nosort: true,
   });
   return citationHTML.replaceAll(
     /(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g,
