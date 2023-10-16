@@ -57,8 +57,10 @@ import Publication from "@/types/Publication";
 
 const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
 const entries = page.value.collection.sort((a, b) => {
-  if (a.issued === undefined || b.issued === undefined) return 0;
-  return a.issued["date-parts"][0] > b.issued["date-parts"][0] ? -1 : 1;
+  if (a.issued === undefined && b.issued === undefined) return 0;
+  else if (a.issued === undefined) return 1;
+  else if (b.issued === undefined) return -1;
+  else return a.issued["date-parts"][0] > b.issued["date-parts"][0] ? -1 : 1;
 });
 const bibliography = ref(entries);
 const searchTerm = ref("");
