@@ -2,7 +2,7 @@
   <div
     class="flex flex-col rounded-lg border border-accent-200 bg-secondary-100/50 dark:border-accent-600 dark:bg-secondary-900/30"
   >
-    <div class="flex flex-col items-center sm:flex-row">
+    <div class="flex min-h-fit grow flex-col items-center sm:flex-row">
       <img
         class="mt-4 h-48 w-48 flex-shrink-0 rounded-full object-cover sm:mt-0 sm:rounded-none sm:rounded-br-lg sm:rounded-tl-lg"
         :src="person.photo ? person.photo : '/logo.svg'"
@@ -11,25 +11,19 @@
         "
       />
       <div
-        class="flex h-fit flex-col items-center justify-between gap-y-2 p-4 leading-normal sm:h-48 sm:items-start sm:gap-y-0"
+        class="flex h-fit flex-col items-center justify-evenly gap-y-2 p-4 leading-normal sm:h-48 sm:items-start sm:gap-y-0"
       >
-        <h2 class="text-2xl font-bold tracking-tight">
+        <h2
+          class="shrink-0 text-center text-2xl font-bold tracking-tight sm:mx-0 sm:text-left"
+        >
           {{
             [person.name.first, person.name.middle, person.name.last].join(" ")
           }}
           -
           {{ person.position.join(", ") }}
         </h2>
-        <h3
-          class="text-lg font-semibold tracking-tight text-main-900 dark:text-main-100"
-        ></h3>
-        <p
-          class="flex w-1/2 flex-row flex-wrap justify-center gap-x-1 font-normal text-secondary-800 dark:text-secondary-200 sm:w-full sm:justify-start"
-        >
-          <span> <b>Research</b>: {{ person.research.join(", ") }}</span>
-        </p>
         <div
-          class="flex flex-row flex-wrap text-sm font-light text-secondary-800 dark:text-secondary-200"
+          class="flex shrink-0 flex-row flex-wrap text-sm font-light text-secondary-800 dark:text-secondary-200"
         >
           <a
             :href="person.contact.website"
@@ -68,7 +62,10 @@
       </div>
     </div>
     <div class="my-4 h-fit w-full px-6" v-if="person.introduction">
-      <p class="text-justify text-lg">
+      <p class="text-lg font-normal text-secondary-800 dark:text-secondary-200">
+        <span> <b>Research</b>: {{ person.research.join(", ") }}</span>
+      </p>
+      <p class="mt-2 text-justify">
         <ContentSlot>
           {{ person.introduction }}
         </ContentSlot>
