@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-4xl p-6">
+  <div class="mx-auto max-w-full p-6 md:max-w-4xl">
     <div class="relative overflow-x-auto">
       <div class="mx-auto w-fit pb-4">
         <label class="sr-only">Search</label>
@@ -11,7 +11,7 @@
           </div>
           <input
             type="text"
-            class="block w-96 rounded-lg border border-accent-200 bg-secondary-100/50 p-2 pl-10 text-sm placeholder-secondary-600 shadow-md focus:border-accent-200 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/30 dark:placeholder-secondary-400 dark:focus:border-accent-600 dark:focus:ring-accent-600 sm:rounded-lg"
+            class="block w-64 rounded-lg border border-accent-200 bg-secondary-100/50 p-2 pl-10 text-sm placeholder-secondary-600 shadow-md focus:border-accent-200 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/30 dark:placeholder-secondary-400 dark:focus:border-accent-600 dark:focus:ring-accent-600 sm:rounded-lg md:w-96"
             placeholder="Search for courses, instructors, titles, terms..."
             v-model.trim.lazy="searchTerm"
           />
@@ -20,7 +20,7 @@
     </div>
 
     <div
-      class="relative overflow-x-auto border border-accent-200 shadow-md dark:border-accent-600 sm:rounded-lg"
+      class="relative max-w-full overflow-x-auto rounded-md border border-accent-200 shadow-md dark:border-accent-600 sm:rounded-lg"
       v-if="searchResult.length"
     >
       <table
@@ -42,7 +42,10 @@
             class="border-t border-accent-200/50 odd:bg-secondary-100/30 even:bg-secondary-100/80 dark:border-accent-600/30 dark:odd:bg-secondary-900/10 dark:even:bg-secondary-900/50"
             v-for="c in searchResult"
           >
-            <th scope="row" class="whitespace-nowrap px-6 py-4 font-semibold">
+            <th
+              scope="row"
+              class="px-6 py-4 font-semibold md:whitespace-nowrap"
+            >
               {{ c.title }}
             </th>
             <td class="px-6 py-4">{{ c.course }}</td>
