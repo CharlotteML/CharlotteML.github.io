@@ -21,10 +21,6 @@ export default defineNuxtConfig({
   ssr: true,
   content: {
     documentDriven: true,
-    experimental: {
-      clientDB: true,
-      stripQueryParameters: false,
-    },
   },
   colorMode: {
     classSuffix: "",
@@ -32,5 +28,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
-  site: { url: "https://charlotteml.github.io" },
+  site: {
+    url: "https://charlotteml.github.io",
+  },
 });
