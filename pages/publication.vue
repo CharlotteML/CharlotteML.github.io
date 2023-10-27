@@ -53,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-import Publication from "@/types/Publication";
+import type Publication from "@/types/Publication";
 
 const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
 const entries = page.value.collection.sort((a, b) => {
