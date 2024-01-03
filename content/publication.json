@@ -1864,6 +1864,99 @@
       "issued": {
         "date-parts": [["2023", 9, 1]]
       }
+    },
+    {
+      "id": "be1906281fd366787a0d90f8555a1462",
+      "type": "article-journal",
+      "container-title": "iScience",
+      "DOI": "10.1016/j.isci.2023.108183",
+      "ISSN": "2589-0042",
+      "issue": "11",
+      "journalAbbreviation": "iScience",
+      "page": "108183",
+      "source": "ScienceDirect",
+      "title": "Beyond radiologist-level liver lesion detection on multi-phase contrast-enhanced CT images by deep learning",
+      "URL": "https://www.sciencedirect.com/science/article/pii/S2589004223022605",
+      "volume": "26",
+      "author": [
+        {
+          "family": "Wu",
+          "given": "Lei"
+        },
+        {
+          "family": "Wang",
+          "given": "Haishuai"
+        },
+        {
+          "family": "Chen",
+          "given": "Yining"
+        },
+        {
+          "family": "Zhang",
+          "given": "Xiang"
+        },
+        {
+          "family": "Zhang",
+          "given": "Tianyun"
+        },
+        {
+          "family": "Shen",
+          "given": "Ning"
+        },
+        {
+          "family": "Tao",
+          "given": "Guangyu"
+        },
+        {
+          "family": "Sun",
+          "given": "Zhongquan"
+        },
+        {
+          "family": "Ding",
+          "given": "Yuan"
+        },
+        {
+          "family": "Wang",
+          "given": "Weilin"
+        },
+        {
+          "family": "Bu",
+          "given": "Jiajun"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2024", 1, 3]]
+      },
+      "issued": {
+        "date-parts": [["2023", 11, 17]]
+      }
+    },
+    {
+      "id": "6fe895a515801ac90438fe9f5393733c",
+      "type": "book",
+      "ISBN": "978-3-0365-8830-8",
+      "language": "English",
+      "note": "DOI: 10.3390/books978-3-0365-8831-5",
+      "publisher": "MDPI - Multidisciplinary Digital Publishing Institute",
+      "source": "www.mdpi.com",
+      "title": "Deep Learning Architecture and Applications",
+      "URL": "https://www.mdpi.com/books/book/8070",
+      "editor": [
+        {
+          "family": "Zhang",
+          "given": "Xiang"
+        },
+        {
+          "family": "Li",
+          "given": "Xiaoxiao"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2024", 1, 3]]
+      },
+      "issued": {
+        "date-parts": [["2023", 10, 20]]
+      }
     }
   ]
 }
