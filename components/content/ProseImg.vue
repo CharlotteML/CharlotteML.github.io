@@ -9,10 +9,10 @@
       isMP4
         ? 'video/mp4'
         : isWebM
-        ? 'video/webm'
-        : isMOV
-        ? 'video/mov'
-        : undefined
+          ? 'video/webm'
+          : isMOV
+            ? 'video/mov'
+            : undefined
     "
     :controls="isMP4 || isWebM || isMOV"
     :autoplay="isMP4 || isWebM || isMOV"

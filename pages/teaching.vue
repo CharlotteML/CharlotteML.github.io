@@ -93,8 +93,8 @@ const term2date = (term: string) => {
     season.toLowerCase() === "spring"
       ? "01"
       : season.toLowerCase() === "fall"
-      ? "09"
-      : "05";
+        ? "09"
+        : "05";
   return new Date(`${year}-${month}-01`);
 };
 const sortedCourses = useSorted(courses, (a, b) => {

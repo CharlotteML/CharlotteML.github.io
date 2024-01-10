@@ -26,8 +26,8 @@
                 $colorMode.preference === 'light'
                   ? 'dark'
                   : $colorMode.preference === 'dark'
-                  ? 'system'
-                  : 'light'
+                    ? 'system'
+                    : 'light'
             "
           >
             <Icon
@@ -36,8 +36,8 @@
                   ? $colorMode.preference === 'dark'
                     ? 'ph:moon'
                     : $colorMode.preference === 'light'
-                    ? 'ph:sun'
-                    : 'ph:monitor'
+                      ? 'ph:sun'
+                      : 'ph:monitor'
                   : 'ph:dots-nine'
               "
               class="h-6 w-6"
