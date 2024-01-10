@@ -75,8 +75,8 @@ const showMenu = ref(false);
 const navBarItems = ref([
   { name: "Home", href: "/" },
   { name: "Research", href: "/research" },
-  { name: "Publication", href: "/publication" },
-  { name: "Member", href: "/member" },
+  { name: "Publications", href: "/publication" },
+  { name: "Members", href: "/member" },
   { name: "Teaching", href: "/teaching" },
   { name: "Blog", href: "/blog" },
   { name: "News", href: "/news" },
