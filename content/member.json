@@ -6,10 +6,7 @@
         "middle": null,
         "last": "Zhang"
       },
-      "position": [
-        "Assistant Professor",
-        "Lab Director"
-      ],
+      "position": ["Assistant Professor", "Lab Director"],
       "research": [
         "Machine Learning",
         "Pervasive Healthcare",
@@ -36,12 +33,8 @@
         }
       ],
       "contact": {
-        "email": [
-          "xiang.zhang@uncc.edu"
-        ],
-        "phone": [
-          "704-687-1898"
-        ],
+        "email": ["xiang.zhang@uncc.edu"],
+        "phone": ["704-687-1898"],
         "address": "Room 410F, Woodward Hall",
         "website": "https://xiangzhang.info/"
       },
@@ -53,10 +46,7 @@
         "middle": null,
         "last": "Kümmerle"
       },
-      "position": [
-        "Assistant Professor",
-        "Lab Co-Director"
-      ],
+      "position": ["Assistant Professor", "Lab Co-Director"],
       "research": [
         "Machine Learning",
         "Data Science",
@@ -72,12 +62,8 @@
         }
       ],
       "contact": {
-        "email": [
-          "kuemmerle@uncc.edu"
-        ],
-        "phone": [
-          "704-687-1904"
-        ],
+        "email": ["kuemmerle@uncc.edu"],
+        "phone": ["704-687-1904"],
         "address": "Room 410D, Woodward Hall",
         "website": "https://webpages.charlotte.edu/~ckuemme1/"
       },
@@ -89,9 +75,7 @@
         "middle": "Jake",
         "last": "Lee"
       },
-      "position": [
-        "Assistant Professor"
-      ],
+      "position": ["Assistant Professor"],
       "research": [
         "Reinforcement Learning",
         "Distributed Learning",
@@ -183,12 +167,8 @@
         }
       ],
       "contact": {
-        "email": [
-          "minwoo.lee@charlotte.edu"
-        ],
-        "phone": [
-          "704-687-8188"
-        ],
+        "email": ["minwoo.lee@charlotte.edu"],
+        "phone": ["704-687-8188"],
         "address": "Room 435G, Woodward Hall",
         "website": "https://webpages.charlotte.edu/mlee173"
       },
@@ -200,9 +180,7 @@
         "middle": null,
         "last": "Das"
       },
-      "position": [
-        "Assistant Professor"
-      ],
+      "position": ["Assistant Professor"],
       "research": [
         "Computer Vision",
         "Video Representation Learning",
@@ -227,9 +205,7 @@
         }
       ],
       "contact": {
-        "email": [
-          "sdas24@charlotte.edu"
-        ],
+        "email": ["sdas24@charlotte.edu"],
         "address": "Room 230A, Woodward Hall",
         "website": "https://srijandas07.github.io/"
       },
@@ -241,9 +217,7 @@
         "middle": null,
         "last": "Yang"
       },
-      "position": [
-        "Assistant Professor"
-      ],
+      "position": ["Assistant Professor"],
       "research": [
         "Efficient Machine Learning",
         "Transfer Learning/Continual Learning",
@@ -259,9 +233,7 @@
         }
       ],
       "contact": {
-        "email": [
-          "lyang50@uncc.edu"
-        ],
+        "email": ["lyang50@uncc.edu"],
         "address": "Room 435A, Woodward Hall",
         "website": "https://lyang-666.github.io/"
       },
@@ -273,9 +245,7 @@
         "middle": "Constantin",
         "last": "Bunescu"
       },
-      "position": [
-        "Associate Professor"
-      ],
+      "position": ["Associate Professor"],
       "research": [
         "Natural Language Processing",
         "Machine Learning",
@@ -301,12 +271,8 @@
         }
       ],
       "contact": {
-        "email": [
-          "razvan.bunescu@charlotte.edu"
-        ],
-        "phone": [
-          "704-687-8444"
-        ],
+        "email": ["razvan.bunescu@charlotte.edu"],
+        "phone": ["704-687-8444"],
         "address": "Room 410G, Woodward Hall",
         "website": "https://webpages.charlotte.edu/rbunescu"
       },
@@ -320,9 +286,7 @@
         "middle": null,
         "last": "Huang"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Data Mining",
@@ -331,10 +295,7 @@
       ],
       "introduction": "Nan is a Ph.D. student in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he received his B.S. degree in Bioinformatics from Peking University in 2023. His research interests lie in machine learning and data mining with applications in computational neuroscience.",
       "contact": {
-        "email": [
-          "teddyhuangnan@gmail.com",
-          "nhuang1@uncc.edu"
-        ],
+        "email": ["teddyhuangnan@gmail.com", "nhuang1@uncc.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/nhuang1/"
       },
@@ -346,18 +307,11 @@
         "middle": null,
         "last": "Reilly"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Computer Vision",
-        "Video Understanding"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Computer Vision", "Video Understanding"],
       "introduction": "Dominick is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on understanding human actions in videos, specifically activities of daily living that are observed in real-world environments. He is interested in utilizing both egocentric and third person viewpoints, as well as multiple modalities, to solve the challenges of activities of daily living.",
       "contact": {
-        "email": [
-          "dreilly1@charlotte.edu"
-        ],
+        "email": ["dreilly1@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://dominickrei.github.io/"
       },
@@ -369,9 +323,7 @@
         "middle": null,
         "last": "Sinha"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Computer Vision",
         "Video Understanding",
@@ -379,9 +331,7 @@
       ],
       "introduction": "Arkaprava is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on Action Recognition for videos for Actions of Daily Living. He is currently working on Self-Supervised Learning and Multi-Modal Learning for Video Understanding.",
       "contact": {
-        "email": [
-          "asinha13@charlotte.edu"
-        ],
+        "email": ["asinha13@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/asinha13/"
       },
@@ -393,9 +343,7 @@
         "middle": null,
         "last": "Chakraborty"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Computer Vision",
         "Video Understanding",
@@ -403,11 +351,9 @@
       ],
       "introduction": "Rajatsubhra (Raj) is a first year PhD student in the Department of Computer Science advised by Dr. Srijan Das. He is exploring the areas of object detection through semi-supervised learning and video activity understanding. In his leisure time he likes to play fifa and read Batman comics.",
       "contact": {
-        "email": [
-          "rchakra6@charlotte.edu"
-        ],
+        "email": ["rchakra6@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
-        "website": "https://chakrabortyrajatsubhra.github.io/rajatsubhra_chakraborty.github.io/"
+        "website": "https://chakrabortyrajatsubhra.github.io/"
       },
       "photo": "/photos/rajatsubhra.jpg"
     },
@@ -417,17 +363,11 @@
         "middle": null,
         "last": "Lorray"
       },
-      "position": [
-        "Masters Student"
-      ],
-      "research": [
-        "Computer Vision"
-      ],
+      "position": ["Masters Student"],
+      "research": ["Computer Vision"],
       "introduction": "Jonathan is a Masters student in the Department of Computer Science. His research focuses on object detection, specifically the use of semi-supervised learning to leverage large quantities of unlabeled data. He is interested in utilizing a number of different architectures and methods to solve the challenges semi-supervised object detection.",
       "contact": {
-        "email": [
-          "jlorray1@uncc.edu"
-        ],
+        "email": ["jlorray1@uncc.edu"],
         "address": "Room 437, Woodward Hall"
       },
       "photo": "/photos/johnathan.jpg"
@@ -438,18 +378,11 @@
         "middle": null,
         "last": "Bondili"
       },
-      "position": [
-        "Masters Student"
-      ],
-      "research": [
-        "Computer Vision",
-        "Video Understanding"
-      ],
+      "position": ["Masters Student"],
+      "research": ["Computer Vision", "Video Understanding"],
       "introduction": "Vishal is a Masters student in the Department of Computer Science advised by Dr. Srijan Das. His research work focuses on creating baseline benchmarks for various action recognition algorithms primarily assisting  Dominick Reilly. ",
       "contact": {
-        "email": [
-          "rbondili@charlotte.edu"
-        ],
+        "email": ["rbondili@charlotte.edu"],
         "address": "Room 437, Woodward Hall"
       },
       "photo": "/photos/vishal.jpg"
@@ -460,9 +393,7 @@
         "middle": null,
         "last": "Li"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Medical Time Series",
@@ -470,13 +401,8 @@
       ],
       "introduction": "Taida \"Trent\" Li is a Ph.D student in the Department of Computer Science at the University of North Carolina at Charlotte (UNCC), currently affiliated with Charlotte Machine Learning Lab (CML). Li received his master's degree in computer science from Rice University in May 2023. His research interests lie in machine learning in medical time series.",
       "contact": {
-        "email": [
-          "tli14@uncc.edu",
-          "taidalee@gmail.com"
-        ],
-        "phone": [
-          "704-775-8396"
-        ],
+        "email": ["tli14@uncc.edu", "taidalee@gmail.com"],
+        "phone": ["704-775-8396"],
         "address": "Room 412, Woodward Hall",
         "website": "https://webpages.charlotte.edu/tli14/"
       },
@@ -488,9 +414,7 @@
         "middle": null,
         "last": "Wang"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Machine Learning",
         "Medical Time Series",
@@ -498,12 +422,8 @@
       ],
       "introduction": "Yihe is a Ph.D. student in the Department of Computer Science at the University of North Carolina(UNC) - Charlotte. Yihe received his Bachelor's degree in Electrical and Computer Engineering from University of Missouri - Columbia and his Master's degree in Computer Science from New York University. His research interests lie in medical time series and self-supervised learning.",
       "contact": {
-        "email": [
-          "ywang145@uncc.edu"
-        ],
-        "phone": [
-          "573-356-2559"
-        ],
+        "email": ["ywang145@uncc.edu"],
+        "phone": ["573-356-2559"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/ywang145/"
       },
@@ -515,9 +435,7 @@
         "middle": null,
         "last": "Han"
       },
-      "position": [
-        "Research Intern"
-      ],
+      "position": ["Research Intern"],
       "research": [
         "Machine Learning",
         "Graph Representation Learning",
@@ -526,9 +444,7 @@
       ],
       "introduction": "Yu has joined the CharMLab as a research intern since Fall 2022. He is a master student at the University of Chinese Academy of Sciences (UCAS) working on machine learning for healthcare now. Yu received his B.S. degree (in 2021) in Fintech and Software Engineering from Northeastern University.",
       "contact": {
-        "email": [
-          "hanyu21@mails.ucas.edu.cn"
-        ]
+        "email": ["hanyu21@mails.ucas.edu.cn"]
       },
       "photo": "/photos/yu-han.jpg"
     },
@@ -538,19 +454,11 @@
         "middle": "Ayesha",
         "last": "Arif"
       },
-      "position": [
-        "Masters Student"
-      ],
-      "research": [
-        "Machine Learning",
-        "Medical Imaging",
-        "Neuro-imaging"
-      ],
+      "position": ["Masters Student"],
+      "research": ["Machine Learning", "Medical Imaging", "Neuro-imaging"],
       "introduction": "Aniqa is a master's candidate in the Department of Computer Science at UNC Charlotte. She is currently working on Multimodal Machine Learning for neurological disease diagnosis under the supervision of Dr. Zhang. She has previously worked extensively with neuro-imaging acquisition, databases and processing.",
       "contact": {
-        "email": [
-          "aarif2@uncc.edu"
-        ],
+        "email": ["aarif2@uncc.edu"],
         "website": "https://linkedin.com/in/aniqa-arif/"
       },
       "photo": "/photos/aniqa.jpg"
@@ -561,18 +469,11 @@
         "middle": null,
         "last": "Poole"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Reinforcement Learning",
-        "Brain-Computer Interfaces"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Reinforcement Learning", "Brain-Computer Interfaces"],
       "introduction": "Benjamin is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on understanding different modalities of human feedback to incorporate them to reinforcement learning. He is interested in human brain signals, especially error-related potentials known as to be elicited when humans commit or observe erroneous events to enhance human-guided training of AI. As a senior PhD student, he leads projects guiding junior graduate students.",
       "contact": {
-        "email": [
-          "bpoole16@charlotte.edu"
-        ],
+        "email": ["bpoole16@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://bpoole908.github.io"
       },
@@ -584,18 +485,11 @@
         "middle": null,
         "last": "Challagundla"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Anomaly Detection",
-        "Fraud Detection"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Anomaly Detection", "Fraud Detection"],
       "introduction": "Raju is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on anomaly and fraud detection problems, especially in banking and credit card cases. As a senior software engineer, he is passionate about leveraging technology to tackle complex challenges and eager to make a meaningful impact in the field.",
       "contact": {
-        "email": [
-          "rchalla5@charlotte.edu"
-        ],
+        "email": ["rchalla5@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": null
       },
@@ -607,18 +501,11 @@
         "middle": null,
         "last": "Farynyk"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Multi-object Tracking",
-        "Audio/Speech Classificaiton"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Multi-object Tracking", "Audio/Speech Classificaiton"],
       "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classification models with smart watches. His previous research focused on tracking multiple objects.",
       "contact": {
-        "email": [
-          "dafaryny@charlotte.edu"
-        ],
+        "email": ["dafaryny@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": null
       },
@@ -630,18 +517,14 @@
         "middle": "Mehdi",
         "last": "Bourahla"
       },
-      "position": [
-        "Masters Student"
-      ],
+      "position": ["Masters Student"],
       "research": [
         "Audio/Speech Classificaiton",
         "Physical Activity and Social Behavior"
       ],
       "introduction": "Mehdi is a MS student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. As a Fullbright scholar from Algeria, he focuses on detecting and identifying the human speech sounds from TV. He generalizes the problem to distinguish natural voice from speaker generated voice.",
       "contact": {
-        "email": [
-          "mbourahl@charlotte.edu"
-        ],
+        "email": ["mbourahl@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://mehdibourahla.com"
       },
@@ -653,18 +536,11 @@
         "middle": null,
         "last": "Quinn"
       },
-      "position": [
-        "Masters Student"
-      ],
-      "research": [
-        "Reinforcement Learning",
-        "Continual Learning"
-      ],
+      "position": ["Masters Student"],
+      "research": ["Reinforcement Learning", "Continual Learning"],
       "introduction": "Andrew is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
       "contact": {
-        "email": [
-          "aquinn16@charlotte.edu"
-        ],
+        "email": ["aquinn16@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": null
       },
@@ -676,18 +552,11 @@
         "middle": null,
         "last": "Dulam"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Reinforcement Learning",
-        "Continual Learning"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Reinforcement Learning", "Continual Learning"],
       "introduction": "Rakesh is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
       "contact": {
-        "email": [
-          "cdulam@charlotte.edu"
-        ],
+        "email": ["cdulam@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": null
       },
@@ -699,18 +568,11 @@
         "middle": null,
         "last": "Foster"
       },
-      "position": [
-        "Undergraduate Student"
-      ],
-      "research": [
-        "Graph Learning",
-        "Complex System Optimization"
-      ],
+      "position": ["Undergraduate Student"],
+      "research": ["Graph Learning", "Complex System Optimization"],
       "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarily assisting Ben.",
       "contact": {
-        "email": [
-          "jfoste81@charlotte.edu"
-        ],
+        "email": ["jfoste81@charlotte.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://github.com/jfoste81"
       },
@@ -722,9 +584,7 @@
         "middle": null,
         "last": "Al-Hossami"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Natural Language Processing",
         "Computer Science Education",
@@ -732,12 +592,8 @@
       ],
       "introduction": "Erfan is a PhD student in the Department of Computer Science at UNC Charlotte. His research interests lie in natural language processing, dialogue systems, and computer science education. His dissertation research focuses Socratic Debugging defined as a Socratic conversation between an instructor agent and a student where the instructor guides the student to fix a buggy program without giving the solution directly.",
       "contact": {
-        "email": [
-          "ealhossa@uncc.edu"
-        ],
-        "phone": [
-          "704-206-0438"
-        ],
+        "email": ["ealhossa@uncc.edu"],
+        "phone": ["704-206-0438"],
         "address": "Room 437, Woodward Hall",
         "website": "https://ealhossa.netlify.app/"
       },
@@ -749,20 +605,12 @@
         "middle": "Ravindra",
         "last": "Sakpal"
       },
-      "position": [
-        "Masters Student"
-      ],
-      "research": [
-        "Machine Learning"
-      ],
+      "position": ["Masters Student"],
+      "research": ["Machine Learning"],
       "introduction": "Sampada is a M.S. student in the Department of Computer Science at UNC Charlotte. She received her B.S. degree in Computing and Software Systems from The University of Melbourne in 2017. Her research interests include machine learning.",
       "contact": {
-        "email": [
-          "ssakpal@charlotte.edu"
-        ],
-        "phone": [
-          "704-387-1221"
-        ],
+        "email": ["ssakpal@charlotte.edu"],
+        "phone": ["704-387-1221"],
         "address": "Room 437, Woodward Hall",
         "website": ""
       },
@@ -774,21 +622,12 @@
         "middle": "Riley",
         "last": "Smith"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Computer Science Education",
-        "Accessibility Services"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Computer Science Education", "Accessibility Services"],
       "introduction": "Justin is a Ph.D. student in the Department of Computer Science at UNC Charlotte. He received his B.S. degree in Computer Science from the University of North Carolina at Chapel Hill. His research interests include computer science education and accessibility services.",
       "contact": {
-        "email": [
-          "jsmit840@uncc.edu"
-        ],
-        "phone": [
-          "828-221-5989"
-        ],
+        "email": ["jsmit840@uncc.edu"],
+        "phone": ["828-221-5989"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/jsmit840/"
       },
@@ -800,9 +639,7 @@
         "middle": null,
         "last": "Hasan"
       },
-      "position": [
-        "PhD Student"
-      ],
+      "position": ["PhD Student"],
       "research": [
         "Natural Language Processing",
         "Machine Learning",
@@ -810,12 +647,8 @@
       ],
       "introduction": "Tonmoy Hasan is a PhD student in the Department of Computer Science at UNC Charlotte. His primary areas of research include natural language processing, machine learning, and recommender systems, with a current emphasis on modeling serendipity-oriented recommender systems.",
       "contact": {
-        "email": [
-          "thasan1@charlotte.edu"
-        ],
-        "phone": [
-          "980-282-9969"
-        ],
+        "email": ["thasan1@charlotte.edu"],
+        "phone": ["980-282-9969"],
         "address": "Room 437, Woodward Hall"
       },
       "photo": "/photos/tonmoy.jpg"
@@ -826,21 +659,12 @@
         "middle": null,
         "last": "Srivastav"
       },
-      "position": [
-        "Research Intern (High School)"
-      ],
-      "research": [
-        "Machine Learning",
-        "Cryptography"
-      ],
+      "position": ["Research Intern (High School)"],
+      "research": ["Machine Learning", "Cryptography"],
       "introduction": "Eshan is a high school senior serving as a research intern since July 2023. He plans on studying computer science in college and intends to focus on artificial intelligence. He is currently working on developing machine learning models for a variety of different purposes. He has also worked in cryptography in the past.",
       "contact": {
-        "email": [
-          "eshansrivastav05@gmail.com"
-        ],
-        "phone": [
-          "704-500-4567"
-        ],
+        "email": ["eshansrivastav05@gmail.com"],
+        "phone": ["704-500-4567"],
         "address": null,
         "website": "https://github.com/eshansrivastav05"
       },
@@ -852,19 +676,11 @@
         "middle": null,
         "last": "Ghosh"
       },
-      "position": [
-        "PhD Student"
-      ],
-      "research": [
-        "Machine Learning",
-        "Non-Convex Optimization",
-        "AI theory"
-      ],
+      "position": ["PhD Student"],
+      "research": ["Machine Learning", "Non-Convex Optimization", "AI theory"],
       "introduction": "I am currently pursuing PhD under Dr Christian Kuemmerle. Prior to this I completed an MSc in Data Science from CMI, India and an MSc in Mathematics from DU, India. My research focuses on creating scalable and dependable algorithms in Machine Learning and Data Science, particularly at the intersection of Mathematics and Computer Science. I address computational and statistical challenges posed by complex models, such as developing efficient optimization techniques for solving problems with sparsity or low-rank structures. My work leverages various mathematical concepts, including high-dimensional Probability, Non-Convex Optimization, Numerical Linear Algebra, and Advanced Machine Learning to effectively tackle these challenges",
       "contact": {
-        "email": [
-          "ighosh2@uncc.edu"
-        ],
+        "email": ["ighosh2@uncc.edu"],
         "address": "Room 437, Woodward Hall",
         "website": "https://webpages.charlotte.edu/ighosh2/"
       },
