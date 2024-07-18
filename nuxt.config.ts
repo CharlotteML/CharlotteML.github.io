@@ -2,14 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
-    "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
+    "@nuxtjs/seo",
     "nuxt-icon",
-    "nuxt-og-image",
-    "nuxt-simple-robots",
-    "nuxt-simple-sitemap",
+    "@vueuse/nuxt",
   ],
+
   app: {
     head: {
       templateParams: {
@@ -18,17 +17,33 @@ export default defineNuxtConfig({
       titleTemplate: "%s %separator CharmLab",
     },
   },
+
   ssr: true,
+
   content: {
     documentDriven: true,
   },
+
   colorMode: {
     classSuffix: "",
+    preference: "system",
+    fallback: "light",
   },
+
   experimental: {
     payloadExtraction: false,
   },
+
   site: {
     url: "https://charlotteml.github.io",
+    name: "CharmLab",
+    description: "Charlotte Machine Learning Lab @ UNC Charlotte",
+    defaultLocale: "en",
+  },
+
+  compatibilityDate: "2024-07-18",
+
+  devtools: {
+    enabled: true,
   },
 });

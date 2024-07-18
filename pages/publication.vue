@@ -132,7 +132,7 @@ const HTMLoutput = computed(() => {
 const title = "Publications";
 const description = "Check out what progress we have made";
 const icon = "ph:book-bookmark-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

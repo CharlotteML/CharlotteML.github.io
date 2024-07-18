@@ -51,10 +51,9 @@
 const title = "Blogs";
 const description = "Tools, demos, and more";
 const icon = "ph:brackets-curly-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
-  // siteLogo: "/logo.svg",
   siteName: "CharmLab",
   icon: icon,
 });

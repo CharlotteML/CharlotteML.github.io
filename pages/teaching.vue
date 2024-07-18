@@ -119,7 +119,7 @@ const searchResult = computed(() => {
 const title = "Teaching";
 const description = "We teach to shape the future";
 const icon = "ph:chalkboard-teacher-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

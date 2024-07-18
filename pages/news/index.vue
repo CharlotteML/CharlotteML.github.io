@@ -71,7 +71,7 @@
 const title = "News";
 const description = "What's going on here at CharmLab";
 const icon = "ph:newspaper-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

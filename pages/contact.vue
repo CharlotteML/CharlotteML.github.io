@@ -21,7 +21,7 @@ const { page } = useContent();
 const title = "Contact";
 const description = "Reach out to us";
 const icon = "ph:envelope-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

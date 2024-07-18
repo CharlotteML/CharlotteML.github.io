@@ -192,7 +192,7 @@ const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
 const title = "Homepage";
 const description = "CharmLab at UNC Charlotte";
 const icon = "ph:house-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

@@ -75,7 +75,7 @@
 const title = "What's going on?";
 const description = "How did you get here? Why even share this page?";
 const icon = "ph:egg-crack-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

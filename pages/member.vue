@@ -218,7 +218,7 @@ onMounted(() => {
 const title = "Members";
 const description = "Meet the stars at CharmLab";
 const icon = "ph:users-duotone";
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",

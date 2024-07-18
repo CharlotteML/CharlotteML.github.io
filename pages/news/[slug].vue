@@ -86,7 +86,7 @@ page.value.body = unwrapImgFromP(page.value.body);
 const title = page.value.title;
 const description = " ";
 const icon = null;
-defineOgImage({
+defineOgImageComponent("NuxtSeo", {
   title: title,
   description: description,
   // siteLogo: "/logo.svg",
