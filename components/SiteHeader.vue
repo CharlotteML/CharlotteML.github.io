@@ -86,7 +86,7 @@ const navBarItems = ref([
 
 <style scoped>
 .nav-bar-button {
-  @apply ml-1 items-center rounded-lg p-2 text-sm text-main-950 hover:bg-secondary-50  focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:text-main-50 dark:hover:bg-secondary-950 dark:focus:ring-secondary-800;
+  @apply ml-1 items-center rounded-lg p-2 text-sm text-main-950 hover:bg-secondary-50 focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:text-main-50 dark:hover:bg-secondary-950 dark:focus:ring-secondary-800;
 }
 .nav-bar-item {
   @apply block border-b border-secondary-200 bg-secondary-50 py-2 pl-3 pr-4 text-main-950 hover:bg-secondary-100 hover:text-primary-800 focus:bg-secondary-100 dark:border-secondary-800 dark:bg-secondary-950 dark:text-main-50 dark:hover:bg-secondary-900 dark:hover:text-primary-600 dark:focus:bg-secondary-900 lg:border-0 lg:bg-transparent lg:p-0 lg:hover:bg-transparent lg:focus:bg-transparent lg:dark:bg-transparent lg:dark:hover:bg-transparent lg:dark:focus:bg-transparent;

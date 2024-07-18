@@ -75,16 +75,15 @@ const faculty = content.data.value?.faculty;
 const courses = ref(
   [] as { name: string; course: string; title: string; term: string }[],
 );
-faculty.map(
-  (f: Person) =>
-    f.teaching?.map((c) =>
-      courses.value.push({
-        name: [f.name.first, f.name.middle, f.name.last].join(" "),
-        course: c.course,
-        title: c.title,
-        term: c.term,
-      }),
-    ),
+faculty.map((f: Person) =>
+  f.teaching?.map((c) =>
+    courses.value.push({
+      name: [f.name.first, f.name.middle, f.name.last].join(" "),
+      course: c.course,
+      title: c.title,
+      term: c.term,
+    }),
+  ),
 );
 
 const term2date = (term: string) => {
