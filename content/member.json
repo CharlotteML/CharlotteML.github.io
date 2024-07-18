@@ -431,25 +431,6 @@
     },
     {
       "name": {
-        "first": "Yu",
-        "middle": null,
-        "last": "Han"
-      },
-      "position": ["Research Intern"],
-      "research": [
-        "Machine Learning",
-        "Graph Representation Learning",
-        "Medical Time Series",
-        "Clinical Trial Outcome Prediction"
-      ],
-      "introduction": "Yu has joined the CharMLab as a research intern since Fall 2022. He is a master student at the University of Chinese Academy of Sciences (UCAS) working on machine learning for healthcare now. Yu received his B.S. degree (in 2021) in Fintech and Software Engineering from Northeastern University.",
-      "contact": {
-        "email": ["hanyu21@mails.ucas.edu.cn"]
-      },
-      "photo": "/photos/yu-han.jpg"
-    },
-    {
-      "name": {
         "first": "Aniqa",
         "middle": "Ayesha",
         "last": "Arif"
