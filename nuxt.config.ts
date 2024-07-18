@@ -43,6 +43,12 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-07-18",
 
+  nitro: {
+    prerender: {
+      routes: ["/"], // FIXME: This is a regression from Nuxt@3.12.0. Follow Nuxt Content on guide to restore this.
+    },
+  },
+
   devtools: {
     enabled: true,
   },
