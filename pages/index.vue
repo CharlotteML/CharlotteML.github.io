@@ -189,8 +189,8 @@ const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
 );
 
 // OG meta
-const title = "Homepage";
-const description = "CharmLab at UNC Charlotte";
+const title = "CharmLab at UNC Charlotte";
+const description = "Welcome to the homepage of CharmLab, the Charlotte Machine Learning Lab!";
 const icon = "ph:house-duotone";
 defineOgImageComponent("NuxtSeo", {
   title: title,
