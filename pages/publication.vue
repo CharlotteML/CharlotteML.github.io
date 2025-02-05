@@ -106,7 +106,7 @@ const search = () => {
       "journalAbbreviation",
       "URL",
     ],
-    threshold: 0.3,
+    threshold: 0.5,
   });
   bibliography.value = fuse.search(searchTerm.value).map((r) => r.item);
   return;
