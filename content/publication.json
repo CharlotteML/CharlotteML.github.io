@@ -2349,6 +2349,929 @@
       "issued": {
         "date-parts": [["2018"]]
       }
+    },
+    {
+      "id": "6e0a0997b3e6c57a52782702b76a12aa",
+      "type": "article-journal",
+      "container-title": "Advances in Neural Information Processing Systems",
+      "language": "en",
+      "page": "77226-77268",
+      "source": "proceedings.neurips.cc",
+      "title": "Sample-Efficient Geometry Reconstruction from Euclidean Distances using Non-Convex Optimization",
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8d57f138d14fdfdc520eb29804116d9e-Abstract-Conference.html",
+      "volume": "37",
+      "author": [
+        {
+          "family": "Ghosh",
+          "given": "Ipsita"
+        },
+        {
+          "family": "Tasissa",
+          "given": "Abiy"
+        },
+        {
+          "family": "K\u00fcmmerle",
+          "given": "Christian"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2025", 1, 31]]
+      }
+    },
+    {
+      "id": "4bcc96e1662dfe80e1fb7f361f133957",
+      "type": "article-journal",
+      "container-title": "CoRR",
+      "DOI": "10.48550/ARXIV.2408.16166",
+      "note": "arXiv: 2408.16166",
+      "source": "DBLP Computer Science Bibliography",
+      "title": "Sparse Recovery for Overcomplete Frames: Sensing Matrices and Recovery Guarantees",
+      "title-short": "Sparse Recovery for Overcomplete Frames",
+      "URL": "https://doi.org/10.48550/arXiv.2408.16166",
+      "volume": "abs/2408.16166",
+      "author": [
+        {
+          "family": "Chen",
+          "given": "Xuemei"
+        },
+        {
+          "family": "K\u00fcmmerle",
+          "given": "Christian"
+        },
+        {
+          "family": "Wang",
+          "given": "Rongrong"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "d17a4b31a6a63440af4822e3209d8d23",
+      "type": "paper-conference",
+      "container-title": "2024 IEEE 13rd Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+      "DOI": "10.1109/SAM60225.2024.10636588",
+      "event-title": "2024 IEEE 13rd Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+      "note": "ISSN: 2151-870X",
+      "page": "1-5",
+      "source": "IEEE Xplore",
+      "title": "Linear Convergence of Iteratively Reweighted Least Squares for Nuclear Norm Minimization",
+      "URL": "https://ieeexplore.ieee.org/document/10636588",
+      "author": [
+        {
+          "family": "K\u00fcmmerle",
+          "given": "Christian"
+        },
+        {
+          "family": "St\u00f6ger",
+          "given": "Dominik"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 7]]
+      }
+    },
+    {
+      "id": "a77c2fc62829e03f60043f711d582389",
+      "type": "article-journal",
+      "container-title": "IEEE Transactions on Information Theory",
+      "DOI": "10.1109/TIT.2024.3413534",
+      "ISSN": "1557-9654",
+      "issue": "9",
+      "note": "event-title: IEEE Transactions on Information Theory",
+      "page": "6412-6446",
+      "source": "IEEE Xplore",
+      "title": "Learning Transition Operators From Sparse Space-Time Samples",
+      "URL": "https://ieeexplore.ieee.org/document/10558780",
+      "volume": "70",
+      "author": [
+        {
+          "family": "K\u00fcmmerle",
+          "given": "Christian"
+        },
+        {
+          "family": "Maggioni",
+          "given": "Mauro"
+        },
+        {
+          "family": "Tang",
+          "given": "Sui"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 9]]
+      }
+    },
+    {
+      "id": "a528ac2daa41f2967c9165c5311da1e5",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "language": "en",
+      "page": "1546-1555",
+      "source": "openaccess.thecvf.com",
+      "title": "MMM: Generative Masked Motion Model",
+      "title-short": "MMM",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Pinyoanuntapong_MMM_Generative_Masked_Motion_Model_CVPR_2024_paper.html",
+      "author": [
+        {
+          "family": "Pinyoanuntapong",
+          "given": "Ekkasit"
+        },
+        {
+          "family": "Wang",
+          "given": "Pu"
+        },
+        {
+          "family": "Lee",
+          "given": "Minwoo"
+        },
+        {
+          "family": "Chen",
+          "given": "Chen"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "5b222e91b49c687b01b846c88de62d82",
+      "type": "article-journal",
+      "container-title": "Neurocomput.",
+      "DOI": "10.1016/j.neucom.2024.127628",
+      "ISSN": "0925-2312",
+      "issue": "C",
+      "source": "ACM Digital Library",
+      "title": "Towards interactive reinforcement learning with intrinsic feedback",
+      "URL": "https://doi.org/10.1016/j.neucom.2024.127628",
+      "volume": "587",
+      "author": [
+        {
+          "family": "Poole",
+          "given": "Benjamin"
+        },
+        {
+          "family": "Lee",
+          "given": "Minwoo"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 6, 28]]
+      }
+    },
+    {
+      "id": "6247121d5ed04c24449638c65444d7ee",
+      "type": "paper-conference",
+      "container-title": "Computer Vision \u2013 ECCV 2024",
+      "DOI": "10.1007/978-3-031-72633-0_10",
+      "event-place": "Cham",
+      "ISBN": "978-3-031-72633-0",
+      "language": "en",
+      "page": "172-190",
+      "publisher": "Springer Nature Switzerland",
+      "publisher-place": "Cham",
+      "source": "Springer Link",
+      "title": "BAMM: Bidirectional Autoregressive Motion Model",
+      "title-short": "BAMM",
+      "author": [
+        {
+          "family": "Pinyoanuntapong",
+          "given": "Ekkasit"
+        },
+        {
+          "family": "Saleem",
+          "given": "Muhammad Usama"
+        },
+        {
+          "family": "Wang",
+          "given": "Pu"
+        },
+        {
+          "family": "Lee",
+          "given": "Minwoo"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Chen",
+          "given": "Chen"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Leonardis",
+          "given": "Ale\u0161"
+        },
+        {
+          "family": "Ricci",
+          "given": "Elisa"
+        },
+        {
+          "family": "Roth",
+          "given": "Stefan"
+        },
+        {
+          "family": "Russakovsky",
+          "given": "Olga"
+        },
+        {
+          "family": "Sattler",
+          "given": "Torsten"
+        },
+        {
+          "family": "Varol",
+          "given": "G\u00fcl"
+        }
+      ],
+      "issued": {
+        "date-parts": [["2025"]]
+      }
+    },
+    {
+      "id": "83db4a1286f75fe5526092b8393774ba",
+      "type": "paper-conference",
+      "container-title": "2022 IEEE Symposium Series on Computational Intelligence (SSCI)",
+      "DOI": "10.1109/SSCI51031.2022.10022137",
+      "event-title": "2022 IEEE Symposium Series on Computational Intelligence (SSCI)",
+      "page": "193-200",
+      "source": "IEEE Xplore",
+      "title": "Error-related Potential Variability: Exploring the Effects on Classification and Transferability",
+      "title-short": "Error-related Potential Variability",
+      "URL": "https://ieeexplore.ieee.org/abstract/document/10022137/authors#authors",
+      "author": [
+        {
+          "family": "Poole",
+          "given": "Benjamin"
+        },
+        {
+          "family": "Lee",
+          "given": "Minwoo"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2022", 12]]
+      }
+    },
+    {
+      "id": "04900d207f0bca951a76cf852e6fd1ca",
+      "type": "article-journal",
+      "container-title": "Advances in Neural Information Processing Systems",
+      "language": "en",
+      "page": "36314-36341",
+      "source": "proceedings.neurips.cc",
+      "title": "Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification",
+      "title-short": "Medformer",
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fe2a777282299ecb4f9e7ebb531f0ab-Abstract-Conference.html",
+      "volume": "37",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Yihe"
+        },
+        {
+          "family": "Huang",
+          "given": "Nan"
+        },
+        {
+          "family": "Li",
+          "given": "Taida"
+        },
+        {
+          "family": "Yan",
+          "given": "Yujun"
+        },
+        {
+          "family": "Zhang",
+          "given": "Xiang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2025", 1, 31]]
+      }
+    },
+    {
+      "id": "58d18ea5c9ffdf7cd0d514548a5b24f1",
+      "type": "paper-conference",
+      "collection-title": "MM '24",
+      "container-title": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "DOI": "10.1145/3664647.3680733",
+      "event-place": "New York, NY, USA",
+      "ISBN": "979-8-4007-0686-8",
+      "page": "2613\u20132622",
+      "publisher": "Association for Computing Machinery",
+      "publisher-place": "New York, NY, USA",
+      "source": "ACM Digital Library",
+      "title": "Spatio-temporal Heterogeneous Federated Learning for Time Series Classification with Multi-view Orthogonal Training",
+      "URL": "https://dl.acm.org/doi/10.1145/3664647.3680733",
+      "author": [
+        {
+          "family": "Wu",
+          "given": "Chenrui"
+        },
+        {
+          "family": "Wang",
+          "given": "Haishuai"
+        },
+        {
+          "family": "Zhang",
+          "given": "Xiang"
+        },
+        {
+          "family": "Fang",
+          "given": "Zhen"
+        },
+        {
+          "family": "Bu",
+          "given": "Jiajun"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 10, 28]]
+      }
+    },
+    {
+      "id": "862f77e7e95a1e5df3404d3577c31b28",
+      "type": "article-journal",
+      "container-title": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+      "DOI": "10.1145/3678514",
+      "issue": "3",
+      "page": "124:1\u2013124:25",
+      "source": "ACM Digital Library",
+      "title": "Self-Supervised Representation Learning and Temporal-Spectral Feature Fusion for Bed Occupancy Detection",
+      "URL": "https://dl.acm.org/doi/10.1145/3678514",
+      "volume": "8",
+      "author": [
+        {
+          "family": "Song",
+          "given": "Yingjian"
+        },
+        {
+          "family": "Pitafi",
+          "given": "Zaid Farooq"
+        },
+        {
+          "family": "Dou",
+          "given": "Fei"
+        },
+        {
+          "family": "Sun",
+          "given": "Jin"
+        },
+        {
+          "family": "Zhang",
+          "given": "Xiang"
+        },
+        {
+          "family": "Phillips",
+          "given": "Bradley G."
+        },
+        {
+          "family": "Song",
+          "given": "WenZhan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 9, 9]]
+      }
+    },
+    {
+      "id": "40360d9eb0d2fd6fc44ae9a1e9a096eb",
+      "type": "paper-conference",
+      "collection-title": "DAC '24",
+      "container-title": "Proceedings of the 61st ACM/IEEE Design Automation Conference",
+      "DOI": "10.1145/3649329.3657389",
+      "event-place": "New York, NY, USA",
+      "ISBN": "979-8-4007-0601-1",
+      "page": "1\u20136",
+      "publisher": "Association for Computing Machinery",
+      "publisher-place": "New York, NY, USA",
+      "source": "ACM Digital Library",
+      "title": "Hyb-Learn: A Framework for On-Device Self-Supervised Continual Learning with Hybrid RRAM/SRAM Memory",
+      "title-short": "Hyb-Learn",
+      "URL": "https://dl.acm.org/doi/10.1145/3649329.3657389",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Fan"
+        },
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 11, 7]]
+      }
+    },
+    {
+      "id": "c9a2ffca05a052c41d0cf2d88d2be2b9",
+      "type": "article-journal",
+      "container-title": "Advances in Neural Information Processing Systems",
+      "language": "en",
+      "page": "122434-122457",
+      "source": "proceedings.neurips.cc",
+      "title": "LP-3DGS: Learning to Prune 3D Gaussian Splatting",
+      "title-short": "LP-3DGS",
+      "URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/dd51dbce305433cd60910dc5b0147be4-Abstract-Conference.html",
+      "volume": "37",
+      "author": [
+        {
+          "family": "Zhang",
+          "given": "Zhaoliang"
+        },
+        {
+          "family": "Song",
+          "given": "Tianchen"
+        },
+        {
+          "family": "Lee",
+          "given": "Yongjae"
+        },
+        {
+          "family": "Yang",
+          "given": "Li"
+        },
+        {
+          "family": "Peng",
+          "given": "Cheng"
+        },
+        {
+          "family": "Chellappa",
+          "given": "Rama"
+        },
+        {
+          "family": "Fan",
+          "given": "Deliang"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2025", 1, 31]]
+      }
+    },
+    {
+      "id": "378c98f167bffc380b8ab37f90735d03",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "language": "en",
+      "page": "3689-3698",
+      "source": "openaccess.thecvf.com",
+      "title": "Hyb-NeRF: A Multiresolution Hybrid Encoding for Neural Radiance Fields",
+      "title-short": "Hyb-NeRF",
+      "URL": "https://openaccess.thecvf.com/content/WACV2024/html/Wang_Hyb-NeRF_A_Multiresolution_Hybrid_Encoding_for_Neural_Radiance_Fields_WACV_2024_paper.html",
+      "author": [
+        {
+          "family": "Wang",
+          "given": "Yifan"
+        },
+        {
+          "family": "Gong",
+          "given": "Yi"
+        },
+        {
+          "family": "Zeng",
+          "given": "Yuan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "ab1cdf62d7c0a222eabc5da1488fdee3",
+      "type": "paper-conference",
+      "container-title": "Computer Vision \u2013 ECCV 2024: 18th European Conference, Milan, Italy, September 29\u2013October 4, 2024, Proceedings, Part LXXV",
+      "DOI": "10.1007/978-3-031-73226-3_20",
+      "event-place": "Berlin, Heidelberg",
+      "ISBN": "978-3-031-73225-6",
+      "page": "342\u2013360",
+      "publisher": "Springer-Verlag",
+      "publisher-place": "Berlin, Heidelberg",
+      "source": "ACM Digital Library",
+      "title": "Beyond Pixels: Semi-supervised Semantic Segmentation with\u00a0a\u00a0Multi-scale Patch-Based Multi-label Classifier",
+      "title-short": "Beyond Pixels",
+      "URL": "https://doi.org/10.1007/978-3-031-73226-3_20",
+      "author": [
+        {
+          "family": "Howlader",
+          "given": "Prantik"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Le",
+          "given": "Hieu"
+        },
+        {
+          "family": "Samaras",
+          "given": "Dimitris"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 11, 1]]
+      }
+    },
+    {
+      "id": "e450af07cae45c3067edc5c7c1e91986",
+      "type": "paper-conference",
+      "collection-title": "MM '24",
+      "container-title": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "DOI": "10.1145/3664647.3681009",
+      "event-place": "New York, NY, USA",
+      "ISBN": "979-8-4007-0686-8",
+      "page": "4660\u20134669",
+      "publisher": "Association for Computing Machinery",
+      "publisher-place": "New York, NY, USA",
+      "source": "ACM Digital Library",
+      "title": "Frequency Guidance Matters: Skeletal Action Recognition by Frequency-Aware Mixed Transformer",
+      "title-short": "Frequency Guidance Matters",
+      "URL": "https://dl.acm.org/doi/10.1145/3664647.3681009",
+      "author": [
+        {
+          "family": "Wu",
+          "given": "Wenhan"
+        },
+        {
+          "family": "Zheng",
+          "given": "Ce"
+        },
+        {
+          "family": "Yang",
+          "given": "Zihao"
+        },
+        {
+          "family": "Chen",
+          "given": "Chen"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Lu",
+          "given": "Aidong"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 10, 28]]
+      }
+    },
+    {
+      "id": "267ff016b2388489975ced5665d63eab",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "language": "en",
+      "page": "3781-3790",
+      "source": "openaccess.thecvf.com",
+      "title": "Latent Flow Diffusion for Deepfake Video Generation",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2024W/DFAD/html/K_Latent_Flow_Diffusion_for_Deepfake_Video_Generation_CVPRW_2024_paper.html",
+      "author": [
+        {
+          "family": "K",
+          "given": "Aashish Chandra"
+        },
+        {
+          "family": "A V",
+          "given": "Aashutosh"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Das",
+          "given": "Abhijit"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "c624fde97239b44d0815e0274b5c820a",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "language": "en",
+      "page": "11226-11237",
+      "source": "openaccess.thecvf.com",
+      "title": "SI-MIL: Taming Deep MIL for Self-Interpretability in Gigapixel Histopathology",
+      "title-short": "SI-MIL",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Kapse_SI-MIL_Taming_Deep_MIL_for_Self-Interpretability_in_Gigapixel_Histopathology_CVPR_2024_paper.html",
+      "author": [
+        {
+          "family": "Kapse",
+          "given": "Saarthak"
+        },
+        {
+          "family": "Pati",
+          "given": "Pushpak"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Zhang",
+          "given": "Jingwei"
+        },
+        {
+          "family": "Chen",
+          "given": "Chao"
+        },
+        {
+          "family": "Vakalopoulou",
+          "given": "Maria"
+        },
+        {
+          "family": "Saltz",
+          "given": "Joel"
+        },
+        {
+          "family": "Samaras",
+          "given": "Dimitris"
+        },
+        {
+          "family": "Gupta",
+          "given": "Rajarsi R."
+        },
+        {
+          "family": "Prasanna",
+          "given": "Prateek"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "78d6f92ff5445ce821731ec24afdfeb3",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "language": "en",
+      "page": "22678-22690",
+      "source": "openaccess.thecvf.com",
+      "title": "Multiview Aerial Visual RECognition (MAVREC): Can Multi-view Improve Aerial Visual Perception?",
+      "title-short": "Multiview Aerial Visual RECognition (MAVREC)",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Dutta_Multiview_Aerial_Visual_RECognition_MAVREC_Can_Multi-view_Improve_Aerial_Visual_CVPR_2024_paper.html",
+      "author": [
+        {
+          "family": "Dutta",
+          "given": "Aritra"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Nielsen",
+          "given": "Jacob"
+        },
+        {
+          "family": "Chakraborty",
+          "given": "Rajatsubhra"
+        },
+        {
+          "family": "Shah",
+          "given": "Mubarak"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "b82f1c7e4fbbfe925a75785642849575",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "language": "en",
+      "page": "18340-18350",
+      "source": "openaccess.thecvf.com",
+      "title": "Just Add \u03c0! Pose Induced Video Transformers for Understanding Activities of Daily Living",
+      "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Reilly_Just_Add__Pose_Induced_Video_Transformers_for_Understanding_Activities_CVPR_2024_paper.html",
+      "author": [
+        {
+          "family": "Reilly",
+          "given": "Dominick"
+        },
+        {
+          "family": "Das",
+          "given": "Srijan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "0ab988ae5774ca62a0757845581803a4",
+      "type": "paper-conference",
+      "event-title": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "language": "en",
+      "page": "6878-6888",
+      "source": "openaccess.thecvf.com",
+      "title": "Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders",
+      "title-short": "Limited Data, Unlimited Potential",
+      "URL": "https://openaccess.thecvf.com/content/WACV2024/html/Das_Limited_Data_Unlimited_Potential_A_Study_on_ViTs_Augmented_by_WACV_2024_paper.html",
+      "author": [
+        {
+          "family": "Das",
+          "given": "Srijan"
+        },
+        {
+          "family": "Jain",
+          "given": "Tanmay"
+        },
+        {
+          "family": "Reilly",
+          "given": "Dominick"
+        },
+        {
+          "family": "Balaji",
+          "given": "Pranav"
+        },
+        {
+          "family": "Karmakar",
+          "given": "Soumyajit"
+        },
+        {
+          "family": "Marjit",
+          "given": "Shyam"
+        },
+        {
+          "family": "Li",
+          "given": "Xiang"
+        },
+        {
+          "family": "Das",
+          "given": "Abhijit"
+        },
+        {
+          "family": "Ryoo",
+          "given": "Michael S."
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024"]]
+      }
+    },
+    {
+      "id": "d9a1085e253c1826747c77e1c17b9fcf",
+      "type": "paper-conference",
+      "collection-title": "SIGCSE 2024",
+      "container-title": "Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1",
+      "DOI": "10.1145/3626252.3630799",
+      "event-place": "New York, NY, USA",
+      "ISBN": "979-8-4007-0423-9",
+      "page": "53\u201359",
+      "publisher": "Association for Computing Machinery",
+      "publisher-place": "New York, NY, USA",
+      "source": "ACM Digital Library",
+      "title": "Can Language Models Employ the Socratic Method? Experiments with Code Debugging",
+      "title-short": "Can Language Models Employ the Socratic Method?",
+      "URL": "https://dl.acm.org/doi/10.1145/3626252.3630799",
+      "author": [
+        {
+          "family": "Al-Hossami",
+          "given": "Erfan"
+        },
+        {
+          "family": "Bunescu",
+          "given": "Razvan"
+        },
+        {
+          "family": "Smith",
+          "given": "Justin"
+        },
+        {
+          "family": "Teehan",
+          "given": "Ryan"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 3, 7]]
+      }
+    },
+    {
+      "id": "a699600e1658fd73a0306a9c97d1abe1",
+      "type": "paper-conference",
+      "container-title": "Proceedings of the 4th Workshop on Figurative Language Processing (FigLang 2024)",
+      "DOI": "10.18653/v1/2024.figlang-1.11",
+      "event-place": "Mexico City, Mexico (Hybrid)",
+      "page": "79\u201384",
+      "publisher": "Association for Computational Linguistics",
+      "publisher-place": "Mexico City, Mexico (Hybrid)",
+      "source": "ACLWeb",
+      "title": "An Expectation-Realization Model for Metaphor Detection",
+      "URL": "https://aclanthology.org/2024.figlang-1.11/",
+      "author": [
+        {
+          "family": "Uduehi",
+          "given": "Oseremen"
+        },
+        {
+          "family": "Bunescu",
+          "given": "Razvan"
+        }
+      ],
+      "editor": [
+        {
+          "family": "Ghosh",
+          "given": "Debanjan"
+        },
+        {
+          "family": "Muresan",
+          "given": "Smaranda"
+        },
+        {
+          "family": "Feldman",
+          "given": "Anna"
+        },
+        {
+          "family": "Chakrabarty",
+          "given": "Tuhin"
+        },
+        {
+          "family": "Liu",
+          "given": "Emmy"
+        }
+      ],
+      "accessed": {
+        "date-parts": [["2025", 2, 5]]
+      },
+      "issued": {
+        "date-parts": [["2024", 6]]
+      }
     }
   ]
 }
