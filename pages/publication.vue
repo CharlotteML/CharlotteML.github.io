@@ -104,6 +104,7 @@ const search = () => {
       "container-title",
       "event-title",
       "journalAbbreviation",
+      "URL",
     ],
     threshold: 0.3,
   });
