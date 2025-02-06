@@ -9,6 +9,12 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - "CONTRIBUTING.md"
+      - ".gitignore"
+      - ".github/renovate.json"
   workflow_dispatch:
 
 concurrency:

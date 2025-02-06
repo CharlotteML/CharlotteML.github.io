@@ -2,6 +2,14 @@ name: Test Build
 
 on:
   push:
+    branches-ignore:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "LICENSE"
+      - "CONTRIBUTING.md"
+      - ".gitignore"
+      - ".github/renovate.json"
   workflow_dispatch:
 
 jobs:
