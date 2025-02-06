@@ -53,15 +53,16 @@
 </template>
 
 <script setup lang="ts">
-import type Publication from "@/types/Publication";
-
-const { page }: { page: Ref<{ collection: Publication[] }> } = useContent();
-const entries = page.value.collection.sort((a, b) => {
-  if (a.issued === undefined && b.issued === undefined) return 0;
-  else if (a.issued === undefined) return 1;
-  else if (b.issued === undefined) return -1;
-  else return a.issued["date-parts"][0] > b.issued["date-parts"][0] ? -1 : 1;
-});
+const { data: page } = await useAsyncData("publications", () =>
+  queryCollection("publications").first(),
+);
+const entries =
+  page.value?.collection.sort((a, b) => {
+    if (a.issued === undefined && b.issued === undefined) return 0;
+    if (a.issued === undefined) return 1;
+    if (b.issued === undefined) return -1;
+    return a.issued["date-parts"][0] > b.issued["date-parts"][0] ? -1 : 1;
+  }) || [];
 const bibliography = ref(entries);
 const searchTerm = ref("");
 // See https://github.com/citation-style-language/schema/blob/master/schemas/input/csl-data.json
@@ -116,7 +117,7 @@ const search = () => {
 import Cite from "citation-js";
 const HTMLoutput = computed(() => {
   const cite = new Cite(bibliography.value);
-  const citationHTML: String = cite.format("bibliography", {
+  const citationHTML: string = cite.format("bibliography", {
     format: "html",
     template: "apa",
     lang: "en-US",

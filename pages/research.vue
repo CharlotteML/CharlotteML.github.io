@@ -22,7 +22,7 @@
           </button>
           <div class="overflow-y-auto py-4">
             <ul class="space-y-2 font-medium">
-              <li v-for="h2 in toc.links">
+              <li v-for="h2 in toc?.links">
                 <NuxtLink
                   :href="`#${h2.id}`"
                   class="flex items-center rounded-lg p-2 text-lg font-semibold hover:bg-secondary-50/50 dark:hover:bg-secondary-950/50"
@@ -46,34 +46,49 @@
           />
         </div>
       </div>
-      <ContentDoc>
-        <ContentRenderer
-          :value="page"
-          class="prose max-w-none dark:prose-invert md:prose-lg lg:prose-xl prose-headings:text-primary-800 prose-p:text-justify prose-a:text-inherit prose-a:decoration-transparent prose-blockquote:border-accent-200 prose-blockquote:bg-secondary-100/80 prose-blockquote:py-0.5 prose-li:list-inside even:prose-tr:bg-secondary-100/50 prose-th:bg-accent-200/10 prose-th:text-main-950 prose-img:mx-auto prose-img:max-h-full prose-img:min-h-[10rem] prose-img:object-contain dark:prose-headings:text-primary-600 prose-blockquote:dark:border-accent-600 prose-blockquote:dark:bg-secondary-900/80 dark:even:prose-tr:bg-secondary-900/30 prose-th:dark:bg-accent-600/10 dark:prose-th:text-main-50 lg:prose-img:float-right lg:prose-img:my-0 lg:prose-img:ml-8 lg:prose-img:mt-4 lg:prose-img:max-h-[15rem] lg:prose-img:max-w-md"
-        />
-      </ContentDoc>
+      <ContentRenderer
+        :value="page"
+        class="prose max-w-none dark:prose-invert md:prose-lg lg:prose-xl prose-headings:text-primary-800 prose-p:text-justify prose-a:text-inherit prose-a:decoration-transparent prose-blockquote:border-accent-200 prose-blockquote:bg-secondary-100/80 prose-blockquote:py-0.5 prose-li:list-inside even:prose-tr:bg-secondary-100/50 prose-th:bg-accent-200/10 prose-th:text-main-950 prose-img:mx-auto prose-img:max-h-full prose-img:min-h-[10rem] prose-img:object-contain dark:prose-headings:text-primary-600 prose-blockquote:dark:border-accent-600 prose-blockquote:dark:bg-secondary-900/80 dark:even:prose-tr:bg-secondary-900/30 prose-th:dark:bg-accent-600/10 dark:prose-th:text-main-50 lg:prose-img:float-right lg:prose-img:my-0 lg:prose-img:ml-8 lg:prose-img:mt-4 lg:prose-img:max-h-[15rem] lg:prose-img:max-w-md"
+      />
     </main>
   </div>
 </template>
 
 <script setup lang="ts">
-const unwrapImgFromP = (tree: any) => {
+import type { MarkdownRoot } from "@nuxt/content";
+
+interface ElementNode {
+  type: string;
+  tag?: string;
+  children?: ElementNode[];
+}
+
+const unwrapImgFromP = (tree: ElementNode) => {
   if (
     tree.type === "element" &&
     tree.tag === "p" &&
-    tree.children.length === 1 &&
+    tree.children?.length === 1 &&
     tree.children[0].type === "element" &&
     tree.children[0].tag === "img"
   ) {
-    tree = tree.children[0];
-  } else if (tree.children) {
+    return tree.children[0];
+  }
+  if (tree.children) {
     tree.children = tree.children.map(unwrapImgFromP);
   }
   return tree;
 };
 
-const { page, toc } = useContent();
-page.value.body = unwrapImgFromP(page.value.body);
+const route = useRoute();
+const { data: page } = await useAsyncData("research", () =>
+  queryCollection("constants").path(route.path).first(),
+);
+// Patch for img in p
+if (page.value) {
+  page.value.body = unwrapImgFromP(page.value.body) as MarkdownRoot;
+}
+
+const toc = page.value?.body.toc;
 
 const storage = useLocalStorage(
   "charmlab",

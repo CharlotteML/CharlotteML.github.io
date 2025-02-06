@@ -1,0 +1,282 @@
+{
+  "people": [
+    {
+      "name": {
+        "first": "Xiang",
+        "middle": null,
+        "last": "Zhang"
+      },
+      "position": ["Assistant Professor", "Lab Director"],
+      "research": [
+        "Machine Learning",
+        "Pervasive Healthcare",
+        "Medical Time Series",
+        "Brain-Computer Interfaces",
+        "Neurological Disorder Diagnosis"
+      ],
+      "introduction": "Xiang is an Assistant Professor in the Department of Computer Science at UNC Charlotte Since 2022. He was a postdoctoral fellow at Harvard University working on deep learning for medical data analysis. Xiang received his Ph.D. degree (in 2020) in Computer Science from the University of New South Wales (UNSW). His research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, and KDD) and journals (like Nature Computational Science), attracted 1700+ citations.",
+      "teaching": [
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2022"
+        }
+      ],
+      "contact": {
+        "email": ["xiang.zhang@uncc.edu"],
+        "phone": ["704-687-1898"],
+        "address": "Room 410F, Woodward Hall",
+        "website": "https://xiangzhang.info/"
+      },
+      "photo": "/photos/xiang-zhang.jpg"
+    },
+    {
+      "name": {
+        "first": "Christian",
+        "middle": null,
+        "last": "Kümmerle"
+      },
+      "position": ["Assistant Professor", "Lab Co-Director"],
+      "research": [
+        "Machine Learning",
+        "Data Science",
+        "Scalable Algorithms",
+        "AI theory"
+      ],
+      "introduction": "Christian is an Assistant Professor in Computer Science at the University of North Carolina at Charlotte. Prior to joining UNC Charlotte, He was a Postdoctoral Fellow at the Department of Applied Mathematics and Statistics at Johns Hopkins University (mentored by Mauro Maggioni) after completing a Ph.D. in Mathematics at Technical University of Munich in 2019, advised by Felix Krahmer. He obtained M.Sc. and B.Sc. degrees in Mathematics from TU Munich in 2015 and 2013.",
+      "teaching": [
+        {
+          "course": "ITCS 6010/8010",
+          "title": "Optimization for Machine Learning and Data Science (Topics in Computer Science)",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["kuemmerle@uncc.edu"],
+        "phone": ["704-687-1904"],
+        "address": "Room 410D, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/~ckuemme1/"
+      },
+      "photo": "/photos/christian.jpg"
+    },
+    {
+      "name": {
+        "first": "Minwoo",
+        "middle": "Jake",
+        "last": "Lee"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Reinforcement Learning",
+        "Distributed Learning",
+        "Knowledge Representation and Transfer",
+        "Human-AI Interactions",
+        "Brain-Computer Interfaces"
+      ],
+      "introduction": "Jake is an Assistant Professor in the Department of Computer Science at the Charlotte. He is working on efficient agent's learning and adaptation encompassing transfer learning, interpretational learning, human-AI interactions, robust and safe exploration, and distributed learning. He received Ph.D. in Computer Science at the Colorado State University under the supervision of Chuck Anderson. His dissertation investigated and developed Sparse Bayesian Models to enable example-based reinforcement learning. His research has been supported by NSF and NIH.",
+      "teaching": [
+        {
+          "course": "ITCS 3153",
+          "title": "Introduction to Artificial Intelligence",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "DSBA 6165",
+          "title": "Artificial Intelligence and Deep Learning",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Fall 2022"
+        },
+        {
+          "course": "DSBA 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2022"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2022"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Fall 2021"
+        },
+        {
+          "course": "ITCS 5156",
+          "title": "Applied Machine Learning",
+          "term": "Spring 2021"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2020"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Spring 2020"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Fall 2019"
+        },
+        {
+          "course": "ITCS 6010",
+          "title": "Reinforcement Learning",
+          "term": "Fall 2019"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2019"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Fall 2018"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2018"
+        },
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Fall 2017"
+        }
+      ],
+      "contact": {
+        "email": ["minwoo.lee@charlotte.edu"],
+        "phone": ["704-687-8188"],
+        "address": "Room 435G, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/mlee173"
+      },
+      "photo": "/photos/LeeMinwoo.jpg"
+    },
+    {
+      "name": {
+        "first": "Srijan",
+        "middle": null,
+        "last": "Das"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Computer Vision",
+        "Video Representation Learning",
+        "Robotic Vision"
+      ],
+      "introduction": "Srijan is an Assistant Professor in the Department of Computer Science at the University of North Carolina at Charlotte. At UNC Charlotte, he is working on Video Representation Learning and Robotic Vision. Prior to UNC Charlotte, Srijan was a Postdoctoral Associate at Stony Brook University under the supervision of Michael Ryoo. In 2020, he successfully completed their Ph.D. in Computer Science at INRIA, Sophia Antipolis, France, under the guidance of Francois Bremond and Monique Thonnat. His Ph.D. thesis focused on \"Spatio-temporal attention mechanisms for Action Recognition,\" Srijan pursued their Post-Graduate studies in Computer Science at the National Institute of Technology (NIT), Rourkela.",
+      "teaching": [
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Fall 2022"
+        },
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Spring 2023"
+        },
+        {
+          "course": "ITCS 4152/5152",
+          "title": "Computer Vision",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["sdas24@charlotte.edu"],
+        "address": "Room 230A, Woodward Hall",
+        "website": "https://srijandas07.github.io/"
+      },
+      "photo": "/photos/srijan.png"
+    },
+    {
+      "name": {
+        "first": "Li",
+        "middle": null,
+        "last": "Yang"
+      },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Efficient Machine Learning",
+        "Transfer Learning/Continual Learning",
+        "Computer Vision",
+        "Hardware Acceleration"
+      ],
+      "introduction": "Li is an Assistant Professor in the Department of Computer Science at University of North Carolina at Charlotte. Prior to that, Li received his Ph.D. degree from Arizona State University, Master’s degree from the University of Central Florida, and Bachelor's degree at Northeastern University, China. His research interests include 1) efficient and on-device Machine Learning; 2) computer vision; 3)transfer/continual Learning; 4) efficient AI computing hardware accelerator design.",
+      "teaching": [
+        {
+          "course": "ITCS 3153",
+          "title": "Introduction to Artificial Intelligence ",
+          "term": "Fall 2023"
+        }
+      ],
+      "contact": {
+        "email": ["lyang50@uncc.edu"],
+        "address": "Room 435A, Woodward Hall",
+        "website": "https://lyang-666.github.io/"
+      },
+      "photo": "/photos/liyang.jpg"
+    },
+    {
+      "name": {
+        "first": "Razvan",
+        "middle": "Constantin",
+        "last": "Bunescu"
+      },
+      "position": ["Associate Professor"],
+      "research": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Music Information Retrieval",
+        "Computational Creativity"
+      ],
+      "introduction": "Razvan is an Associate Professor in the Department of Computer Science at UNC Charlotte. Prior to joining Charlotte in 2020, he was a Professor in EECS at Ohio University. He received his PhD in Computer Science from the University of Texas at Austin in 2007. His research interests lie in the general area of machine learning, with a focus on applications in natural language processing, music information retrieval, biomedical informatics, computer architecture, computational creativity, and more recently education. His work has been funded by grants from the National Science Foundation, the National Institutes of Health, and the US Air Force.",
+      "teaching": [
+        {
+          "course": "ITCS 4156",
+          "title": "Introduction to Machine Learning",
+          "term": "Spring 2021"
+        },
+        {
+          "course": "ITCS 4111/5111",
+          "title": "Introduction to Natural Language Processing",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "ITCS 6156/8156",
+          "title": "Machine Learning",
+          "term": "Spring 2023"
+        }
+      ],
+      "contact": {
+        "email": ["razvan.bunescu@charlotte.edu"],
+        "phone": ["704-687-8444"],
+        "address": "Room 410G, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/rbunescu"
+      },
+      "photo": "/photos/bunescu.jpg"
+    }
+  ]
+}

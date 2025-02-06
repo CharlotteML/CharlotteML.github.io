@@ -66,20 +66,32 @@
         <span> <b>Research</b>: {{ person.research.join(", ") }}</span>
       </p>
       <p class="mt-2 text-justify">
-        <ContentSlot>
-          {{ person.introduction }}
-        </ContentSlot>
+        {{ person.introduction }}
       </p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import Person from "@/types/Person";
-
 defineProps({
   person: {
-    type: Object as PropType<Person>,
+    type: Object as PropType<{
+      name: {
+        first: string;
+        middle?: string;
+        last: string;
+      };
+      position: string[];
+      photo?: string;
+      contact: {
+        website?: string;
+        email?: string[];
+        phone?: string[];
+        address?: string;
+      };
+      introduction?: string;
+      research: string[];
+    }>,
     required: true,
   },
 });

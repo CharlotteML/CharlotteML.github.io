@@ -108,33 +108,28 @@
 </template>
 
 <script setup lang="ts">
-import type Person from "@/types/Person";
-
-const idFromName = (
-  first: string | null,
-  middle: string | null,
-  last: string | null,
-) => {
+const idFromName = (first?: string, middle?: string, last?: string) => {
   return [first, middle, last].filter((x) => x).join("");
 };
-const concatName = (
-  first: string | null,
-  middle: string | null,
-  last: string | null,
-) => {
+const concatName = (first?: string, middle?: string, last?: string) => {
   return [first, middle, last].filter((x) => x).join(" ");
 };
-const abbrevName = (
-  first: string | null,
-  middle: string | null,
-  last: string | null,
-) => {
+const abbrevName = (first?: string, middle?: string, last?: string) => {
   return [first, middle, last]
     .map((x) => x?.charAt(0))
     .filter((x) => x)
     .join(" ");
 };
-const cmpFaculty = (a: Person, b: Person) => {
+const cmpFaculty = (
+  a: {
+    name: { first: string; middle?: string; last: string };
+    position: string[];
+  },
+  b: {
+    name: { first: string; middle?: string; last: string };
+    position: string[];
+  },
+) => {
   const positionMap = (p: string) => {
     switch (p) {
       case "Lab Director":
@@ -157,7 +152,16 @@ const cmpFaculty = (a: Person, b: Person) => {
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
   return aTier - bTier || aName.localeCompare(bName);
 };
-const cmpStudent = (a: Person, b: Person) => {
+const cmpStudent = (
+  a: {
+    name: { first: string; middle?: string; last: string };
+    position: string[];
+  },
+  b: {
+    name: { first: string; middle?: string; last: string };
+    position: string[];
+  },
+) => {
   const positionMap = (p: string) => {
     switch (p) {
       case "PhD Student":
@@ -174,19 +178,35 @@ const cmpStudent = (a: Person, b: Person) => {
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
   return aTier - bTier || aName.localeCompare(bName);
 };
-const cmpPerson = (a: Person, b: Person) => {
+const cmpPerson = (
+  a: {
+    name: { first: string; middle?: string; last: string };
+  },
+  b: {
+    name: { first: string; middle?: string; last: string };
+  },
+) => {
   const aName = concatName(a.name.first, a.name.middle, a.name.last);
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
   return aName.localeCompare(bName);
 };
 
-const {
-  page,
-}: { page: Ref<{ faculty: Person[]; student: Person[]; alumni: Person[] }> } =
-  useContent();
-const faculty = page.value.faculty.sort(cmpFaculty);
-const student = page.value.student.sort(cmpStudent);
-const alumni = page.value.alumni.sort(cmpPerson);
+const { data: members } = await useAsyncData("members", () =>
+  queryCollection("members").all(),
+);
+
+const faculty =
+  members?.value
+    ?.filter((m) => m.id.endsWith("faculty.json"))[0]
+    .people.sort(cmpFaculty) || [];
+const student =
+  members?.value
+    ?.filter((m) => m.id.endsWith("student.json"))[0]
+    .people.sort(cmpStudent) || [];
+const alumni =
+  members?.value
+    ?.filter((m) => m.id.endsWith("alumni.json"))[0]
+    .people.sort(cmpPerson) || [];
 
 const stuRefs = ref([] as HTMLElement[]);
 const facRefs = ref([] as HTMLElement[]);

@@ -66,24 +66,25 @@
 </template>
 
 <script setup lang="ts">
-import type Person from "@/types/Person";
-
-const content = await useAsyncData(async () =>
-  queryContent("member").findOne(),
+const { data: faculty } = await useAsyncData("teaching", () =>
+  queryCollection("members").order("stem", "ASC").skip(1).first(),
 );
-const faculty = content.data.value?.faculty;
 const courses = ref(
   [] as { name: string; course: string; title: string; term: string }[],
 );
-faculty.map((f: Person) =>
-  f.teaching?.map((c) =>
-    courses.value.push({
-      name: [f.name.first, f.name.middle, f.name.last].join(" "),
-      course: c.course,
-      title: c.title,
-      term: c.term,
-    }),
-  ),
+faculty.value?.people?.map(
+  (f: {
+    name: { first: string; middle?: string; last: string };
+    teaching?: { course: string; title: string; term: string }[];
+  }) =>
+    f.teaching?.map((c) =>
+      courses.value.push({
+        name: [f.name.first, f.name.middle, f.name.last].join(" "),
+        course: c.course,
+        title: c.title,
+        term: c.term,
+      }),
+    ),
 );
 
 const term2date = (term: string) => {

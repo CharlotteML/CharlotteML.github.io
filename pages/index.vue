@@ -83,71 +83,61 @@
     >
       What's New
     </h2>
-    <ContentList
-      path="/news/"
-      v-slot="{ list }"
-      :query="{ limit: 5, sort: [{ date: -1 }], where: [{ _partial: false }] }"
+    <ol
+      class="relative mx-6 max-w-3xl border-l-2 border-secondary-900 dark:border-secondary-100 md:mx-auto"
     >
-      <ol
-        class="relative mx-6 max-w-3xl border-l-2 border-secondary-900 dark:border-secondary-100 md:mx-auto"
-      >
-        <li class="group mb-10 ml-4" v-for="news in list" :key="news.slug">
-          <NuxtLink :href="news._path" class="cursor-pointer">
-            <span
-              class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-2 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
-            ></span>
-            <time
-              class="mb-1 text-sm font-medium leading-none text-secondary-900 dark:text-secondary-100"
-            >
-              {{
-                useDateFormat(news.date, "MMM DD, YYYY", { locales: "en-US" })
-                  .value
-              }}
-            </time>
-            <h3
-              class="text-xl font-black text-primary-800 dark:text-primary-600"
-            >
-              {{ news.title }}
-            </h3>
-            <div
-              class="mb-4 h-fit max-h-0 overflow-hidden text-base font-normal text-main-900/80 transition-all duration-500 ease-linear group-hover:max-h-96 dark:text-main-100/80"
-            >
-              <div class="flex w-full flex-col justify-center sm:flex-row">
-                <p class="flex-grow">{{ news.description }}</p>
-                <img
-                  v-if="news.cover"
-                  :src="news.cover"
-                  class="h-48 rounded-lg object-cover"
-                />
-              </div>
-            </div>
-          </NuxtLink>
-        </li>
-        <li class="group mb-10 ml-4">
-          <NuxtLink href="/news" class="cursor-pointer">
-            <span
-              class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-4 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
-            >
-              <Icon
-                name="ph:dots-three-bold"
-                size="24"
-                class="absolute -left-2 -top-1.5 rotate-90 rounded-full bg-secondary-50 dark:bg-secondary-950"
+      <li class="group mb-10 ml-4" v-for="news in latestNews" :key="news.id">
+        <NuxtLink :href="news.path" class="cursor-pointer">
+          <span
+            class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-2 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
+          ></span>
+          <time
+            class="mb-1 text-sm font-medium leading-none text-secondary-900 dark:text-secondary-100"
+          >
+            {{
+              useDateFormat(news.date, "MMM DD, YYYY", { locales: "en-US" })
+                .value
+            }}
+          </time>
+          <h3 class="text-xl font-black text-primary-800 dark:text-primary-600">
+            {{ news.title }}
+          </h3>
+          <div
+            class="mb-4 h-fit max-h-0 overflow-hidden text-base font-normal text-main-900/80 transition-all duration-500 ease-linear group-hover:max-h-96 dark:text-main-100/80"
+          >
+            <div class="flex w-full flex-col justify-center sm:flex-row">
+              <p class="flex-grow">{{ news.description }}</p>
+              <img
+                v-if="news.cover"
+                :src="news.cover"
+                class="h-48 rounded-lg object-cover"
               />
-            </span>
-            <span
-              class="mb-1 text-sm font-medium leading-none text-main-900 dark:text-main-100"
-            >
-              Earlier along the line
-            </span>
-            <h3
-              class="text-xl font-black text-primary-800 dark:text-primary-600"
-            >
-              Check out more
-            </h3>
-          </NuxtLink>
-        </li>
-      </ol>
-    </ContentList>
+            </div>
+          </div>
+        </NuxtLink>
+      </li>
+      <li class="group mb-10 ml-4">
+        <NuxtLink href="/news" class="cursor-pointer">
+          <span
+            class="absolute -left-[9px] mt-1 h-4 w-4 rounded-full border-4 border-secondary-900 bg-secondary-50 dark:border-secondary-100 dark:bg-secondary-950"
+          >
+            <Icon
+              name="ph:dots-three-bold"
+              size="24"
+              class="absolute -left-2 -top-1.5 rotate-90 rounded-full bg-secondary-50 dark:bg-secondary-950"
+            />
+          </span>
+          <span
+            class="mb-1 text-sm font-medium leading-none text-main-900 dark:text-main-100"
+          >
+            Earlier along the line
+          </span>
+          <h3 class="text-xl font-black text-primary-800 dark:text-primary-600">
+            Check out more
+          </h3>
+        </NuxtLink>
+      </li>
+    </ol>
     <!-- Research Fields -->
     <h2
       class="mt-6 w-full text-center text-lg font-semibold md:text-xl lg:text-2xl"
@@ -158,7 +148,7 @@
       class="max-w-8xl container mx-auto my-12 flex flex-wrap items-start justify-center gap-6 px-6 sm:px-8"
     >
       <NuxtLink
-        v-for="field in page.fields"
+        v-for="field in page?.fields"
         :key="field.title"
         :href="field.link"
         class="flex w-24 flex-col items-center justify-center md:w-36 lg:w-48"
@@ -173,10 +163,17 @@
 </template>
 
 <script setup lang="ts">
-import type IndexContent from "@/types/IndexContent";
+const { data: page } = await useAsyncData("index", () =>
+  queryCollection("index").first(),
+);
+const { data: latestNews } = await useAsyncData("news", () =>
+  queryCollection("news")
+    .order("date", "DESC")
+    .limit(5)
+    .all(),
+);
 
-const { page }: { page: Ref<IndexContent> } = useContent();
-const slides = ref(page.value.banners as any[]);
+const slides = ref(page.value?.banners || []);
 const {
   state: slideState,
   index: slideIndex,
@@ -190,7 +187,8 @@ const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
 
 // OG meta
 const title = "CharmLab at UNC Charlotte";
-const description = "Welcome to the homepage of CharmLab, the Charlotte Machine Learning Lab!";
+const description =
+  "Welcome to the homepage of CharmLab, the Charlotte Machine Learning Lab!";
 const icon = "ph:house-duotone";
 defineOgImageComponent("NuxtSeo", {
   title: title,
