@@ -13,7 +13,7 @@
     "@nuxtjs/seo": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.13.1",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/node": "^22.13.1",
+    "@types/node": "^24.0.0",
     "@vueuse/core": "^13.0.0",
     "@vueuse/nuxt": "^13.0.0",
     "citation-js": "^0.7.18",
