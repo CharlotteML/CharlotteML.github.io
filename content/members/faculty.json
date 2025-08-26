@@ -42,35 +42,6 @@
     },
     {
       "name": {
-        "first": "Christian",
-        "middle": null,
-        "last": "Kümmerle"
-      },
-      "position": ["Assistant Professor", "Lab Co-Director"],
-      "research": [
-        "Machine Learning",
-        "Data Science",
-        "Scalable Algorithms",
-        "AI theory"
-      ],
-      "introduction": "Christian is an Assistant Professor in Computer Science at the University of North Carolina at Charlotte. Prior to joining UNC Charlotte, He was a Postdoctoral Fellow at the Department of Applied Mathematics and Statistics at Johns Hopkins University (mentored by Mauro Maggioni) after completing a Ph.D. in Mathematics at Technical University of Munich in 2019, advised by Felix Krahmer. He obtained M.Sc. and B.Sc. degrees in Mathematics from TU Munich in 2015 and 2013.",
-      "teaching": [
-        {
-          "course": "ITCS 6010/8010",
-          "title": "Optimization for Machine Learning and Data Science (Topics in Computer Science)",
-          "term": "Fall 2023"
-        }
-      ],
-      "contact": {
-        "email": ["kuemmerle@uncc.edu"],
-        "phone": ["704-687-1904"],
-        "address": "Room 410D, Woodward Hall",
-        "website": "https://webpages.charlotte.edu/~ckuemme1/"
-      },
-      "photo": "/photos/christian.jpg"
-    },
-    {
-      "name": {
         "first": "Minwoo",
         "middle": "Jake",
         "last": "Lee"
@@ -180,7 +151,7 @@
         "middle": null,
         "last": "Das"
       },
-      "position": ["Assistant Professor"],
+      "position": ["Assistant Professor", "Lab Co-Director"],
       "research": [
         "Computer Vision",
         "Video Representation Learning",
@@ -277,6 +248,41 @@
         "website": "https://webpages.charlotte.edu/rbunescu"
       },
       "photo": "/photos/bunescu.jpg"
+    },
+    {
+      "name": { "first": "Liyue", "middle": null, "last": "Fan" },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Machine Learning",
+        "Data Privacy",
+        "Differential Privacy",
+        "Spatiotemporal Modeling"
+      ],
+      "introduction": "Dr. Liyue Fan is an Assistant Professor in the Department of Computer Science at UNC Charlotte, with an affiliated appointment in the School of Data Science. She was named one of the \"Rising Stars in EECS\" by MIT in 2015 and is a recipient of the prestigious NSF CAREER award. Her research, which focuses on data privacy and databases, is supported by the National Science Foundation. Prior to joining UNC Charlotte, she was an Assistant Professor at the University at Albany and a postdoctoral research associate at the University of Southern California. Dr. Fan earned her Ph.D. in Computer Science from Emory University and her B.S. in Mathematics from Zhejiang University",
+      "teaching": [
+        {
+          "course": "ITCS 6010/8010",
+          "title": "Data Privacy",
+          "term": "Spring 2024"
+        },
+        {
+          "course": "ITCS 6160/8160",
+          "title": "Database Systems",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "DSBA 6160",
+          "title": "Database Systems for Data Scientists",
+          "term": "Fall 2022"
+        }
+      ],
+      "contact": {
+        "email": ["liyue.fan@charlotte.edu"],
+        "phone": ["704-687-8542", "704-687-8622"],
+        "address": "Room 430D, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/lfan4"
+      },
+      "photo": "/photos/liyue-fan.jpg"
     }
   ]
 }

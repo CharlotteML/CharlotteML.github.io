@@ -370,22 +370,6 @@
         "website": "https://github.com/eshansrivastav05"
       },
       "photo": "/photos/eshan-srivastav.png"
-    },
-    {
-      "name": {
-        "first": "Ipsita",
-        "middle": null,
-        "last": "Ghosh"
-      },
-      "position": ["PhD Student"],
-      "research": ["Machine Learning", "Non-Convex Optimization", "AI theory"],
-      "introduction": "I am currently pursuing PhD under Dr Christian Kuemmerle. Prior to this I completed an MSc in Data Science from CMI, India and an MSc in Mathematics from DU, India. My research focuses on creating scalable and dependable algorithms in Machine Learning and Data Science, particularly at the intersection of Mathematics and Computer Science. I address computational and statistical challenges posed by complex models, such as developing efficient optimization techniques for solving problems with sparsity or low-rank structures. My work leverages various mathematical concepts, including high-dimensional Probability, Non-Convex Optimization, Numerical Linear Algebra, and Advanced Machine Learning to effectively tackle these challenges",
-      "contact": {
-        "email": ["ighosh2@uncc.edu"],
-        "address": "Room 437, Woodward Hall",
-        "website": "https://webpages.charlotte.edu/ighosh2/"
-      },
-      "photo": "/photos/ipsita-ghosh.png"
     }
   ]
 }
