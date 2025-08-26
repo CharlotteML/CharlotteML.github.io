@@ -4,9 +4,7 @@
     "middle": null,
     "last": "Wang"
   },
-  "position": [
-    "PhD Student"
-  ],
+  "position": ["PhD Student"],
   "research": [
     "Machine Learning",
     "Medical Time Series",
@@ -14,12 +12,8 @@
   ],
   "introduction": "Yihe is a Ph.D. student in the Department of Computer Science at the University of North Carolina(UNC) - Charlotte. Yihe received his Bachelor's degree in Electrical and Computer Engineering from University of Missouri - Columbia and his Master's degree in Computer Science from New York University. His research interests lie in medical time series and self-supervised learning.",
   "contact": {
-    "email": [
-      "ywang145@uncc.edu"
-    ],
-    "phone": [
-      "573-356-2559"
-    ],
+    "email": ["ywang145@uncc.edu"],
+    "phone": ["573-356-2559"],
     "address": "Room 437, Woodward Hall",
     "website": "https://webpages.charlotte.edu/ywang145/"
   },

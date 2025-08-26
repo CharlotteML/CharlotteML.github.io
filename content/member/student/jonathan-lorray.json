@@ -4,17 +4,11 @@
     "middle": null,
     "last": "Lorray"
   },
-  "position": [
-    "Masters Student"
-  ],
-  "research": [
-    "Computer Vision"
-  ],
+  "position": ["Masters Student"],
+  "research": ["Computer Vision"],
   "introduction": "Jonathan is a Masters student in the Department of Computer Science. His research focuses on object detection, specifically the use of semi-supervised learning to leverage large quantities of unlabeled data. He is interested in utilizing a number of different architectures and methods to solve the challenges semi-supervised object detection.",
   "contact": {
-    "email": [
-      "jlorray1@uncc.edu"
-    ],
+    "email": ["jlorray1@uncc.edu"],
     "address": "Room 437, Woodward Hall"
   },
   "photo": "/photos/johnathan.jpg"

@@ -4,9 +4,7 @@
     "middle": null,
     "last": "Al-Hossami"
   },
-  "position": [
-    "PhD Student"
-  ],
+  "position": ["PhD Student"],
   "research": [
     "Natural Language Processing",
     "Computer Science Education",
@@ -14,12 +12,8 @@
   ],
   "introduction": "Erfan is a PhD student in the Department of Computer Science at UNC Charlotte. His research interests lie in natural language processing, dialogue systems, and computer science education. His dissertation research focuses Socratic Debugging defined as a Socratic conversation between an instructor agent and a student where the instructor guides the student to fix a buggy program without giving the solution directly.",
   "contact": {
-    "email": [
-      "ealhossa@uncc.edu"
-    ],
-    "phone": [
-      "704-206-0438"
-    ],
+    "email": ["ealhossa@uncc.edu"],
+    "phone": ["704-206-0438"],
     "address": "Room 437, Woodward Hall",
     "website": "https://ealhossa.netlify.app/"
   },

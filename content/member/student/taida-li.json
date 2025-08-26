@@ -4,9 +4,7 @@
     "middle": null,
     "last": "Li"
   },
-  "position": [
-    "PhD Student"
-  ],
+  "position": ["PhD Student"],
   "research": [
     "Machine Learning",
     "Medical Time Series",
@@ -14,13 +12,8 @@
   ],
   "introduction": "Taida \"Trent\" Li is a Ph.D student in the Department of Computer Science at the University of North Carolina at Charlotte (UNCC), currently affiliated with Charlotte Machine Learning Lab (CML). Li received his master's degree in computer science from Rice University in May 2023. His research interests lie in machine learning in medical time series.",
   "contact": {
-    "email": [
-      "tli14@uncc.edu",
-      "taidalee@gmail.com"
-    ],
-    "phone": [
-      "704-775-8396"
-    ],
+    "email": ["tli14@uncc.edu", "taidalee@gmail.com"],
+    "phone": ["704-775-8396"],
     "address": "Room 412, Woodward Hall",
     "website": "https://webpages.charlotte.edu/tli14/"
   },

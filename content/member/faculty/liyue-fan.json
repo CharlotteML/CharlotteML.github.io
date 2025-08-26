@@ -4,9 +4,7 @@
     "middle": null,
     "last": "Fan"
   },
-  "position": [
-    "Assistant Professor"
-  ],
+  "position": ["Assistant Professor"],
   "research": [
     "Machine Learning",
     "Data Privacy",
@@ -32,13 +30,8 @@
     }
   ],
   "contact": {
-    "email": [
-      "liyue.fan@charlotte.edu"
-    ],
-    "phone": [
-      "704-687-8542",
-      "704-687-8622"
-    ],
+    "email": ["liyue.fan@charlotte.edu"],
+    "phone": ["704-687-8542", "704-687-8622"],
     "address": "Room 430D, Woodward Hall",
     "website": "https://webpages.charlotte.edu/lfan4"
   },

@@ -4,9 +4,7 @@
     "middle": "Constantin",
     "last": "Bunescu"
   },
-  "position": [
-    "Associate Professor"
-  ],
+  "position": ["Associate Professor"],
   "research": [
     "Natural Language Processing",
     "Machine Learning",
@@ -32,12 +30,8 @@
     }
   ],
   "contact": {
-    "email": [
-      "razvan.bunescu@charlotte.edu"
-    ],
-    "phone": [
-      "704-687-8444"
-    ],
+    "email": ["razvan.bunescu@charlotte.edu"],
+    "phone": ["704-687-8444"],
     "address": "Room 410G, Woodward Hall",
     "website": "https://webpages.charlotte.edu/rbunescu"
   },

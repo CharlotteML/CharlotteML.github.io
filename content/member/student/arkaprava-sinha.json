@@ -4,9 +4,7 @@
     "middle": null,
     "last": "Sinha"
   },
-  "position": [
-    "PhD Student"
-  ],
+  "position": ["PhD Student"],
   "research": [
     "Computer Vision",
     "Video Understanding",
@@ -14,9 +12,7 @@
   ],
   "introduction": "Arkaprava is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on Action Recognition for videos for Actions of Daily Living. He is currently working on Self-Supervised Learning and Multi-Modal Learning for Video Understanding.",
   "contact": {
-    "email": [
-      "asinha13@charlotte.edu"
-    ],
+    "email": ["asinha13@charlotte.edu"],
     "address": "Room 437, Woodward Hall",
     "website": "https://webpages.charlotte.edu/asinha13/"
   },

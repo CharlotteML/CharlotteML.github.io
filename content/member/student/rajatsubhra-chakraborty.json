@@ -4,19 +4,11 @@
     "middle": null,
     "last": "Chakraborty"
   },
-  "position": [
-    "PhD Student"
-  ],
-  "research": [
-    "Computer Vision",
-    "Video Understanding",
-    "Object Detection"
-  ],
+  "position": ["PhD Student"],
+  "research": ["Computer Vision", "Video Understanding", "Object Detection"],
   "introduction": "Rajatsubhra (Raj) is a first year PhD student in the Department of Computer Science advised by Dr. Srijan Das. He is exploring the areas of object detection through semi-supervised learning and video activity understanding. In his leisure time he likes to play fifa and read Batman comics.",
   "contact": {
-    "email": [
-      "rchakra6@charlotte.edu"
-    ],
+    "email": ["rchakra6@charlotte.edu"],
     "address": "Room 437, Woodward Hall",
     "website": "https://chakrabortyrajatsubhra.github.io/"
   },

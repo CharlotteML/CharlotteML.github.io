@@ -4,18 +4,11 @@
     "middle": null,
     "last": "Quinn"
   },
-  "position": [
-    "Masters Student"
-  ],
-  "research": [
-    "Reinforcement Learning",
-    "Continual Learning"
-  ],
+  "position": ["Masters Student"],
+  "research": ["Reinforcement Learning", "Continual Learning"],
   "introduction": "Andrew is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
   "contact": {
-    "email": [
-      "aquinn16@charlotte.edu"
-    ],
+    "email": ["aquinn16@charlotte.edu"],
     "address": "Room 437, Woodward Hall",
     "website": null
   },

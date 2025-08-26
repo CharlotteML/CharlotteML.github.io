@@ -4,19 +4,11 @@
     "middle": "Ayesha",
     "last": "Arif"
   },
-  "position": [
-    "Masters Student"
-  ],
-  "research": [
-    "Machine Learning",
-    "Medical Imaging",
-    "Neuro-imaging"
-  ],
+  "position": ["Masters Student"],
+  "research": ["Machine Learning", "Medical Imaging", "Neuro-imaging"],
   "introduction": "Aniqa is a master's candidate in the Department of Computer Science at UNC Charlotte. She is currently working on Multimodal Machine Learning for neurological disease diagnosis under the supervision of Dr. Zhang. She has previously worked extensively with neuro-imaging acquisition, databases and processing.",
   "contact": {
-    "email": [
-      "aarif2@uncc.edu"
-    ],
+    "email": ["aarif2@uncc.edu"],
     "website": "https://linkedin.com/in/aniqa-arif/"
   },
   "photo": "/photos/aniqa.jpg"

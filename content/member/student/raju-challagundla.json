@@ -4,18 +4,11 @@
     "middle": null,
     "last": "Challagundla"
   },
-  "position": [
-    "PhD Student"
-  ],
-  "research": [
-    "Anomaly Detection",
-    "Fraud Detection"
-  ],
+  "position": ["PhD Student"],
+  "research": ["Anomaly Detection", "Fraud Detection"],
   "introduction": "Raju is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on anomaly and fraud detection problems, especially in banking and credit card cases. As a senior software engineer, he is passionate about leveraging technology to tackle complex challenges and eager to make a meaningful impact in the field.",
   "contact": {
-    "email": [
-      "rchalla5@charlotte.edu"
-    ],
+    "email": ["rchalla5@charlotte.edu"],
     "address": "Room 437, Woodward Hall",
     "website": null
   },
