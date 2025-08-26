@@ -67,10 +67,10 @@
 
 <script setup lang="ts">
 const { data: faculty } = await useAsyncData("teaching", () =>
-  queryCollection("members").order("stem", "ASC").skip(1).first(),
+  queryCollection("members").order("stem", "ASC").skip(1).first()
 );
 const courses = ref(
-  [] as { name: string; course: string; title: string; term: string }[],
+  [] as { name: string; course: string; title: string; term: string }[]
 );
 faculty.value?.people?.map(
   (f: {
@@ -83,8 +83,8 @@ faculty.value?.people?.map(
         course: c.course,
         title: c.title,
         term: c.term,
-      }),
-    ),
+      })
+    )
 );
 
 const term2date = (term: string) => {
@@ -106,6 +106,7 @@ const sortedCourses = useSorted(courses, (a, b) => {
 });
 
 import Fuse from "fuse.js";
+
 const searchTerm = ref("");
 const searchResult = computed(() => {
   if (searchTerm.value === "") return sortedCourses.value;

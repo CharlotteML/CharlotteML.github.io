@@ -1,0 +1,56 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!**/.env",
+      "!**/.git",
+      "!**/.jj",
+      "!**/.nuxt",
+      "!**/.nitro",
+      "!**/.cache",
+      "!**/.log*",
+      "!**/.output",
+      "!**/node_modules",
+      "!**/dist",
+      "!**/pagefind",
+      "!**/bun.lockb"
+    ]
+  },
+  "javascript": {
+    "formatter": {
+      "trailingCommas": "es5"
+    }
+  },
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "overrides": [
+    {
+      "includes": ["**/*.nuxt", "**/*.vue"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useConst": "off",
+            "useImportType": "off"
+          },
+          "correctness": {
+            "noUnusedVariables": "off",
+            "noUnusedImports": "off",
+            "useHookAtTopLevel": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/tailwind.css"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noUnknownAtRules": "off"
+          }
+        }
+      }
+    }
+  ]
+}

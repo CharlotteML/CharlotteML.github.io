@@ -80,14 +80,14 @@ const unwrapImgFromP = (tree: ElementNode) => {
 
 const route = useRoute();
 const { data: page } = await useAsyncData(route.path, () =>
-  queryCollection("news").path(route.path).first(),
+  queryCollection("news").path(route.path).first()
 );
 if (page.value) {
   page.value.body = unwrapImgFromP(page.value.body) as MarkdownRoot;
 }
 
 const { data: surround } = await useAsyncData(`${route.path}navigation`, () =>
-  queryCollectionItemSurroundings("news", route.path).order("date", "ASC"),
+  queryCollectionItemSurroundings("news", route.path).order("date", "ASC")
 );
 const [prev, next] = surround.value || [];
 

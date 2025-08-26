@@ -16,7 +16,7 @@
 <script setup lang="ts">
 const route = useRoute();
 const { data: page } = await useAsyncData("contact", () =>
-  queryCollection("constants").path(route.path).first(),
+  queryCollection("constants").path(route.path).first()
 );
 
 // OG meta

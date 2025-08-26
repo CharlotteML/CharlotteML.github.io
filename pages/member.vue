@@ -128,7 +128,7 @@ const cmpFaculty = (
   b: {
     name: { first: string; middle?: string; last: string };
     position: string[];
-  },
+  }
 ) => {
   const positionMap = (p: string) => {
     switch (p) {
@@ -160,7 +160,7 @@ const cmpStudent = (
   b: {
     name: { first: string; middle?: string; last: string };
     position: string[];
-  },
+  }
 ) => {
   const positionMap = (p: string) => {
     switch (p) {
@@ -184,7 +184,7 @@ const cmpPerson = (
   },
   b: {
     name: { first: string; middle?: string; last: string };
-  },
+  }
 ) => {
   const aName = concatName(a.name.first, a.name.middle, a.name.last);
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
@@ -192,7 +192,7 @@ const cmpPerson = (
 };
 
 const { data: members } = await useAsyncData("members", () =>
-  queryCollection("members").all(),
+  queryCollection("members").all()
 );
 
 const faculty =
@@ -220,17 +220,17 @@ onMounted(() => {
   facRefs.value.map((f, i) =>
     useIntersectionObserver(f, ([{ isIntersecting }]) => {
       facFocus.value[i] = isIntersecting;
-    }),
+    })
   );
   stuRefs.value.map((s, i) =>
     useIntersectionObserver(s, ([{ isIntersecting }]) => {
       stuFocus.value[i] = isIntersecting;
-    }),
+    })
   );
   aluRefs.value.map((a, i) =>
     useIntersectionObserver(a, ([{ isIntersecting }]) => {
       aluFocus.value[i] = isIntersecting;
-    }),
+    })
   );
 });
 

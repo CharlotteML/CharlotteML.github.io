@@ -164,13 +164,10 @@
 
 <script setup lang="ts">
 const { data: page } = await useAsyncData("index", () =>
-  queryCollection("index").first(),
+  queryCollection("index").first()
 );
 const { data: latestNews } = await useAsyncData("news", () =>
-  queryCollection("news")
-    .order("date", "DESC")
-    .limit(5)
-    .all(),
+  queryCollection("news").order("date", "DESC").limit(5).all()
 );
 
 const slides = ref(page.value?.banners || []);
@@ -182,7 +179,7 @@ const {
 } = useCycleList(slides);
 const { pause: pauseAutoSlide, resume: resumeAutoSlide } = useIntervalFn(
   nextSlide,
-  5000,
+  5000
 );
 
 // OG meta

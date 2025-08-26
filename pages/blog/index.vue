@@ -42,7 +42,7 @@
 
 <script setup lang="ts">
 const { data: latestArticles } = await useAsyncData("all-articles", () =>
-  queryCollection("blogs").order("date", "DESC").all(),
+  queryCollection("blogs").order("date", "DESC").all()
 );
 // OG meta
 const title = "Blogs";

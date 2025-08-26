@@ -54,7 +54,7 @@
 
 <script setup lang="ts">
 const { data: page } = await useAsyncData("publications", () =>
-  queryCollection("publications").first(),
+  queryCollection("publications").first()
 );
 const entries =
   page.value?.collection.sort((a, b) => {
@@ -82,15 +82,16 @@ for (const entry of entries) {
 }
 types.value = types.value.filter((type) => type.count > 0);
 const typeFilter = computed(() =>
-  types.value.filter((type) => type.select).map((type) => type.name),
+  types.value.filter((type) => type.select).map((type) => type.name)
 );
 const showTypeSelection = ref(true);
 
 import Fuse from "fuse.js";
+
 const search = () => {
   const filtered = typeFilter.value.length
     ? entries.filter((entry) =>
-        typeFilter.value.some((type) => entry.type.includes(type)),
+        typeFilter.value.some((type) => entry.type.includes(type))
       )
     : entries;
   if (searchTerm.value === "") {
@@ -113,8 +114,9 @@ const search = () => {
   return;
 };
 
-// @ts-ignore
+// @ts-expect-error
 import Cite from "citation-js";
+
 const HTMLoutput = computed(() => {
   const cite = new Cite(bibliography.value);
   const citationHTML: string = cite.format("bibliography", {
@@ -124,9 +126,9 @@ const HTMLoutput = computed(() => {
     nosort: true,
   });
   return citationHTML.replaceAll(
-    /(http(s):\/\/.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g,
+    /(http(s):\/\/.)[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/g,
     (match: string) =>
-      `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">${match}</a>`,
+      `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">${match}</a>`
   );
 });
 

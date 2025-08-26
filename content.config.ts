@@ -21,10 +21,10 @@ export default defineContentConfig({
             alt: z.string(),
             link: z.optional(z.string()),
             title: z.optional(z.string()),
-          }),
+          })
         ),
         fields: z.array(
-          z.object({ title: z.string(), src: z.string(), link: z.string() }),
+          z.object({ title: z.string(), src: z.string(), link: z.string() })
         ),
       }),
     }),
@@ -71,8 +71,8 @@ export default defineContentConfig({
                   course: z.string(),
                   title: z.string(),
                   term: z.string(),
-                }),
-              ),
+                })
+              )
             ),
             contact: z.object({
               email: z.optional(z.array(z.string())),
@@ -81,7 +81,7 @@ export default defineContentConfig({
               website: z.optional(z.string()),
             }),
             photo: z.optional(z.string()),
-          }),
+          })
         ),
       }),
     }),
@@ -123,7 +123,7 @@ export default defineContentConfig({
             "publisher-place": z.optional(z.string()),
             editor: z.optional(z.array(Author)),
             number: z.optional(z.string()),
-          }),
+          })
         ),
       }),
     }),

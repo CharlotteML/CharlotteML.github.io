@@ -82,7 +82,7 @@ const unwrapImgFromP = (tree: ElementNode) => {
 
 const route = useRoute();
 const { data: page } = await useAsyncData("research", () =>
-  queryCollection("constants").path(route.path).first(),
+  queryCollection("constants").path(route.path).first()
 );
 // Patch for img in p
 if (page.value) {
@@ -94,7 +94,7 @@ const toc = page.value?.body.toc;
 const storage = useLocalStorage(
   "charmlab",
   { "research-sidebar-seen": false },
-  { mergeDefaults: true },
+  { mergeDefaults: true }
 );
 const [value, toggle] = useToggle(true);
 const { width } = useWindowSize();
