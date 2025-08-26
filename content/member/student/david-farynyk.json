@@ -1,0 +1,23 @@
+{
+  "name": {
+    "first": "David",
+    "middle": null,
+    "last": "Farynyk"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Multi-object Tracking",
+    "Audio/Speech Classificaiton"
+  ],
+  "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classification models with smart watches. His previous research focused on tracking multiple objects.",
+  "contact": {
+    "email": [
+      "dafaryny@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": null
+  },
+  "photo": "/photos/david.jpg"
+}

@@ -1,0 +1,26 @@
+{
+  "name": {
+    "first": "Nan",
+    "middle": null,
+    "last": "Huang"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Machine Learning",
+    "Data Mining",
+    "Graph Neural Networks",
+    "Computational Neuroscience"
+  ],
+  "introduction": "Nan is a Ph.D. student in the Department of Computer Science at the University of North Carolina (UNC) at Charlotte. Before joining UNC Charlotte, he received his B.S. degree in Bioinformatics from Peking University in 2023. His research interests lie in machine learning and data mining with applications in computational neuroscience.",
+  "contact": {
+    "email": [
+      "teddyhuangnan@gmail.com",
+      "nhuang1@uncc.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://webpages.charlotte.edu/nhuang1/"
+  },
+  "photo": "/photos/nan-huang.png"
+}

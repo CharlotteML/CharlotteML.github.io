@@ -1,0 +1,26 @@
+{
+  "name": {
+    "first": "Eshan",
+    "middle": null,
+    "last": "Srivastav"
+  },
+  "position": [
+    "Research Intern (High School)"
+  ],
+  "research": [
+    "Machine Learning",
+    "Cryptography"
+  ],
+  "introduction": "Eshan is a high school senior serving as a research intern since July 2023. He plans on studying computer science in college and intends to focus on artificial intelligence. He is currently working on developing machine learning models for a variety of different purposes. He has also worked in cryptography in the past.",
+  "contact": {
+    "email": [
+      "eshansrivastav05@gmail.com"
+    ],
+    "phone": [
+      "704-500-4567"
+    ],
+    "address": null,
+    "website": "https://github.com/eshansrivastav05"
+  },
+  "photo": "/photos/eshan-srivastav.png"
+}

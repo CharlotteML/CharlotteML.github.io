@@ -1,0 +1,23 @@
+{
+  "name": {
+    "first": "Mohamed",
+    "middle": "Mehdi",
+    "last": "Bourahla"
+  },
+  "position": [
+    "Masters Student"
+  ],
+  "research": [
+    "Audio/Speech Classificaiton",
+    "Physical Activity and Social Behavior"
+  ],
+  "introduction": "Mehdi is a MS student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. As a Fullbright scholar from Algeria, he focuses on detecting and identifying the human speech sounds from TV. He generalizes the problem to distinguish natural voice from speaker generated voice.",
+  "contact": {
+    "email": [
+      "mbourahl@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://mehdibourahla.com"
+  },
+  "photo": "/photos/mehdi.png"
+}

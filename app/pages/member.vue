@@ -131,24 +131,28 @@ const cmpFaculty = (
   }
 ) => {
   const positionMap = (p: string) => {
-    switch (p) {
-      case "Lab Director":
+    switch (p.toLowerCase().trim()) {
+      case "lab director":
         return 0;
-      case "Lab Co-Director":
+      case "lab co-director":
         return 1;
-      case "Professor":
+      case "professor":
         return 2;
-      case "Associate Professor":
+      case "associate professor":
         return 3;
-      case "Assistant Professor":
+      case "assistant professor":
         return 4;
       default:
         return 5;
     }
   };
-  const aTier = a.position.map(positionMap).sort()[0];
+  const aTier = a.position
+    .map(positionMap)
+    .reduce((a, b) => Math.min(a, b), 999);
   const aName = concatName(a.name.first, a.name.middle, a.name.last);
-  const bTier = b.position.map(positionMap).sort()[0];
+  const bTier = b.position
+    .map(positionMap)
+    .reduce((a, b) => Math.min(a, b), 999);
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
   return aTier - bTier || aName.localeCompare(bName);
 };
@@ -172,9 +176,13 @@ const cmpStudent = (
         return 2;
     }
   };
-  const aTier = a.position.map(positionMap).sort()[0];
+  const aTier = a.position
+    .map(positionMap)
+    .reduce((a, b) => Math.min(a, b), 999);
   const aName = concatName(a.name.first, a.name.middle, a.name.last);
-  const bTier = b.position.map(positionMap).sort()[0];
+  const bTier = b.position
+    .map(positionMap)
+    .reduce((a, b) => Math.min(a, b), 999);
   const bName = concatName(b.name.first, b.name.middle, b.name.last);
   return aTier - bTier || aName.localeCompare(bName);
 };
@@ -191,22 +199,19 @@ const cmpPerson = (
   return aName.localeCompare(bName);
 };
 
-const { data: members } = await useAsyncData("members", () =>
-  queryCollection("members").all()
-);
-
 const faculty =
-  members?.value
-    ?.filter((m) => m.id.endsWith("faculty.json"))[0]
-    .people.sort(cmpFaculty) || [];
+  (await useAsyncData("faculty", () => queryCollection("faculty").all())).data
+    .value || [];
 const student =
-  members?.value
-    ?.filter((m) => m.id.endsWith("student.json"))[0]
-    .people.sort(cmpStudent) || [];
+  (await useAsyncData("student", () => queryCollection("student").all())).data
+    .value || [];
 const alumni =
-  members?.value
-    ?.filter((m) => m.id.endsWith("alumni.json"))[0]
-    .people.sort(cmpPerson) || [];
+  (await useAsyncData("alumni", () => queryCollection("alumni").all())).data
+    .value || [];
+
+faculty.sort(cmpFaculty);
+student.sort(cmpStudent);
+alumni.sort(cmpPerson);
 
 const stuRefs = ref([] as HTMLElement[]);
 const facRefs = ref([] as HTMLElement[]);
@@ -218,18 +223,18 @@ const aluFocus = ref(alumni.map(() => false));
 
 onMounted(() => {
   facRefs.value.map((f, i) =>
-    useIntersectionObserver(f, ([{ isIntersecting }]) => {
-      facFocus.value[i] = isIntersecting;
+    useIntersectionObserver(f, ([entry]) => {
+      facFocus.value[i] = entry?.isIntersecting || false;
     })
   );
   stuRefs.value.map((s, i) =>
-    useIntersectionObserver(s, ([{ isIntersecting }]) => {
-      stuFocus.value[i] = isIntersecting;
+    useIntersectionObserver(s, ([entry]) => {
+      stuFocus.value[i] = entry?.isIntersecting || false;
     })
   );
   aluRefs.value.map((a, i) =>
-    useIntersectionObserver(a, ([{ isIntersecting }]) => {
-      aluFocus.value[i] = isIntersecting;
+    useIntersectionObserver(a, ([entry]) => {
+      aluFocus.value[i] = entry?.isIntersecting || false;
     })
   );
 });

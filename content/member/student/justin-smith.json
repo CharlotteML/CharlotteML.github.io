@@ -1,0 +1,26 @@
+{
+  "name": {
+    "first": "Justin",
+    "middle": "Riley",
+    "last": "Smith"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Computer Science Education",
+    "Accessibility Services"
+  ],
+  "introduction": "Justin is a Ph.D. student in the Department of Computer Science at UNC Charlotte. He received his B.S. degree in Computer Science from the University of North Carolina at Chapel Hill. His research interests include computer science education and accessibility services.",
+  "contact": {
+    "email": [
+      "jsmit840@uncc.edu"
+    ],
+    "phone": [
+      "828-221-5989"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://webpages.charlotte.edu/jsmit840/"
+  },
+  "photo": "/photos/justin.png"
+}

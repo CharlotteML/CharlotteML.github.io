@@ -32,7 +32,7 @@
             rel="noopener noreferrer nofollow"
             target="_blank"
           >
-            <Icon name="ph:globe" class="mb-0.5 ml-1 h-4 w-4" />
+            <Icon name="ph:globe" class="-mb-0.5 ml-1 h-4 w-4" />
             {{ person.contact.website }}
           </a>
           <a
@@ -40,7 +40,7 @@
             v-for="email in person.contact.email"
             class="w-full min-w-[50%] text-center sm:w-fit sm:text-left"
           >
-            <Icon name="ph:envelope" class="mb-0.5 ml-1 h-4 w-4" />
+            <Icon name="ph:envelope" class="-mb-0.5 ml-1 h-4 w-4" />
             {{ email }}
           </a>
           <a
@@ -48,14 +48,14 @@
             v-for="phone in person.contact.phone"
             class="w-full min-w-[50%] text-center sm:w-fit sm:text-left"
           >
-            <Icon name="ph:phone" class="mb-0.5 ml-1 h-4 w-4" />
+            <Icon name="ph:phone" class="-mb-0.5 ml-1 h-4 w-4" />
             {{ phone }}
           </a>
           <span
             v-if="person.contact.address"
             class="w-full min-w-[50%] text-center sm:w-fit sm:text-left"
           >
-            <Icon name="ph:house" class="mb-0.5 ml-1 h-4 w-4" />
+            <Icon name="ph:house" class="-mb-0.5 ml-1 h-4 w-4" />
             {{ person.contact.address }}
           </span>
         </div>

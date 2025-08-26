@@ -1,0 +1,23 @@
+{
+  "name": {
+    "first": "Benjamin",
+    "middle": null,
+    "last": "Poole"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Reinforcement Learning",
+    "Brain-Computer Interfaces"
+  ],
+  "introduction": "Benjamin is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on understanding different modalities of human feedback to incorporate them to reinforcement learning. He is interested in human brain signals, especially error-related potentials known as to be elicited when humans commit or observe erroneous events to enhance human-guided training of AI. As a senior PhD student, he leads projects guiding junior graduate students.",
+  "contact": {
+    "email": [
+      "bpoole16@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://bpoole908.github.io"
+  },
+  "photo": "/photos/ben.jpg"
+}

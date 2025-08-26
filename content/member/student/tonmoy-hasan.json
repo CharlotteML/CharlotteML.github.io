@@ -1,0 +1,26 @@
+{
+  "name": {
+    "first": "Tonmoy",
+    "middle": null,
+    "last": "Hasan"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "Recommender Systems"
+  ],
+  "introduction": "Tonmoy Hasan is a PhD student in the Department of Computer Science at UNC Charlotte. His primary areas of research include natural language processing, machine learning, and recommender systems, with a current emphasis on modeling serendipity-oriented recommender systems.",
+  "contact": {
+    "email": [
+      "thasan1@charlotte.edu"
+    ],
+    "phone": [
+      "980-282-9969"
+    ],
+    "address": "Room 437, Woodward Hall"
+  },
+  "photo": "/photos/tonmoy.jpg"
+}

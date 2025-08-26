@@ -1,0 +1,23 @@
+{
+  "name": {
+    "first": "Dominick",
+    "middle": null,
+    "last": "Reilly"
+  },
+  "position": [
+    "PhD Student"
+  ],
+  "research": [
+    "Computer Vision",
+    "Video Understanding"
+  ],
+  "introduction": "Dominick is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on understanding human actions in videos, specifically activities of daily living that are observed in real-world environments. He is interested in utilizing both egocentric and third person viewpoints, as well as multiple modalities, to solve the challenges of activities of daily living.",
+  "contact": {
+    "email": [
+      "dreilly1@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://dominickrei.github.io/"
+  },
+  "photo": "/photos/dominick.jpg"
+}

@@ -67,12 +67,12 @@
 
 <script setup lang="ts">
 const { data: faculty } = await useAsyncData("teaching", () =>
-  queryCollection("members").order("stem", "ASC").skip(1).first()
+  queryCollection("faculty").all()
 );
 const courses = ref(
   [] as { name: string; course: string; title: string; term: string }[]
 );
-faculty.value?.people?.map(
+faculty.value?.map(
   (f: {
     name: { first: string; middle?: string; last: string };
     teaching?: { course: string; title: string; term: string }[];

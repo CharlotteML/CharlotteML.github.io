@@ -1,0 +1,45 @@
+{
+  "name": {
+    "first": "Razvan",
+    "middle": "Constantin",
+    "last": "Bunescu"
+  },
+  "position": [
+    "Associate Professor"
+  ],
+  "research": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "Music Information Retrieval",
+    "Computational Creativity"
+  ],
+  "introduction": "Razvan is an Associate Professor in the Department of Computer Science at UNC Charlotte. Prior to joining Charlotte in 2020, he was a Professor in EECS at Ohio University. He received his PhD in Computer Science from the University of Texas at Austin in 2007. His research interests lie in the general area of machine learning, with a focus on applications in natural language processing, music information retrieval, biomedical informatics, computer architecture, computational creativity, and more recently education. His work has been funded by grants from the National Science Foundation, the National Institutes of Health, and the US Air Force.",
+  "teaching": [
+    {
+      "course": "ITCS 4156",
+      "title": "Introduction to Machine Learning",
+      "term": "Spring 2021"
+    },
+    {
+      "course": "ITCS 4111/5111",
+      "title": "Introduction to Natural Language Processing",
+      "term": "Fall 2023"
+    },
+    {
+      "course": "ITCS 6156/8156",
+      "title": "Machine Learning",
+      "term": "Spring 2023"
+    }
+  ],
+  "contact": {
+    "email": [
+      "razvan.bunescu@charlotte.edu"
+    ],
+    "phone": [
+      "704-687-8444"
+    ],
+    "address": "Room 410G, Woodward Hall",
+    "website": "https://webpages.charlotte.edu/rbunescu"
+  },
+  "photo": "/photos/bunescu.jpg"
+}

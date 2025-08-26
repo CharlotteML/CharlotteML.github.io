@@ -1,0 +1,22 @@
+{
+  "name": {
+    "first": "Vishal",
+    "middle": null,
+    "last": "Bondili"
+  },
+  "position": [
+    "Masters Student"
+  ],
+  "research": [
+    "Computer Vision",
+    "Video Understanding"
+  ],
+  "introduction": "Vishal is a Masters student in the Department of Computer Science advised by Dr. Srijan Das. His research work focuses on creating baseline benchmarks for various action recognition algorithms primarily assisting  Dominick Reilly. ",
+  "contact": {
+    "email": [
+      "rbondili@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall"
+  },
+  "photo": "/photos/vishal.jpg"
+}

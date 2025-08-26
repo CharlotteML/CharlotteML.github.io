@@ -1,0 +1,40 @@
+{
+  "name": {
+    "first": "Xiang",
+    "middle": null,
+    "last": "Zhang"
+  },
+  "position": ["Assistant Professor", "Lab Director"],
+  "research": [
+    "Machine Learning",
+    "Pervasive Healthcare",
+    "Medical Time Series",
+    "Brain-Computer Interfaces",
+    "Neurological Disorder Diagnosis"
+  ],
+  "introduction": "Xiang is an Assistant Professor in the Department of Computer Science at UNC Charlotte Since 2022. He was a postdoctoral fellow at Harvard University working on deep learning for medical data analysis. Xiang received his Ph.D. degree (in 2020) in Computer Science from the University of New South Wales (UNSW). His research outcomes have been published in prestigious conferences (such as ICLR, NeurIPS, and KDD) and journals (like Nature Computational Science), attracted 1700+ citations.",
+  "teaching": [
+    {
+      "course": "ITCS 4156",
+      "title": "Introduction to Machine Learning",
+      "term": "Fall 2023"
+    },
+    {
+      "course": "ITCS 4156",
+      "title": "Introduction to Machine Learning",
+      "term": "Spring 2023"
+    },
+    {
+      "course": "ITCS 4156",
+      "title": "Introduction to Machine Learning",
+      "term": "Fall 2022"
+    }
+  ],
+  "contact": {
+    "email": ["xiang.zhang@uncc.edu"],
+    "phone": ["704-687-1898"],
+    "address": "Room 410F, Woodward Hall",
+    "website": "https://xiangzhang.info/"
+  },
+  "photo": "/photos/xiang-zhang.jpg"
+}

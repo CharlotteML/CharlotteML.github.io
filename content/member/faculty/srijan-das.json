@@ -1,0 +1,37 @@
+{
+  "name": {
+    "first": "Srijan",
+    "middle": null,
+    "last": "Das"
+  },
+  "position": ["Assistant Professor", "Lab Co-Director"],
+  "research": [
+    "Computer Vision",
+    "Video Representation Learning",
+    "Robotic Vision"
+  ],
+  "introduction": "Srijan is an Assistant Professor in the Department of Computer Science at the University of North Carolina at Charlotte. At UNC Charlotte, he is working on Video Representation Learning and Robotic Vision. Prior to UNC Charlotte, Srijan was a Postdoctoral Associate at Stony Brook University under the supervision of Michael Ryoo. In 2020, he successfully completed their Ph.D. in Computer Science at INRIA, Sophia Antipolis, France, under the guidance of Francois Bremond and Monique Thonnat. His Ph.D. thesis focused on \"Spatio-temporal attention mechanisms for Action Recognition,\" Srijan pursued their Post-Graduate studies in Computer Science at the National Institute of Technology (NIT), Rourkela.",
+  "teaching": [
+    {
+      "course": "ITCS 4152/5152",
+      "title": "Computer Vision",
+      "term": "Fall 2022"
+    },
+    {
+      "course": "ITCS 4152/5152",
+      "title": "Computer Vision",
+      "term": "Spring 2023"
+    },
+    {
+      "course": "ITCS 4152/5152",
+      "title": "Computer Vision",
+      "term": "Fall 2023"
+    }
+  ],
+  "contact": {
+    "email": ["sdas24@charlotte.edu"],
+    "address": "Room 230A, Woodward Hall",
+    "website": "https://srijandas07.github.io/"
+  },
+  "photo": "/photos/srijan.png"
+}

@@ -1,0 +1,25 @@
+{
+  "name": {
+    "first": "Sampada",
+    "middle": "Ravindra",
+    "last": "Sakpal"
+  },
+  "position": [
+    "Masters Student"
+  ],
+  "research": [
+    "Machine Learning"
+  ],
+  "introduction": "Sampada is a M.S. student in the Department of Computer Science at UNC Charlotte. She received her B.S. degree in Computing and Software Systems from The University of Melbourne in 2017. Her research interests include machine learning.",
+  "contact": {
+    "email": [
+      "ssakpal@charlotte.edu"
+    ],
+    "phone": [
+      "704-387-1221"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": ""
+  },
+  "photo": "/photos/ssakpal.png"
+}

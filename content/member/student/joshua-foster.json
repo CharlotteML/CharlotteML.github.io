@@ -1,0 +1,23 @@
+{
+  "name": {
+    "first": "Joshua",
+    "middle": null,
+    "last": "Foster"
+  },
+  "position": [
+    "Undergraduate Student"
+  ],
+  "research": [
+    "Graph Learning",
+    "Complex System Optimization"
+  ],
+  "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarily assisting Ben.",
+  "contact": {
+    "email": [
+      "jfoste81@charlotte.edu"
+    ],
+    "address": "Room 437, Woodward Hall",
+    "website": "https://github.com/jfoste81"
+  },
+  "photo": "/photos/JoshuaFoster.jpg"
+}
