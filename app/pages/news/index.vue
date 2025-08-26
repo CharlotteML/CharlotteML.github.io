@@ -29,7 +29,7 @@
             class="mb-4 h-fit max-h-0 overflow-hidden text-base font-normal text-main-900/80 transition-all duration-500 ease-linear group-hover:max-h-96 dark:text-main-100/80"
           >
             <div class="flex w-full flex-col justify-center sm:flex-row">
-              <p class="flex-grow">{{ news.description }}</p>
+              <p class="grow">{{ news.description }}</p>
               <img
                 v-if="news.cover"
                 :src="news.cover"

@@ -3,7 +3,7 @@
     class="m-4 rounded-lg border border-accent-200 bg-secondary-50 shadow-lg dark:border-accent-600 dark:bg-secondary-950 dark:shadow-xl"
   >
     <div
-      class="mx-auto grid w-full max-w-screen-xl grid-cols-1 p-4 md:grid-cols-3 md:items-center md:justify-between"
+      class="mx-auto grid w-full max-w-(--breakpoint-xl) grid-cols-1 p-4 md:grid-cols-3 md:items-center md:justify-between"
     >
       <span
         class="mx-auto mt-3 flex flex-col items-start text-sm font-medium text-main-900 dark:text-main-200 sm:mt-0"

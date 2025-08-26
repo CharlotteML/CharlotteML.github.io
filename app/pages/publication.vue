@@ -3,7 +3,7 @@
     <form class="pt-10" @submit.prevent="search()">
       <div class="flex">
         <button
-          class="z-10 inline-flex flex-shrink-0 items-center gap-2 rounded-l-lg border border-accent-200 bg-secondary-100 px-4 py-2.5 text-center text-sm font-medium text-main-900 hover:bg-secondary-200 focus:outline-none focus:ring-4 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/60 dark:text-main-100 dark:hover:bg-secondary-800 dark:focus:ring-accent-600"
+          class="z-10 inline-flex shrink-0 items-center gap-2 rounded-l-lg border border-accent-200 bg-secondary-100 px-4 py-2.5 text-center text-sm font-medium text-main-900 hover:bg-secondary-200 focus:outline-none focus:ring-4 focus:ring-accent-200 dark:border-accent-600 dark:bg-secondary-900/60 dark:text-main-100 dark:hover:bg-secondary-800 dark:focus:ring-accent-600"
           type="button"
           @click="showTypeSelection = !showTypeSelection"
         >
@@ -152,6 +152,7 @@ useSeoMeta({
 </script>
 
 <style>
+@reference "~/assets/css/main.css";
 .csl-bib-body {
   @apply whitespace-pre-line text-lg;
 }

@@ -254,13 +254,14 @@ useSeoMeta({
 </script>
 
 <style>
+@reference "~/assets/css/main.css";
 .nav {
   @apply flex items-center justify-center border-primary-800 p-2 py-2;
 }
 .inactive {
-  @apply max-w-none flex-grow-0 overflow-hidden border-l text-center text-sm delay-75;
+  @apply max-w-none grow-0 overflow-hidden border-l text-center text-sm delay-75;
 }
 .active {
-  @apply flex-grow border-l-4 text-center delay-75;
+  @apply grow border-l-4 text-center delay-75;
 }
 </style>

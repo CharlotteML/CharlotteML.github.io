@@ -106,7 +106,7 @@
             class="mb-4 h-fit max-h-0 overflow-hidden text-base font-normal text-main-900/80 transition-all duration-500 ease-linear group-hover:max-h-96 dark:text-main-100/80"
           >
             <div class="flex w-full flex-col justify-center sm:flex-row">
-              <p class="flex-grow">{{ news.description }}</p>
+              <p class="grow">{{ news.description }}</p>
               <img
                 v-if="news.cover"
                 :src="news.cover"
@@ -203,6 +203,8 @@ useSeoMeta({
 </script>
 
 <style scoped>
+@reference "~/assets/css/main.css";
+
 .gallery-button {
   @apply inline-flex h-10 w-10 items-center justify-center rounded-full bg-accent-200/60 group-hover:bg-accent-200/90 group-focus:outline-none group-focus:ring-4 group-focus:ring-accent-200 dark:bg-accent-600/60 dark:group-hover:bg-accent-600/90 dark:group-focus:ring-accent-600;
 }

@@ -13,8 +13,8 @@
     "@nuxt/icon": "2.0.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/seo": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^6.14.0",
     "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.12",
     "@types/node": "^24.3.0",
     "@vueuse/core": "^13.7.0",
     "@vueuse/nuxt": "^13.7.0",
@@ -24,10 +24,12 @@
     "node-gyp": "^11.4.2",
     "nuxt": "^4.0.3",
     "patch-package": "^8.0.0",
+    "tailwindcss": "^4.1.12",
     "ufo": "^1.6.1"
   },
   "trustedDependencies": [
     "@parcel/watcher",
+    "@tailwindcss/oxide",
     "better-sqlite3",
     "citation-js",
     "esbuild"

@@ -4,7 +4,7 @@
       <div ref="drawer">
         <!-- drawer component -->
         <div
-          class="z-[9999] my-4 overflow-y-auto rounded-xl border border-accent-200 bg-secondary-100 p-2 transition-transform dark:border-accent-600 dark:bg-secondary-900 lg:fixed lg:left-0 lg:top-0 lg:m-0 lg:h-screen lg:w-80 lg:rounded-none lg:border-none lg:py-12"
+          class="z-9999 my-4 overflow-y-auto rounded-xl border border-accent-200 bg-secondary-100 p-2 transition-transform dark:border-accent-600 dark:bg-secondary-900 lg:fixed lg:left-0 lg:top-0 lg:m-0 lg:h-screen lg:w-80 lg:rounded-none lg:border-none lg:py-12"
           tabindex="-1"
           :class="{
             'ease-out lg:translate-x-0': value,

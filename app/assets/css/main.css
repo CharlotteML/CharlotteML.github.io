@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-50: #effaf4;
+  --color-primary-100: #d9f2e3;
+  --color-primary-200: #b7e3cb;
+  --color-primary-300: #87ceab;
+  --color-primary-400: #55b287;
+  --color-primary-500: #33966c;
+  --color-primary-600: #237856;
+  --color-primary-700: #1c6047;
+  --color-primary-800: #1a523d; /* light, dark */
+  --color-primary-900: #153f30;
+  --color-primary-950: #0b231b;
+
+  --color-secondary-50: #f6f5f5; /* light */
+  --color-secondary-100: #e7e6e6;
+  --color-secondary-200: #d1d0d0;
+  --color-secondary-300: #b1afb0;
+  --color-secondary-400: #8a8686;
+  --color-secondary-500: #6f6b6b;
+  --color-secondary-600: #5f5b5b;
+  --color-secondary-700: #504e4f;
+  --color-secondary-800: #464444;
+  --color-secondary-900: #3d3c3c;
+  --color-secondary-950: #1c1b1b; /* dark */
+
+  --color-accent-50: #f8f7ee;
+  --color-accent-100: #edecd4;
+  --color-accent-200: #ddd9ab; /* dark */
+  --color-accent-300: #c9c17b;
+  --color-accent-400: #b9aa56;
+  --color-accent-500: #a08e44;
+  --color-accent-600: #927a3c; /* light */
+  --color-accent-700: #755d33;
+  --color-accent-800: #634d30;
+  --color-accent-900: #56422d;
+  --color-accent-950: #312317;
+
+  --color-alert-50: #fcf4f4;
+  --color-alert-100: #fae6e6;
+  --color-alert-200: #f6d3d2;
+  --color-alert-300: #eeb4b3;
+  --color-alert-400: #e38886;
+  --color-alert-500: #d4625f;
+  --color-alert-600: #bf4643;
+  --color-alert-700: #a03835;
+  --color-alert-800: #802f2d; /* light, dark */
+  --color-alert-900: #702e2c;
+  --color-alert-950: #3c1413;
+
+  --color-main-50: #f4f7fb; /* bg (light), text (dark), or just use white */
+  --color-main-100: #e9eff5;
+  --color-main-200: #cedde9;
+  --color-main-300: #a2c1d7;
+  --color-main-400: #709fc0;
+  --color-main-500: #4e84a9;
+  --color-main-600: #3c6a8d;
+  --color-main-700: #315573;
+  --color-main-800: #2c4960;
+  --color-main-900: #293e51;
+  --color-main-950: #0d131a; /* bg (dark), text (light) */
+}

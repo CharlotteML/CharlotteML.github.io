@@ -1,7 +1,8 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: [
-    "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@nuxtjs/seo",
     "@vueuse/nuxt",
@@ -24,6 +25,8 @@ export default defineNuxtConfig({
 
   colorMode: { classSuffix: "", preference: "system", fallback: "light" },
 
+  css: ["~/assets/css/main.css"],
+
   experimental: { payloadExtraction: false },
 
   site: {
@@ -33,7 +36,9 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
 
-  compatibilityDate: "2024-07-18",
+  vite: { plugins: [tailwindcss()] },
+
+  compatibilityDate: "2025-08-26",
 
   nitro: {
     prerender: {

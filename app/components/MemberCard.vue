@@ -4,7 +4,7 @@
   >
     <div class="flex min-h-fit grow flex-col items-center sm:flex-row">
       <img
-        class="mt-4 h-48 w-48 flex-shrink-0 rounded-full object-cover sm:mt-0 sm:rounded-none sm:rounded-br-lg sm:rounded-tl-lg"
+        class="mt-4 h-48 w-48 shrink-0 rounded-full object-cover sm:mt-0 sm:rounded-none sm:rounded-br-lg sm:rounded-tl-lg"
         :src="person.photo ? person.photo : '/logo.svg'"
         :alt="
           [person.name.first, person.name.middle, person.name.last].join(' ')

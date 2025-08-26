@@ -1,8 +1,8 @@
 <template>
   <main>
     <section>
-      <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
-        <div class="mx-auto max-w-screen-sm text-center">
+      <div class="mx-auto max-w-(--breakpoint-xl) px-4 py-8 lg:px-6 lg:py-16">
+        <div class="mx-auto max-w-(--breakpoint-sm) text-center">
           <h1
             class="mb-4 text-9xl font-extrabold tracking-tight text-primary-800 dark:text-primary-600 lg:text-9xl"
           >

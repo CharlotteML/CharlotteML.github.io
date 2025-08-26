@@ -4,7 +4,7 @@
       class="border-b border-accent-200 bg-secondary-50 px-4 py-2.5 shadow dark:border-accent-600 dark:bg-secondary-950 dark:shadow-lg lg:px-6"
     >
       <div
-        class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between"
+        class="mx-auto flex max-w-(--breakpoint-xl) flex-wrap items-center justify-between"
       >
         <NuxtLink href="/" class="flex items-center">
           <img
@@ -85,6 +85,7 @@ const navBarItems = ref([
 </script>
 
 <style scoped>
+@reference "~/assets/css/main.css";
 .nav-bar-button {
   @apply ml-1 items-center rounded-lg p-2 text-sm text-main-950 hover:bg-secondary-50 focus:outline-none focus:ring-2 focus:ring-secondary-200 dark:text-main-50 dark:hover:bg-secondary-950 dark:focus:ring-secondary-800;
 }

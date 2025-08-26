@@ -39,6 +39,7 @@ useSeoMeta({
 </script>
 
 <style>
+@reference "~/assets/css/main.css";
 iframe {
   @apply h-96 w-full md:h-[40rem];
 }
