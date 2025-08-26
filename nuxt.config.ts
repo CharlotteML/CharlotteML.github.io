@@ -4,16 +4,14 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
     "@nuxtjs/seo",
-    "nuxt-icon",
     "@vueuse/nuxt",
     "@nuxt/content",
+    "@nuxt/icon",
   ],
 
   app: {
     head: {
-      templateParams: {
-        separator: "|",
-      },
+      templateParams: { separator: "|" },
       titleTemplate: "%s %separator CharmLab",
     },
   },
@@ -24,15 +22,9 @@ export default defineNuxtConfig({
     // documentDriven: true,
   },
 
-  colorMode: {
-    classSuffix: "",
-    preference: "system",
-    fallback: "light",
-  },
+  colorMode: { classSuffix: "", preference: "system", fallback: "light" },
 
-  experimental: {
-    payloadExtraction: false,
-  },
+  experimental: { payloadExtraction: false },
 
   site: {
     url: "https://charlotteml.github.io",
@@ -49,7 +41,11 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: {
-    enabled: true,
+  icon: {
+    mode: "css",
+    cssLayer: "base",
+    serverBundle: { collections: ["ph"] },
   },
+
+  devtools: { enabled: true },
 });
