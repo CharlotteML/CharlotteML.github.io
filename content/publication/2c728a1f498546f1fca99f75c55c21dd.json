@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2023", 1, 12]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2206.11895",
+  "note": "arXiv:2206.11895 [cs]",
+  "number": "arXiv:2206.11895",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Learning Viewpoint-Agnostic Visual Representations by Recovering Tokens in 3D Space",
+  "URL": "http://arxiv.org/abs/2206.11895",
+  "author": [
+    {
+      "family": "Shang",
+      "given": "Jinghuan"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Ryoo",
+      "given": "Michael S."
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

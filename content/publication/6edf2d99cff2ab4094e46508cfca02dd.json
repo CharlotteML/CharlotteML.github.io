@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2018", 6, 11]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.1806.04261",
+  "note": "arXiv:1806.04261 [math]",
+  "number": "arXiv:1806.04261",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "A Quotient Property for Matrices with Heavy-Tailed Entries and its Application to Noise-Blind Compressed Sensing",
+  "URL": "http://arxiv.org/abs/1806.04261",
+  "author": [
+    {
+      "family": "Krahmer",
+      "given": "Felix"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Rauhut",
+      "given": "Holger"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

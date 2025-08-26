@@ -1,0 +1,47 @@
+{
+  "issued": {
+    "date-parts": [["2024", 9, 9]]
+  },
+  "type": "article-journal",
+  "container-title": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+  "DOI": "10.1145/3678514",
+  "issue": "3",
+  "page": "124:1–124:25",
+  "source": "ACM Digital Library",
+  "title": "Self-Supervised Representation Learning and Temporal-Spectral Feature Fusion for Bed Occupancy Detection",
+  "URL": "https://dl.acm.org/doi/10.1145/3678514",
+  "volume": "8",
+  "author": [
+    {
+      "family": "Song",
+      "given": "Yingjian"
+    },
+    {
+      "family": "Pitafi",
+      "given": "Zaid Farooq"
+    },
+    {
+      "family": "Dou",
+      "given": "Fei"
+    },
+    {
+      "family": "Sun",
+      "given": "Jin"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Phillips",
+      "given": "Bradley G."
+    },
+    {
+      "family": "Song",
+      "given": "WenZhan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

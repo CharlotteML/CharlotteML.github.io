@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+  "language": "en",
+  "page": "3689-3698",
+  "source": "openaccess.thecvf.com",
+  "title": "Hyb-NeRF: A Multiresolution Hybrid Encoding for Neural Radiance Fields",
+  "title-short": "Hyb-NeRF",
+  "URL": "https://openaccess.thecvf.com/content/WACV2024/html/Wang_Hyb-NeRF_A_Multiresolution_Hybrid_Encoding_for_Neural_Radiance_Fields_WACV_2024_paper.html",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Yifan"
+    },
+    {
+      "family": "Gong",
+      "given": "Yi"
+    },
+    {
+      "family": "Zeng",
+      "given": "Yuan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "issued": {
+    "date-parts": [["2018", 3]]
+  },
+  "type": "paper-conference",
+  "container-title": "2018 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)",
+  "DOI": "10.1109/PERCOMW.2018.8480331",
+  "event-title": "2018 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)",
+  "page": "456-457",
+  "source": "IEEE Xplore",
+  "title": "Context-aware Human Intent Inference for Improving Human Machine Cooperation",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ]
+}

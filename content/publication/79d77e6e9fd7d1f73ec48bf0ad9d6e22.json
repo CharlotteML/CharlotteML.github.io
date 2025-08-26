@@ -1,0 +1,46 @@
+{
+  "issued": {
+    "date-parts": [["2017", 11, 7]]
+  },
+  "type": "paper-conference",
+  "collection-title": "MobiQuitous 2017",
+  "container-title": "Proceedings of the 14th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+  "DOI": "10.1145/3144457.3144477",
+  "event-place": "New York, NY, USA",
+  "ISBN": "978-1-4503-5368-7",
+  "page": "28–37",
+  "publisher": "Association for Computing Machinery",
+  "publisher-place": "New York, NY, USA",
+  "source": "ACM Digital Library",
+  "title": "Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis",
+  "URL": "https://dl.acm.org/doi/10.1145/3144457.3144477",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Zhang",
+      "given": "Dalin"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Sheng",
+      "given": "Quan Z."
+    },
+    {
+      "family": "Gu",
+      "given": "Tao"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

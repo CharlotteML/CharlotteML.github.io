@@ -1,0 +1,41 @@
+{
+  "issued": {
+    "date-parts": [["2020", 2]]
+  },
+  "type": "article-journal",
+  "container-title": "IEEE Transactions on Industrial Informatics",
+  "DOI": "10.1109/TII.2019.2947112",
+  "ISSN": "1941-0050",
+  "issue": "2",
+  "note": "event-title: IEEE Transactions on Industrial Informatics",
+  "page": "732-742",
+  "source": "IEEE Xplore",
+  "title": "Unraveling Metric Vector Spaces With Factorization for Recommendation",
+  "volume": "16",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Shuai"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wu",
+      "given": "Bin"
+    },
+    {
+      "family": "Xu",
+      "given": "Xiwei"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Zhu",
+      "given": "Liming"
+    }
+  ]
+}

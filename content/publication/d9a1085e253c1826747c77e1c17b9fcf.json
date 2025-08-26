@@ -1,0 +1,39 @@
+{
+  "issued": {
+    "date-parts": [["2024", 3, 7]]
+  },
+  "type": "paper-conference",
+  "collection-title": "SIGCSE 2024",
+  "container-title": "Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1",
+  "DOI": "10.1145/3626252.3630799",
+  "event-place": "New York, NY, USA",
+  "ISBN": "979-8-4007-0423-9",
+  "page": "53–59",
+  "publisher": "Association for Computing Machinery",
+  "publisher-place": "New York, NY, USA",
+  "source": "ACM Digital Library",
+  "title": "Can Language Models Employ the Socratic Method? Experiments with Code Debugging",
+  "title-short": "Can Language Models Employ the Socratic Method?",
+  "URL": "https://dl.acm.org/doi/10.1145/3626252.3630799",
+  "author": [
+    {
+      "family": "Al-Hossami",
+      "given": "Erfan"
+    },
+    {
+      "family": "Bunescu",
+      "given": "Razvan"
+    },
+    {
+      "family": "Smith",
+      "given": "Justin"
+    },
+    {
+      "family": "Teehan",
+      "given": "Ryan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

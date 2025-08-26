@@ -1,0 +1,43 @@
+{
+  "issued": {
+    "date-parts": [["2020", 6, 16]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.1810.02223",
+  "note": "arXiv:1810.02223 [cs]",
+  "number": "arXiv:1810.02223",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Brain2Object: Printing Your Mind from Brain Signals with Spatial Correlation Embedding",
+  "title-short": "Brain2Object",
+  "URL": "http://arxiv.org/abs/1810.02223",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Kanhere",
+      "given": "Salil S."
+    },
+    {
+      "family": "Zhang",
+      "given": "Dalin"
+    },
+    {
+      "family": "Zhang",
+      "given": "Yu"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

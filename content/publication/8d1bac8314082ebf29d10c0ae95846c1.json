@@ -1,0 +1,40 @@
+{
+  "issued": {
+    "date-parts": [["2021", 8, 1]]
+  },
+  "type": "article-journal",
+  "container-title": "Future Generation Computer Systems",
+  "DOI": "10.1016/j.future.2021.03.003",
+  "ISSN": "0167-739X",
+  "journalAbbreviation": "Future Generation Computer Systems",
+  "page": "25-34",
+  "source": "ScienceDirect",
+  "title": "Deep spatial–temporal sequence modeling for multi-step passenger demand prediction",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S0167739X21000832",
+  "volume": "121",
+  "author": [
+    {
+      "family": "Bai",
+      "given": "Lei"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Li",
+      "given": "Can"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

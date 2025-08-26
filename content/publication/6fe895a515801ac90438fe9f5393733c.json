@@ -1,0 +1,26 @@
+{
+  "issued": {
+    "date-parts": [["2023", 10, 20]]
+  },
+  "type": "book",
+  "ISBN": "978-3-0365-8830-8",
+  "language": "English",
+  "note": "DOI: 10.3390/books978-3-0365-8831-5",
+  "publisher": "MDPI - Multidisciplinary Digital Publishing Institute",
+  "source": "www.mdpi.com",
+  "title": "Deep Learning Architecture and Applications",
+  "URL": "https://www.mdpi.com/books/book/8070",
+  "editor": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Li",
+      "given": "Xiaoxiao"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

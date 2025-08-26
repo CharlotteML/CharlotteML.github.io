@@ -1,0 +1,34 @@
+{
+  "issued": {
+    "date-parts": [["2022", 12, 6]]
+  },
+  "type": "article-journal",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "language": "en",
+  "page": "3988-4003",
+  "source": "proceedings.neurips.cc",
+  "title": "Self-Supervised Contrastive Pre-Training For Time Series via Time-Frequency Consistency",
+  "URL": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html",
+  "volume": "35",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Zhao",
+      "given": "Ziyuan"
+    },
+    {
+      "family": "Tsiligkaridis",
+      "given": "Theodoros"
+    },
+    {
+      "family": "Zitnik",
+      "given": "Marinka"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

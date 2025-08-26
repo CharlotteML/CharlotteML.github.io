@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2024", 7]]
+  },
+  "type": "paper-conference",
+  "container-title": "2024 IEEE 13rd Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+  "DOI": "10.1109/SAM60225.2024.10636588",
+  "event-title": "2024 IEEE 13rd Sensor Array and Multichannel Signal Processing Workshop (SAM)",
+  "note": "ISSN: 2151-870X",
+  "page": "1-5",
+  "source": "IEEE Xplore",
+  "title": "Linear Convergence of Iteratively Reweighted Least Squares for Nuclear Norm Minimization",
+  "URL": "https://ieeexplore.ieee.org/document/10636588",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Stöger",
+      "given": "Dominik"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

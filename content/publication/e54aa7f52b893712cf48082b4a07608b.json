@@ -1,0 +1,29 @@
+{
+  "issued": {
+    "date-parts": [["2023"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "17808-17818",
+  "source": "openaccess.thecvf.com",
+  "title": "On the Convergence of IRLS and Its Variants in Outlier-Robust Estimation",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2023/html/Peng_On_the_Convergence_of_IRLS_and_Its_Variants_in_Outlier-Robust_CVPR_2023_paper.html",
+  "author": [
+    {
+      "family": "Peng",
+      "given": "Liangzu"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Vidal",
+      "given": "René"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

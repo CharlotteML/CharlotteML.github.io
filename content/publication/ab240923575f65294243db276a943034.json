@@ -1,0 +1,26 @@
+{
+  "issued": {
+    "date-parts": [["2023", 6, 8]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2306.04961",
+  "note": "arXiv:2306.04961 [cs, math]",
+  "number": "arXiv:2306.04961",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Recovering Simultaneously Structured Data via Non-Convex Iteratively Reweighted Least Squares",
+  "URL": "http://arxiv.org/abs/2306.04961",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Maly",
+      "given": "Johannes"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

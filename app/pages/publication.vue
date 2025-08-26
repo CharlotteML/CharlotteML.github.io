@@ -53,18 +53,21 @@
 </template>
 
 <script setup lang="ts">
-const { data: page } = await useAsyncData("publications", () =>
-  queryCollection("publications").first()
-);
+const publication =
+  (
+    await useAsyncData("publication", () =>
+      queryCollection("publication").all()
+    )
+  ).data.value || [];
 const entries =
-  page.value?.collection.sort((a, b) => {
-    if (a.issued === undefined && b.issued === undefined) return 0;
-    if (a.issued === undefined) return 1;
-    if (b.issued === undefined) return -1;
-    return (a.issued["date-parts"][0] ?? ["0000", 0, 0]) >
-      (b.issued["date-parts"][0] ?? ["0000", 0, 0])
-      ? -1
-      : 1;
+  publication.sort((a, b) => {
+    const aIssueTime = a.issued
+      ? (a.issued["date-parts"][0] ?? ["0000", 0, 0])
+      : ["0000", 0, 0];
+    const bIssueTime = b.issued
+      ? (b.issued["date-parts"][0] ?? ["0000", 0, 0])
+      : ["0000", 0, 0];
+    return aIssueTime > bIssueTime ? -1 : 1;
   }) || [];
 const bibliography = ref(entries);
 const searchTerm = ref("");
@@ -74,6 +77,7 @@ const types = ref([
   { name: "book", select: true, count: 0 },
   { name: "chapter", select: true, count: 0 },
   { name: "conference", select: true, count: 0 },
+  { name: "document", select: true, count: 0 },
 ]);
 for (const entry of entries) {
   for (const type of types.value) {
@@ -131,7 +135,7 @@ const HTMLoutput = computed(() => {
   return citationHTML.replaceAll(
     /(http(s):\/\/.)[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/g,
     (match: string) =>
-      `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">${match}</a>`
+      `<a class="csl-doi" target="_blank" rel="noopener noreferrer nofollow" href="${match}">link</a>`
   );
 });
 
@@ -163,6 +167,6 @@ useSeoMeta({
   @apply my-0.5 list-item list-inside list-decimal whitespace-break-spaces rounded-xl border border-accent-200 bg-secondary-100/50 p-4 shadow-md dark:border-accent-600 dark:bg-secondary-900/30 dark:shadow-lg;
 }
 .csl-doi {
-  @apply hover:text-accent-200 dark:hover:text-accent-600;
+  @apply underline hover:text-accent-200 dark:hover:text-accent-600;
 }
 </style>

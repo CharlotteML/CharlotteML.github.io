@@ -1,0 +1,49 @@
+{
+  "issued": {
+    "date-parts": [["2021", 6, 24]]
+  },
+  "type": "article-journal",
+  "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+  "DOI": "10.1145/3463522",
+  "issue": "2",
+  "journalAbbreviation": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+  "page": "82:1–82:26",
+  "source": "ACM Digital Library",
+  "title": "Watching Your Phone's Back: Gesture Recognition by Sensing Acoustical Structure-borne Propagation",
+  "title-short": "Watching Your Phone's Back",
+  "URL": "https://dl.acm.org/doi/10.1145/3463522",
+  "volume": "5",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Lei"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Jiang",
+      "given": "Yuanshuang"
+    },
+    {
+      "family": "Zhang",
+      "given": "Yong"
+    },
+    {
+      "family": "Xu",
+      "given": "Chenren"
+    },
+    {
+      "family": "Gao",
+      "given": "Ruiyang"
+    },
+    {
+      "family": "Zhang",
+      "given": "Daqing"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

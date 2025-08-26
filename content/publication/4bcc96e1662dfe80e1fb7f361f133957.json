@@ -1,0 +1,31 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "article-journal",
+  "container-title": "CoRR",
+  "DOI": "10.48550/ARXIV.2408.16166",
+  "note": "arXiv: 2408.16166",
+  "source": "DBLP Computer Science Bibliography",
+  "title": "Sparse Recovery for Overcomplete Frames: Sensing Matrices and Recovery Guarantees",
+  "title-short": "Sparse Recovery for Overcomplete Frames",
+  "URL": "https://doi.org/10.48550/arXiv.2408.16166",
+  "volume": "abs/2408.16166",
+  "author": [
+    {
+      "family": "Chen",
+      "given": "Xuemei"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Wang",
+      "given": "Rongrong"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

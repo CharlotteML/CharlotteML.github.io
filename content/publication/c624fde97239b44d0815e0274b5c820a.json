@@ -1,0 +1,58 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "11226-11237",
+  "source": "openaccess.thecvf.com",
+  "title": "SI-MIL: Taming Deep MIL for Self-Interpretability in Gigapixel Histopathology",
+  "title-short": "SI-MIL",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Kapse_SI-MIL_Taming_Deep_MIL_for_Self-Interpretability_in_Gigapixel_Histopathology_CVPR_2024_paper.html",
+  "author": [
+    {
+      "family": "Kapse",
+      "given": "Saarthak"
+    },
+    {
+      "family": "Pati",
+      "given": "Pushpak"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Zhang",
+      "given": "Jingwei"
+    },
+    {
+      "family": "Chen",
+      "given": "Chao"
+    },
+    {
+      "family": "Vakalopoulou",
+      "given": "Maria"
+    },
+    {
+      "family": "Saltz",
+      "given": "Joel"
+    },
+    {
+      "family": "Samaras",
+      "given": "Dimitris"
+    },
+    {
+      "family": "Gupta",
+      "given": "Rajarsi R."
+    },
+    {
+      "family": "Prasanna",
+      "given": "Prateek"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "issued": {
+    "date-parts": [["2022", 3, 29]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2112.03902",
+  "note": "arXiv:2112.03902 [cs]",
+  "number": "arXiv:2112.03902",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "MS-TCT: Multi-Scale Temporal ConvTransformer for Action Detection",
+  "title-short": "MS-TCT",
+  "URL": "http://arxiv.org/abs/2112.03902",
+  "author": [
+    {
+      "family": "Dai",
+      "given": "Rui"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Kahatapitiya",
+      "given": "Kumara"
+    },
+    {
+      "family": "Ryoo",
+      "given": "Michael S."
+    },
+    {
+      "family": "Bremond",
+      "given": "Francois"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

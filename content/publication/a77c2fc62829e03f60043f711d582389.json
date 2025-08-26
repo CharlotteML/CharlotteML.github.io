@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2022", 12, 1]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2212.00746",
+  "note": "arXiv:2212.00746 [cs, math, stat]",
+  "number": "arXiv:2212.00746",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Learning Transition Operators From Sparse Space-Time Samples",
+  "URL": "http://arxiv.org/abs/2212.00746",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Maggioni",
+      "given": "Mauro"
+    },
+    {
+      "family": "Tang",
+      "given": "Sui"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "issued": {
+    "date-parts": [["2019", 7]]
+  },
+  "type": "paper-conference",
+  "container-title": "2019 13th International conference on Sampling Theory and Applications (SampTA)",
+  "DOI": "10.1109/SampTA45681.2019.9030959",
+  "event-title": "2019 13th International conference on Sampling Theory and Applications (SampTA)",
+  "page": "1-5",
+  "source": "IEEE Xplore",
+  "title": "Completion of Structured Low-Rank Matrices via Iteratively Reweighted Least Squares",
+  "URL": "https://ieeexplore.ieee.org/document/9030959",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Verdun",
+      "given": "Claudio M."
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

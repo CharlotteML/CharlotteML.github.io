@@ -1,0 +1,34 @@
+{
+  "issued": {
+    "date-parts": [["2023", 1, 13]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2206.05266",
+  "note": "arXiv:2206.05266 [cs]",
+  "number": "arXiv:2206.05266",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Does Self-supervised Learning Really Improve Reinforcement Learning from Pixels?",
+  "URL": "http://arxiv.org/abs/2206.05266",
+  "author": [
+    {
+      "family": "Li",
+      "given": "Xiang"
+    },
+    {
+      "family": "Shang",
+      "given": "Jinghuan"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Ryoo",
+      "given": "Michael S."
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

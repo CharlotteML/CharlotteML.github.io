@@ -1,0 +1,61 @@
+{
+  "issued": {
+    "date-parts": [["2017"]]
+  },
+  "type": "paper-conference",
+  "collection-title": "Lecture Notes in Computer Science",
+  "container-title": "Neural Information Processing",
+  "DOI": "10.1007/978-3-319-70096-0_76",
+  "event-place": "Cham",
+  "ISBN": "978-3-319-70096-0",
+  "language": "en",
+  "page": "748-758",
+  "publisher": "Springer International Publishing",
+  "publisher-place": "Cham",
+  "source": "Springer Link",
+  "title": "Intent Recognition in Smart Living Through Deep Recurrent Neural Networks",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Sheng",
+      "given": "Quan Z."
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Liu",
+      "given": "Derong"
+    },
+    {
+      "family": "Xie",
+      "given": "Shengli"
+    },
+    {
+      "family": "Li",
+      "given": "Yuanqing"
+    },
+    {
+      "family": "Zhao",
+      "given": "Dongbin"
+    },
+    {
+      "family": "El-Alfy",
+      "given": "El-Sayed M."
+    }
+  ]
+}

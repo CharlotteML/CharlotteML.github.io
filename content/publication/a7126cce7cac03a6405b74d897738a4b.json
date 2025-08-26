@@ -1,0 +1,31 @@
+{
+  "issued": {
+    "date-parts": [["2023", 6, 15]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2306.09331",
+  "note": "arXiv:2306.09331 [cs]",
+  "number": "arXiv:2306.09331",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Seeing the Pose in the Pixels: Learning Pose-Aware Representations in Vision Transformers",
+  "title-short": "Seeing the Pose in the Pixels",
+  "URL": "http://arxiv.org/abs/2306.09331",
+  "author": [
+    {
+      "family": "Reilly",
+      "given": "Dominick"
+    },
+    {
+      "family": "Chadha",
+      "given": "Aman"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

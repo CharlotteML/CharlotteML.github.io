@@ -1,0 +1,65 @@
+{
+  "issued": {
+    "date-parts": [["2018"]]
+  },
+  "type": "paper-conference",
+  "collection-title": "Lecture Notes in Computer Science",
+  "container-title": "Web Information Systems Engineering – WISE 2018",
+  "DOI": "10.1007/978-3-030-02925-8_21",
+  "event-place": "Cham",
+  "ISBN": "978-3-030-02925-8",
+  "language": "en",
+  "page": "301-311",
+  "publisher": "Springer International Publishing",
+  "publisher-place": "Cham",
+  "source": "Springer Link",
+  "title": "Data-Augmented Regression with Generative Convolutional Network",
+  "author": [
+    {
+      "family": "Ning",
+      "given": "Xiaodong"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Benatallah",
+      "given": "Boualem"
+    },
+    {
+      "family": "Zhang",
+      "given": "Shuai"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Hacid",
+      "given": "Hakim"
+    },
+    {
+      "family": "Cellary",
+      "given": "Wojciech"
+    },
+    {
+      "family": "Wang",
+      "given": "Hua"
+    },
+    {
+      "family": "Paik",
+      "given": "Hye-Young"
+    },
+    {
+      "family": "Zhou",
+      "given": "Rui"
+    }
+  ]
+}

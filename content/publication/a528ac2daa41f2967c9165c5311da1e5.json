@@ -1,0 +1,34 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "1546-1555",
+  "source": "openaccess.thecvf.com",
+  "title": "MMM: Generative Masked Motion Model",
+  "title-short": "MMM",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Pinyoanuntapong_MMM_Generative_Masked_Motion_Model_CVPR_2024_paper.html",
+  "author": [
+    {
+      "family": "Pinyoanuntapong",
+      "given": "Ekkasit"
+    },
+    {
+      "family": "Wang",
+      "given": "Pu"
+    },
+    {
+      "family": "Lee",
+      "given": "Minwoo"
+    },
+    {
+      "family": "Chen",
+      "given": "Chen"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

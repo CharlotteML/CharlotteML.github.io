@@ -1,0 +1,45 @@
+{
+  "issued": {
+    "date-parts": [["2018", 9, 18]]
+  },
+  "type": "article-journal",
+  "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+  "DOI": "10.1145/3264959",
+  "issue": "3",
+  "journalAbbreviation": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+  "page": "149:1–149:23",
+  "source": "ACM Digital Library",
+  "title": "MindID: Person Identification from Brain Waves through Attention-based Recurrent Neural Network",
+  "title-short": "MindID",
+  "URL": "https://dl.acm.org/doi/10.1145/3264959",
+  "volume": "2",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Kanhere",
+      "given": "Salil S."
+    },
+    {
+      "family": "Liu",
+      "given": "Yunhao"
+    },
+    {
+      "family": "Gu",
+      "given": "Tao"
+    },
+    {
+      "family": "Chen",
+      "given": "Kaixuan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

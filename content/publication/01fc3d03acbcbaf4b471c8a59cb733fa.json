@@ -1,0 +1,46 @@
+{
+  "issued": {
+    "date-parts": [["2018", 5, 1]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.1804.05493",
+  "note": "arXiv:1804.05493 [cs]",
+  "number": "arXiv:1804.05493",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Multi-modality Sensor Data Classification with Selective Attention",
+  "URL": "http://arxiv.org/abs/1804.05493",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Wang",
+      "given": "Sen"
+    },
+    {
+      "family": "Tan",
+      "given": "Mingkui"
+    },
+    {
+      "family": "Long",
+      "given": "Guodong"
+    },
+    {
+      "family": "Wang",
+      "given": "Can"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "issued": {
+    "date-parts": [["2024", 11, 1]]
+  },
+  "type": "paper-conference",
+  "container-title": "Computer Vision – ECCV 2024: 18th European Conference, Milan, Italy, September 29–October 4, 2024, Proceedings, Part LXXV",
+  "DOI": "10.1007/978-3-031-73226-3_20",
+  "event-place": "Berlin, Heidelberg",
+  "ISBN": "978-3-031-73225-6",
+  "page": "342–360",
+  "publisher": "Springer-Verlag",
+  "publisher-place": "Berlin, Heidelberg",
+  "source": "ACM Digital Library",
+  "title": "Beyond Pixels: Semi-supervised Semantic Segmentation with a Multi-scale Patch-Based Multi-label Classifier",
+  "title-short": "Beyond Pixels",
+  "URL": "https://doi.org/10.1007/978-3-031-73226-3_20",
+  "author": [
+    {
+      "family": "Howlader",
+      "given": "Prantik"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Le",
+      "given": "Hieu"
+    },
+    {
+      "family": "Samaras",
+      "given": "Dimitris"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

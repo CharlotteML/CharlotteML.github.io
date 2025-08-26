@@ -1,0 +1,52 @@
+{
+  "issued": {
+    "date-parts": [["2022"]]
+  },
+  "type": "paper-conference",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "page": "28972–28987",
+  "publisher": "Curran Associates, Inc.",
+  "title": "Global Linear and Local Superlinear Convergence of IRLS for Non-Smooth Robust Regression",
+  "URL": "https://proceedings.neurips.cc/paper_files/paper/2022/file/ba3354bcfeae4f166a8bfe75443ac8f7-Paper-Conference.pdf",
+  "volume": "35",
+  "author": [
+    {
+      "family": "Peng",
+      "given": "Liangzu"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Vidal",
+      "given": "Rene"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Koyejo",
+      "given": "S."
+    },
+    {
+      "family": "Mohamed",
+      "given": "S."
+    },
+    {
+      "family": "Agarwal",
+      "given": "A."
+    },
+    {
+      "family": "Belgrave",
+      "given": "D."
+    },
+    {
+      "family": "Cho",
+      "given": "K."
+    },
+    {
+      "family": "Oh",
+      "given": "A."
+    }
+  ]
+}

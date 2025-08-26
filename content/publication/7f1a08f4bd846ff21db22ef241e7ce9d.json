@@ -1,0 +1,34 @@
+{
+  "issued": {
+    "date-parts": [["2023", 8, 25]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2308.13503",
+  "note": "arXiv:2308.13503 [cs]",
+  "number": "arXiv:2308.13503",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Attending Generalizability in Course of Deep Fake Detection by Exploring Multi-task Learning",
+  "URL": "http://arxiv.org/abs/2308.13503",
+  "author": [
+    {
+      "family": "Balaji",
+      "given": "Pranav"
+    },
+    {
+      "family": "Das",
+      "given": "Abhijit"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Dantcheva",
+      "given": "Antitza"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

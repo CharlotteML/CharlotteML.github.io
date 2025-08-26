@@ -1,0 +1,47 @@
+{
+  "issued": {
+    "date-parts": [["2023", 9, 12]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2309.06439",
+  "note": "arXiv:2309.06439 [cs]",
+  "number": "arXiv:2309.06439",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Attention De-sparsification Matters: Inducing Diversity in Digital Pathology Representation Learning",
+  "title-short": "Attention De-sparsification Matters",
+  "URL": "http://arxiv.org/abs/2309.06439",
+  "author": [
+    {
+      "family": "Kapse",
+      "given": "Saarthak"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Zhang",
+      "given": "Jingwei"
+    },
+    {
+      "family": "Gupta",
+      "given": "Rajarsi R."
+    },
+    {
+      "family": "Saltz",
+      "given": "Joel"
+    },
+    {
+      "family": "Samaras",
+      "given": "Dimitris"
+    },
+    {
+      "family": "Prasanna",
+      "given": "Prateek"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2018"]]
+  },
+  "type": "article-journal",
+  "container-title": "Journal of Machine Learning Research",
+  "ISSN": "1533-7928",
+  "issue": "47",
+  "page": "1-49",
+  "source": "www.jmlr.org",
+  "title": "Harmonic Mean Iteratively Reweighted Least Squares for Low-Rank Matrix Recovery",
+  "URL": "http://jmlr.org/papers/v19/17-244.html",
+  "volume": "19",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Sigl",
+      "given": "Juliane"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

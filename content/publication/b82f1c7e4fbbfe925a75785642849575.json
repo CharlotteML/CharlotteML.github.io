@@ -1,0 +1,25 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "18340-18350",
+  "source": "openaccess.thecvf.com",
+  "title": "Just Add π! Pose Induced Video Transformers for Understanding Activities of Daily Living",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Reilly_Just_Add__Pose_Induced_Video_Transformers_for_Understanding_Activities_CVPR_2024_paper.html",
+  "author": [
+    {
+      "family": "Reilly",
+      "given": "Dominick"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

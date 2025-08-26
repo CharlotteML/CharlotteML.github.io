@@ -1,0 +1,40 @@
+{
+  "issued": {
+    "date-parts": [["2020", 5, 1]]
+  },
+  "type": "article-journal",
+  "container-title": "Ad Hoc Networks",
+  "DOI": "10.1016/j.adhoc.2020.102115",
+  "ISSN": "1570-8705",
+  "journalAbbreviation": "Ad Hoc Networks",
+  "page": "102115",
+  "source": "ScienceDirect",
+  "title": "A multi-view CNN-based acoustic classification system for automatic animal species identification",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S1570870519308923",
+  "volume": "102",
+  "author": [
+    {
+      "family": "Xu",
+      "given": "Weitao"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Xue",
+      "given": "Wanli"
+    },
+    {
+      "family": "Wei",
+      "given": "Bo"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

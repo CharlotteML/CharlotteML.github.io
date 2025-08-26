@@ -1,0 +1,38 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "22678-22690",
+  "source": "openaccess.thecvf.com",
+  "title": "Multiview Aerial Visual RECognition (MAVREC): Can Multi-view Improve Aerial Visual Perception?",
+  "title-short": "Multiview Aerial Visual RECognition (MAVREC)",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2024/html/Dutta_Multiview_Aerial_Visual_RECognition_MAVREC_Can_Multi-view_Improve_Aerial_Visual_CVPR_2024_paper.html",
+  "author": [
+    {
+      "family": "Dutta",
+      "given": "Aritra"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Nielsen",
+      "given": "Jacob"
+    },
+    {
+      "family": "Chakraborty",
+      "given": "Rajatsubhra"
+    },
+    {
+      "family": "Shah",
+      "given": "Mubarak"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

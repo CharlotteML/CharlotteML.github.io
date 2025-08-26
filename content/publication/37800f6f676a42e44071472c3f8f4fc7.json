@@ -1,0 +1,43 @@
+{
+  "issued": {
+    "date-parts": [["2019", 8, 23]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.1802.03996",
+  "note": "arXiv:1802.03996 [cs]",
+  "number": "arXiv:1802.03996",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Know Your Mind: Adaptive Brain Signal Classification with Reinforced Attentive Convolutional Neural Networks",
+  "title-short": "Know Your Mind",
+  "URL": "http://arxiv.org/abs/1802.03996",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Zhang",
+      "given": "Wenjie"
+    },
+    {
+      "family": "Zhang",
+      "given": "Shuai"
+    },
+    {
+      "family": "Liu",
+      "given": "Yunhao"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "issued": {
+    "date-parts": [["2021", 3]]
+  },
+  "type": "article-journal",
+  "container-title": "Journal of Neural Engineering",
+  "DOI": "10.1088/1741-2552/abc902",
+  "ISSN": "1741-2552",
+  "issue": "3",
+  "journalAbbreviation": "J. Neural Eng.",
+  "language": "en",
+  "note": "publisher: IOP Publishing",
+  "page": "031002",
+  "source": "Institute of Physics",
+  "title": "A survey on deep learning-based non-invasive brain signals: recent advances and new frontiers",
+  "title-short": "A survey on deep learning-based non-invasive brain signals",
+  "URL": "https://dx.doi.org/10.1088/1741-2552/abc902",
+  "volume": "18",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Monaghan",
+      "given": "Jessica"
+    },
+    {
+      "family": "McAlpine",
+      "given": "David"
+    },
+    {
+      "family": "Zhang",
+      "given": "Yu"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

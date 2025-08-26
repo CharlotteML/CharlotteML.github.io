@@ -1,0 +1,47 @@
+{
+  "issued": {
+    "date-parts": [["2018", 5, 7]]
+  },
+  "type": "chapter",
+  "collection-title": "Proceedings",
+  "container-title": "Proceedings of the 2018 SIAM International Conference on Data Mining (SDM)",
+  "note": "DOI: 10.1137/1.9781611975321.32",
+  "page": "279-287",
+  "publisher": "Society for Industrial and Applied Mathematics",
+  "source": "epubs.siam.org (Atypon)",
+  "title": "EEG-based Motion Intention Recognition via Multi-task RNNs",
+  "URL": "https://epubs.siam.org/doi/abs/10.1137/1.9781611975321.32",
+  "author": [
+    {
+      "family": "Chen",
+      "given": "Weitong"
+    },
+    {
+      "family": "Wang",
+      "given": "Sen"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Yue",
+      "given": "Lin"
+    },
+    {
+      "family": "Qian",
+      "given": "Buyue"
+    },
+    {
+      "family": "Li",
+      "given": "Xue"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

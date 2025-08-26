@@ -33,6 +33,43 @@ const People = z.object({
   photo: z.string().optional(),
 });
 
+const Publication = z.object({
+  id: z.string(),
+  type: z.enum([
+    "article",
+    "article-journal",
+    "book",
+    "chapter",
+    "document",
+    "paper-conference",
+  ]),
+  source: z.string(),
+  title: z.string(),
+  author: z.array(Author),
+  "title-short": z.string().optional(),
+  "container-title": z.string().optional(),
+  DOI: z.string().optional(),
+  ISSN: z.string().optional(),
+  issue: z.string().optional(),
+  journalAbbreviation: z.string().optional(),
+  language: z.string().optional(),
+  note: z.string().optional(),
+  page: z.string().optional(),
+  URL: z.string().optional(),
+  volume: z.string().optional(),
+  issued: DateParts.optional(),
+  accessed: DateParts.optional(),
+  publisher: z.string().optional(),
+  license: z.string().optional(),
+  "event-title": z.string().optional(),
+  "event-place": z.string().optional(),
+  "collection-title": z.string().optional(),
+  ISBN: z.string().optional(),
+  "publisher-place": z.string().optional(),
+  editor: z.array(Author).optional(),
+  number: z.string().optional(),
+});
+
 export default defineContentConfig({
   collections: {
     index: defineCollection({
@@ -82,49 +119,10 @@ export default defineContentConfig({
       type: "data",
       schema: People,
     }),
-    publications: defineCollection({
-      source: "publication.json",
+    publication: defineCollection({
+      source: "publication/*.json",
       type: "data",
-      schema: z.object({
-        collection: z.array(
-          z.object({
-            id: z.string(),
-            type: z.enum([
-              "article",
-              "article-journal",
-              "book",
-              "chapter",
-              "document",
-              "paper-conference",
-            ]),
-            source: z.string(),
-            title: z.string(),
-            author: z.array(Author),
-            "title-short": z.string().optional(),
-            "container-title": z.string().optional(),
-            DOI: z.string().optional(),
-            ISSN: z.string().optional(),
-            issue: z.string().optional(),
-            journalAbbreviation: z.string().optional(),
-            language: z.string().optional(),
-            note: z.string().optional(),
-            page: z.string().optional(),
-            URL: z.string().optional(),
-            volume: z.string().optional(),
-            issued: DateParts.optional(),
-            accessed: DateParts.optional(),
-            publisher: z.string().optional(),
-            license: z.string().optional(),
-            "event-title": z.string().optional(),
-            "event-place": z.string().optional(),
-            "collection-title": z.string().optional(),
-            ISBN: z.string().optional(),
-            "publisher-place": z.string().optional(),
-            editor: z.array(Author).optional(),
-            number: z.string().optional(),
-          })
-        ),
-      }),
+      schema: Publication,
     }),
   },
 });

@@ -1,0 +1,32 @@
+{
+  "issued": {
+    "date-parts": [["2022", 11, 1]]
+  },
+  "type": "article-journal",
+  "container-title": "Linear Algebra and its Applications",
+  "DOI": "10.1016/j.laa.2022.07.002",
+  "ISSN": "0024-3795",
+  "journalAbbreviation": "Linear Algebra and its Applications",
+  "page": "37-81",
+  "source": "ScienceDirect",
+  "title": "On the robustness of noise-blind low-rank recovery from rank-one measurements",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S0024379522002609",
+  "volume": "652",
+  "author": [
+    {
+      "family": "Krahmer",
+      "given": "Felix"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Melnyk",
+      "given": "Oleh"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issued": {
+    "date-parts": [["2020", 2, 1]]
+  },
+  "type": "article-journal",
+  "collection-title": "Image/Video Understanding and Analysis (IUVA)",
+  "container-title": "Pattern Recognition Letters",
+  "DOI": "10.1016/j.patrec.2018.10.030",
+  "ISSN": "0167-8655",
+  "journalAbbreviation": "Pattern Recognition Letters",
+  "page": "46-53",
+  "source": "ScienceDirect",
+  "title": "Software expert discovery via knowledge domain embeddings in a collaborative network",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S0167865518308596",
+  "volume": "130",
+  "author": [
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Benatallah",
+      "given": "Boualem"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "issued": {
+    "date-parts": [["2020", 10]]
+  },
+  "type": "article-journal",
+  "container-title": "IEEE Journal of Biomedical and Health Informatics",
+  "DOI": "10.1109/JBHI.2020.2971610",
+  "ISSN": "2168-2208",
+  "issue": "10",
+  "note": "event-title: IEEE Journal of Biomedical and Health Informatics",
+  "page": "2852-2859",
+  "source": "IEEE Xplore",
+  "title": "Adversarial Representation Learning for Robust Patient-Independent Epileptic Seizure Detection",
+  "volume": "24",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Dong",
+      "given": "Manqing"
+    },
+    {
+      "family": "Liu",
+      "given": "Zhe"
+    },
+    {
+      "family": "Zhang",
+      "given": "Yu"
+    },
+    {
+      "family": "Li",
+      "given": "Yong"
+    }
+  ]
+}

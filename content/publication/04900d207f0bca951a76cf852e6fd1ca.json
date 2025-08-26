@@ -1,0 +1,39 @@
+{
+  "issued": {
+    "date-parts": [["2025", 1, 31]]
+  },
+  "type": "article-journal",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "language": "en",
+  "page": "36314-36341",
+  "source": "proceedings.neurips.cc",
+  "title": "Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification",
+  "title-short": "Medformer",
+  "URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fe2a777282299ecb4f9e7ebb531f0ab-Abstract-Conference.html",
+  "volume": "37",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Yihe"
+    },
+    {
+      "family": "Huang",
+      "given": "Nan"
+    },
+    {
+      "family": "Li",
+      "given": "Taida"
+    },
+    {
+      "family": "Yan",
+      "given": "Yujun"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

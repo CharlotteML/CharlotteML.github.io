@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2022", 12]]
+  },
+  "type": "paper-conference",
+  "container-title": "2022 IEEE Symposium Series on Computational Intelligence (SSCI)",
+  "DOI": "10.1109/SSCI51031.2022.10022137",
+  "event-title": "2022 IEEE Symposium Series on Computational Intelligence (SSCI)",
+  "page": "193-200",
+  "source": "IEEE Xplore",
+  "title": "Error-related Potential Variability: Exploring the Effects on Classification and Transferability",
+  "title-short": "Error-related Potential Variability",
+  "URL": "https://ieeexplore.ieee.org/abstract/document/10022137/authors#authors",
+  "author": [
+    {
+      "family": "Poole",
+      "given": "Benjamin"
+    },
+    {
+      "family": "Lee",
+      "given": "Minwoo"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

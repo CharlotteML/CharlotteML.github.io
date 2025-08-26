@@ -1,0 +1,35 @@
+{
+  "issued": {
+    "date-parts": [["2022", 2, 6]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2202.02931",
+  "note": "arXiv:2202.02931 [cs]",
+  "number": "arXiv:2202.02931",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "TRGP: Trust Region Gradient Projection for Continual Learning",
+  "title-short": "TRGP",
+  "URL": "http://arxiv.org/abs/2202.02931",
+  "author": [
+    {
+      "family": "Lin",
+      "given": "Sen"
+    },
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    },
+    {
+      "family": "Zhang",
+      "given": "Junshan"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2022", 11]]
+  },
+  "type": "paper-conference",
+  "container-title": "2022 IEEE International Conference on Data Mining Workshops (ICDMW)",
+  "DOI": "10.1109/ICDMW58026.2022.00119",
+  "event-title": "2022 IEEE International Conference on Data Mining Workshops (ICDMW)",
+  "note": "ISSN: 2375-9259",
+  "page": "901-909",
+  "source": "IEEE Xplore",
+  "title": "Towards Fair Representation Learning in Knowledge Graph with Stable Adversarial Debiasing",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Yihe"
+    },
+    {
+      "family": "Khalili",
+      "given": "Mohammad Mahdi"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    }
+  ]
+}

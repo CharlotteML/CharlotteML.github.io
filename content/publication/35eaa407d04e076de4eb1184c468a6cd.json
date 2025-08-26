@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2021"]]
+  },
+  "type": "paper-conference",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "page": "2873–2886",
+  "publisher": "Curran Associates, Inc.",
+  "source": "Neural Information Processing Systems",
+  "title": "Iteratively Reweighted Least Squares for Basis Pursuit with Global Linear Convergence Rate",
+  "URL": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/16bda725ae44af3bb9316f416bd13b1b-Abstract.html",
+  "volume": "34",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Mayrink Verdun",
+      "given": "Claudio"
+    },
+    {
+      "family": "Stöger",
+      "given": "Dominik"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issued": {
+    "date-parts": [["2024", 11, 7]]
+  },
+  "type": "paper-conference",
+  "collection-title": "DAC '24",
+  "container-title": "Proceedings of the 61st ACM/IEEE Design Automation Conference",
+  "DOI": "10.1145/3649329.3657389",
+  "event-place": "New York, NY, USA",
+  "ISBN": "979-8-4007-0601-1",
+  "page": "1–6",
+  "publisher": "Association for Computing Machinery",
+  "publisher-place": "New York, NY, USA",
+  "source": "ACM Digital Library",
+  "title": "Hyb-Learn: A Framework for On-Device Self-Supervised Continual Learning with Hybrid RRAM/SRAM Memory",
+  "title-short": "Hyb-Learn",
+  "URL": "https://dl.acm.org/doi/10.1145/3649329.3657389",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Fan"
+    },
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

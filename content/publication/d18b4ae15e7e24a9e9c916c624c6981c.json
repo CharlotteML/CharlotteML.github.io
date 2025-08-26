@@ -1,0 +1,24 @@
+{
+  "author": [
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "Meng",
+      "given": "Jian"
+    },
+    {
+      "family": "Seo",
+      "given": "Jae-Sun"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    }
+  ],
+  "type": "article-journal",
+  "language": "en",
+  "source": "Zotero",
+  "title": "Get More at Once: Alternating Sparse Training with Gradient Correction"
+}

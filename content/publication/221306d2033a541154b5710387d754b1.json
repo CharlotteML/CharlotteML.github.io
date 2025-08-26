@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2020"]]
+  },
+  "type": "paper-conference",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "page": "9263–9275",
+  "publisher": "Curran Associates, Inc.",
+  "source": "Neural Information Processing Systems",
+  "title": "GNNGuard: Defending Graph Neural Networks against Adversarial Attacks",
+  "title-short": "GNNGuard",
+  "URL": "https://proceedings.neurips.cc/paper/2020/hash/690d83983a63aa1818423fd6edd3bfdb-Abstract.html",
+  "volume": "33",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Zitnik",
+      "given": "Marinka"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

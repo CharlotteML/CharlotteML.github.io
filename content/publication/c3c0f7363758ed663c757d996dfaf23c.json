@@ -1,0 +1,35 @@
+{
+  "issued": {
+    "date-parts": [["2023", 9, 1]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2309.00696",
+  "note": "arXiv:2309.00696 [cs]",
+  "number": "arXiv:2309.00696",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "AAN: Attributes-Aware Network for Temporal Action Detection",
+  "title-short": "AAN",
+  "URL": "http://arxiv.org/abs/2309.00696",
+  "author": [
+    {
+      "family": "Dai",
+      "given": "Rui"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Ryoo",
+      "given": "Michael S."
+    },
+    {
+      "family": "Bremond",
+      "given": "Francois"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

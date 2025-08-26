@@ -1,0 +1,50 @@
+{
+  "issued": {
+    "date-parts": [["2024", 6]]
+  },
+  "type": "paper-conference",
+  "container-title": "Proceedings of the 4th Workshop on Figurative Language Processing (FigLang 2024)",
+  "DOI": "10.18653/v1/2024.figlang-1.11",
+  "event-place": "Mexico City, Mexico (Hybrid)",
+  "page": "79–84",
+  "publisher": "Association for Computational Linguistics",
+  "publisher-place": "Mexico City, Mexico (Hybrid)",
+  "source": "ACLWeb",
+  "title": "An Expectation-Realization Model for Metaphor Detection",
+  "URL": "https://aclanthology.org/2024.figlang-1.11/",
+  "author": [
+    {
+      "family": "Uduehi",
+      "given": "Oseremen"
+    },
+    {
+      "family": "Bunescu",
+      "given": "Razvan"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Ghosh",
+      "given": "Debanjan"
+    },
+    {
+      "family": "Muresan",
+      "given": "Smaranda"
+    },
+    {
+      "family": "Feldman",
+      "given": "Anna"
+    },
+    {
+      "family": "Chakrabarty",
+      "given": "Tuhin"
+    },
+    {
+      "family": "Liu",
+      "given": "Emmy"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "issued": {
+    "date-parts": [["2021", 10]]
+  },
+  "type": "article-journal",
+  "container-title": "Nature Computational Science",
+  "DOI": "10.1038/s43588-021-00138-4",
+  "ISSN": "2662-8457",
+  "issue": "10",
+  "journalAbbreviation": "Nat Comput Sci",
+  "language": "en",
+  "license": "2021 The Author(s)",
+  "note": "number: 10\npublisher: Nature Publishing Group",
+  "page": "666-677",
+  "source": "www.nature.com",
+  "title": "Population-scale identification of differential adverse events before and during a pandemic",
+  "URL": "https://www.nature.com/articles/s43588-021-00138-4",
+  "volume": "1",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Sumathipala",
+      "given": "Marissa"
+    },
+    {
+      "family": "Zitnik",
+      "given": "Marinka"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

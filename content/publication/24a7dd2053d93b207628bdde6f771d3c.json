@@ -1,0 +1,39 @@
+{
+  "issued": {
+    "date-parts": [["2019", 7]]
+  },
+  "type": "paper-conference",
+  "container-title": "2019 International Joint Conference on Neural Networks (IJCNN)",
+  "DOI": "10.1109/IJCNN.2019.8851765",
+  "event-title": "2019 International Joint Conference on Neural Networks (IJCNN)",
+  "note": "ISSN: 2161-4407",
+  "page": "1-8",
+  "source": "IEEE Xplore",
+  "title": "Dual-stream Self-Attentive Random Forest for False Information Detection",
+  "author": [
+    {
+      "family": "Dong",
+      "given": "Manqing"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Benatallah",
+      "given": "Boualem"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Sheng",
+      "given": "Quan Z."
+    }
+  ]
+}

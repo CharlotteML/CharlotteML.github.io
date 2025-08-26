@@ -1,0 +1,33 @@
+{
+  "issued": {
+    "date-parts": [["2024"]]
+  },
+  "type": "paper-conference",
+  "event-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+  "language": "en",
+  "page": "3781-3790",
+  "source": "openaccess.thecvf.com",
+  "title": "Latent Flow Diffusion for Deepfake Video Generation",
+  "URL": "https://openaccess.thecvf.com/content/CVPR2024W/DFAD/html/K_Latent_Flow_Diffusion_for_Deepfake_Video_Generation_CVPRW_2024_paper.html",
+  "author": [
+    {
+      "family": "K",
+      "given": "Aashish Chandra"
+    },
+    {
+      "family": "A V",
+      "given": "Aashutosh"
+    },
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Das",
+      "given": "Abhijit"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

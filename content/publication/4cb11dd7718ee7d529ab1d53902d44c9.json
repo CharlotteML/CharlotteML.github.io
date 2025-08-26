@@ -1,0 +1,66 @@
+{
+  "issued": {
+    "date-parts": [["2019"]]
+  },
+  "type": "paper-conference",
+  "collection-title": "Lecture Notes in Computer Science",
+  "container-title": "Advanced Data Mining and Applications",
+  "DOI": "10.1007/978-3-030-35231-8_21",
+  "event-place": "Cham",
+  "ISBN": "978-3-030-35231-8",
+  "language": "en",
+  "page": "288-301",
+  "publisher": "Springer International Publishing",
+  "publisher-place": "Cham",
+  "source": "Springer Link",
+  "title": "Expert2Vec: Distributed Expert Representation Learning in Question Answering Community",
+  "title-short": "Expert2Vec",
+  "author": [
+    {
+      "family": "Chen",
+      "given": "Xiaocong"
+    },
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Wang",
+      "given": "Xianzhi"
+    },
+    {
+      "family": "Liu",
+      "given": "Wei"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Li",
+      "given": "Jianxin"
+    },
+    {
+      "family": "Wang",
+      "given": "Sen"
+    },
+    {
+      "family": "Qin",
+      "given": "Shaowen"
+    },
+    {
+      "family": "Li",
+      "given": "Xue"
+    },
+    {
+      "family": "Wang",
+      "given": "Shuliang"
+    }
+  ]
+}

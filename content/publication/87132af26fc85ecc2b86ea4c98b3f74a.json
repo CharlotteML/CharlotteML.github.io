@@ -1,0 +1,40 @@
+{
+  "issued": {
+    "date-parts": [["2021", 6]]
+  },
+  "type": "paper-conference",
+  "container-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "DOI": "10.1109/CVPR46437.2021.01363",
+  "event-place": "Nashville, TN, USA",
+  "event-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "ISBN": "978-1-66544-509-2",
+  "language": "en",
+  "page": "13840-13848",
+  "publisher": "IEEE",
+  "publisher-place": "Nashville, TN, USA",
+  "source": "DOI.org (Crossref)",
+  "title": "KSM: Fast Multiple Task Adaption via Kernel-wise Soft Mask Learning",
+  "title-short": "KSM",
+  "URL": "https://ieeexplore.ieee.org/document/9578302/",
+  "author": [
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "He",
+      "given": "Zhezhi"
+    },
+    {
+      "family": "Zhang",
+      "given": "Junshan"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

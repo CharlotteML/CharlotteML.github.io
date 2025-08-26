@@ -1,0 +1,46 @@
+{
+  "issued": {
+    "date-parts": [["2020", 5, 31]]
+  },
+  "type": "article-journal",
+  "container-title": "ACM Transactions on Intelligent Systems and Technology",
+  "DOI": "10.1145/3393619",
+  "ISSN": "2157-6904",
+  "issue": "4",
+  "journalAbbreviation": "ACM Trans. Intell. Syst. Technol.",
+  "page": "49:1–49:24",
+  "source": "ACM Digital Library",
+  "title": "DeepKey: A Multimodal Biometric Authentication System via Deep Decoding Gaits and Brainwaves",
+  "title-short": "DeepKey",
+  "URL": "https://dl.acm.org/doi/10.1145/3393619",
+  "volume": "11",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Huang",
+      "given": "Chaoran"
+    },
+    {
+      "family": "Gu",
+      "given": "Tao"
+    },
+    {
+      "family": "Yang",
+      "given": "Zheng"
+    },
+    {
+      "family": "Liu",
+      "given": "Yunhao"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

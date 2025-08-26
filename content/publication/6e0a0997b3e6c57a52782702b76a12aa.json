@@ -1,0 +1,30 @@
+{
+  "issued": {
+    "date-parts": [["2025", 1, 31]]
+  },
+  "type": "article-journal",
+  "container-title": "Advances in Neural Information Processing Systems",
+  "language": "en",
+  "page": "77226-77268",
+  "source": "proceedings.neurips.cc",
+  "title": "Sample-Efficient Geometry Reconstruction from Euclidean Distances using Non-Convex Optimization",
+  "URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8d57f138d14fdfdc520eb29804116d9e-Abstract-Conference.html",
+  "volume": "37",
+  "author": [
+    {
+      "family": "Ghosh",
+      "given": "Ipsita"
+    },
+    {
+      "family": "Tasissa",
+      "given": "Abiy"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

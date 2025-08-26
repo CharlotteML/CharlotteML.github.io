@@ -1,0 +1,42 @@
+{
+  "issued": {
+    "date-parts": [["2019", 4]]
+  },
+  "type": "article-journal",
+  "container-title": "IEEE Internet of Things Journal",
+  "DOI": "10.1109/JIOT.2018.2877786",
+  "ISSN": "2327-4662",
+  "issue": "2",
+  "note": "event-title: IEEE Internet of Things Journal",
+  "page": "2084-2092",
+  "source": "IEEE Xplore",
+  "title": "Internet of Things Meets Brain–Computer Interface: A Unified Deep Learning Framework for Enabling Human-Thing Cognitive Interactivity",
+  "title-short": "Internet of Things Meets Brain–Computer Interface",
+  "volume": "6",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Zhang",
+      "given": "Shuai"
+    },
+    {
+      "family": "Kanhere",
+      "given": "Salil"
+    },
+    {
+      "family": "Sheng",
+      "given": "Michael"
+    },
+    {
+      "family": "Liu",
+      "given": "Yunhao"
+    }
+  ]
+}

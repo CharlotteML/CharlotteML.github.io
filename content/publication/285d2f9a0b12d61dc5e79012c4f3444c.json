@@ -1,0 +1,40 @@
+{
+  "issued": {
+    "date-parts": [["2018", 3]]
+  },
+  "type": "paper-conference",
+  "container-title": "2018 IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+  "DOI": "10.1109/PERCOM.2018.8444575",
+  "event-title": "2018 IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+  "note": "ISSN: 2474-249X",
+  "page": "1-10",
+  "source": "IEEE Xplore",
+  "title": "Converting Your Thoughts to Texts: Enabling Brain Typing via Deep Feature Learning of EEG Signals",
+  "title-short": "Converting Your Thoughts to Texts",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Sheng",
+      "given": "Quan Z."
+    },
+    {
+      "family": "Kanhere",
+      "given": "Salil S."
+    },
+    {
+      "family": "Gu",
+      "given": "Tao"
+    },
+    {
+      "family": "Zhang",
+      "given": "Dalin"
+    }
+  ]
+}

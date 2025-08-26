@@ -1,0 +1,50 @@
+{
+  "issued": {
+    "date-parts": [["2018", 4, 25]]
+  },
+  "type": "article-journal",
+  "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "DOI": "10.1609/aaai.v32i1.11496",
+  "ISSN": "2374-3468",
+  "issue": "1",
+  "language": "en",
+  "license": "Copyright (c)",
+  "note": "number: 1",
+  "source": "ojs.aaai.org",
+  "title": "Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface",
+  "URL": "https://ojs.aaai.org/index.php/AAAI/article/view/11496",
+  "volume": "32",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Dalin"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Wang",
+      "given": "Sen"
+    },
+    {
+      "family": "Chen",
+      "given": "Weitong"
+    },
+    {
+      "family": "Boots",
+      "given": "Robert"
+    },
+    {
+      "family": "Benatallah",
+      "given": "Boualem"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 8, 21]]
+  }
+}

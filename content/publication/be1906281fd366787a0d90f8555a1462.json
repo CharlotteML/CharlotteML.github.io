@@ -1,0 +1,65 @@
+{
+  "issued": {
+    "date-parts": [["2023", 11, 17]]
+  },
+  "type": "article-journal",
+  "container-title": "iScience",
+  "DOI": "10.1016/j.isci.2023.108183",
+  "ISSN": "2589-0042",
+  "issue": "11",
+  "journalAbbreviation": "iScience",
+  "page": "108183",
+  "source": "ScienceDirect",
+  "title": "Beyond radiologist-level liver lesion detection on multi-phase contrast-enhanced CT images by deep learning",
+  "URL": "https://www.sciencedirect.com/science/article/pii/S2589004223022605",
+  "volume": "26",
+  "author": [
+    {
+      "family": "Wu",
+      "given": "Lei"
+    },
+    {
+      "family": "Wang",
+      "given": "Haishuai"
+    },
+    {
+      "family": "Chen",
+      "given": "Yining"
+    },
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Zhang",
+      "given": "Tianyun"
+    },
+    {
+      "family": "Shen",
+      "given": "Ning"
+    },
+    {
+      "family": "Tao",
+      "given": "Guangyu"
+    },
+    {
+      "family": "Sun",
+      "given": "Zhongquan"
+    },
+    {
+      "family": "Ding",
+      "given": "Yuan"
+    },
+    {
+      "family": "Wang",
+      "given": "Weilin"
+    },
+    {
+      "family": "Bu",
+      "given": "Jiajun"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

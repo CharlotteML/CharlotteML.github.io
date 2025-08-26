@@ -1,0 +1,36 @@
+{
+  "issued": {
+    "date-parts": [["2022", 6]]
+  },
+  "type": "paper-conference",
+  "container-title": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "DOI": "10.1109/CVPR52688.2022.01196",
+  "event-place": "New Orleans, LA, USA",
+  "event-title": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "ISBN": "978-1-66546-946-3",
+  "language": "en",
+  "page": "12267-12276",
+  "publisher": "IEEE",
+  "publisher-place": "New Orleans, LA, USA",
+  "source": "DOI.org (Crossref)",
+  "title": "RepNet: Efficient On-Device Learning via Feature Reprogramming",
+  "title-short": "RepNet",
+  "URL": "https://ieeexplore.ieee.org/document/9880448/",
+  "author": [
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "Rakin",
+      "given": "Adnan Siraj"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}

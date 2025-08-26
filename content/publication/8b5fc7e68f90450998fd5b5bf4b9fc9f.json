@@ -1,0 +1,28 @@
+{
+  "issued": {
+    "date-parts": [["2021", 7, 1]]
+  },
+  "type": "paper-conference",
+  "container-title": "Proceedings of the 38th International Conference on Machine Learning",
+  "event-title": "International Conference on Machine Learning",
+  "language": "en",
+  "note": "ISSN: 2640-3498",
+  "page": "5872-5883",
+  "publisher": "PMLR",
+  "source": "proceedings.mlr.press",
+  "title": "A Scalable Second Order Method for Ill-Conditioned Matrix Completion from Few Samples",
+  "URL": "https://proceedings.mlr.press/v139/kummerle21a.html",
+  "author": [
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    },
+    {
+      "family": "Verdun",
+      "given": "Claudio M."
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

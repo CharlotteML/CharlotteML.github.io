@@ -1,0 +1,53 @@
+{
+  "issued": {
+    "date-parts": [["2019"]]
+  },
+  "type": "paper-conference",
+  "collection-title": "Communications in Computer and Information Science",
+  "container-title": "Neural Information Processing",
+  "DOI": "10.1007/978-3-030-36808-1_31",
+  "event-place": "Cham",
+  "ISBN": "978-3-030-36808-1",
+  "language": "en",
+  "page": "287-295",
+  "publisher": "Springer International Publishing",
+  "publisher-place": "Cham",
+  "source": "Springer Link",
+  "title": "Deep Neural Network Hyperparameter Optimization with Orthogonal Array Tuning",
+  "author": [
+    {
+      "family": "Zhang",
+      "given": "Xiang"
+    },
+    {
+      "family": "Chen",
+      "given": "Xiaocong"
+    },
+    {
+      "family": "Yao",
+      "given": "Lina"
+    },
+    {
+      "family": "Ge",
+      "given": "Chang"
+    },
+    {
+      "family": "Dong",
+      "given": "Manqing"
+    }
+  ],
+  "editor": [
+    {
+      "family": "Gedeon",
+      "given": "Tom"
+    },
+    {
+      "family": "Wong",
+      "given": "Kok Wai"
+    },
+    {
+      "family": "Lee",
+      "given": "Minho"
+    }
+  ]
+}

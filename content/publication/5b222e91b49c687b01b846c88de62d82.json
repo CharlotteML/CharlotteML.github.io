@@ -1,0 +1,27 @@
+{
+  "issued": {
+    "date-parts": [["2024", 6, 28]]
+  },
+  "type": "article-journal",
+  "container-title": "Neurocomput.",
+  "DOI": "10.1016/j.neucom.2024.127628",
+  "ISSN": "0925-2312",
+  "issue": "C",
+  "source": "ACM Digital Library",
+  "title": "Towards interactive reinforcement learning with intrinsic feedback",
+  "URL": "https://doi.org/10.1016/j.neucom.2024.127628",
+  "volume": "587",
+  "author": [
+    {
+      "family": "Poole",
+      "given": "Benjamin"
+    },
+    {
+      "family": "Lee",
+      "given": "Minwoo"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2025", 2, 5]]
+  }
+}

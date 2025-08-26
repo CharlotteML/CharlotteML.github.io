@@ -1,0 +1,55 @@
+{
+  "issued": {
+    "date-parts": [["2023", 10, 31]]
+  },
+  "type": "article",
+  "DOI": "10.48550/arXiv.2310.20704",
+  "note": "arXiv:2310.20704 [cs]",
+  "number": "arXiv:2310.20704",
+  "publisher": "arXiv",
+  "source": "arXiv.org",
+  "title": "Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders",
+  "title-short": "Limited Data, Unlimited Potential",
+  "URL": "http://arxiv.org/abs/2310.20704",
+  "author": [
+    {
+      "family": "Das",
+      "given": "Srijan"
+    },
+    {
+      "family": "Jain",
+      "given": "Tanmay"
+    },
+    {
+      "family": "Reilly",
+      "given": "Dominick"
+    },
+    {
+      "family": "Balaji",
+      "given": "Pranav"
+    },
+    {
+      "family": "Karmakar",
+      "given": "Soumyajit"
+    },
+    {
+      "family": "Marjit",
+      "given": "Shyam"
+    },
+    {
+      "family": "Li",
+      "given": "Xiang"
+    },
+    {
+      "family": "Das",
+      "given": "Abhijit"
+    },
+    {
+      "family": "Ryoo",
+      "given": "Michael"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 12, 2]]
+  }
+}

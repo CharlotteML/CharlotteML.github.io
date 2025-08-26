@@ -1,0 +1,29 @@
+{
+  "issued": {
+    "date-parts": [["2022", 12, 1]]
+  },
+  "type": "article-journal",
+  "container-title": "Information and Inference: A Journal of the IMA",
+  "DOI": "10.1093/imaiai/iaac003",
+  "ISSN": "2049-8772",
+  "issue": "4",
+  "journalAbbreviation": "Information and Inference: A Journal of the IMA",
+  "page": "1501-1526",
+  "source": "Silverchair",
+  "title": "Dictionary-sparse recovery from heavy-tailed measurements",
+  "URL": "https://doi.org/10.1093/imaiai/iaac003",
+  "volume": "11",
+  "author": [
+    {
+      "family": "Abdalla",
+      "given": "Pedro"
+    },
+    {
+      "family": "Kümmerle",
+      "given": "Christian"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2024", 1, 3]]
+  }
+}

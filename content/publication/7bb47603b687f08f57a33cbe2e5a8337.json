@@ -1,0 +1,35 @@
+{
+  "issued": {
+    "date-parts": [["2020", 4, 3]]
+  },
+  "type": "article-journal",
+  "container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "DOI": "10.1609/aaai.v34i04.6138",
+  "ISSN": "2374-3468",
+  "issue": "04",
+  "language": "en",
+  "license": "Copyright (c) 2020 Association for the Advancement of Artificial Intelligence",
+  "note": "number: 04",
+  "page": "6623-6630",
+  "source": "ojs.aaai.org",
+  "title": "Harmonious Coexistence of Structured Weight Pruning and Ternarization for Deep Neural Networks",
+  "URL": "https://ojs.aaai.org/index.php/AAAI/article/view/6138",
+  "volume": "34",
+  "author": [
+    {
+      "family": "Yang",
+      "given": "Li"
+    },
+    {
+      "family": "He",
+      "given": "Zhezhi"
+    },
+    {
+      "family": "Fan",
+      "given": "Deliang"
+    }
+  ],
+  "accessed": {
+    "date-parts": [["2023", 9, 14]]
+  }
+}
