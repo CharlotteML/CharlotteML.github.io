@@ -1,11 +1,7 @@
 {
   "faculty": [
     {
-      "name": {
-        "first": "Xiang",
-        "middle": null,
-        "last": "Zhang"
-      },
+      "name": { "first": "Xiang", "middle": null, "last": "Zhang" },
       "position": ["Assistant Professor", "Lab Director"],
       "research": [
         "Machine Learning",
@@ -41,40 +37,7 @@
       "photo": "/photos/xiang-zhang.jpg"
     },
     {
-      "name": {
-        "first": "Christian",
-        "middle": null,
-        "last": "Kümmerle"
-      },
-      "position": ["Assistant Professor", "Lab Co-Director"],
-      "research": [
-        "Machine Learning",
-        "Data Science",
-        "Scalable Algorithms",
-        "AI theory"
-      ],
-      "introduction": "Christian is an Assistant Professor in Computer Science at the University of North Carolina at Charlotte. Prior to joining UNC Charlotte, He was a Postdoctoral Fellow at the Department of Applied Mathematics and Statistics at Johns Hopkins University (mentored by Mauro Maggioni) after completing a Ph.D. in Mathematics at Technical University of Munich in 2019, advised by Felix Krahmer. He obtained M.Sc. and B.Sc. degrees in Mathematics from TU Munich in 2015 and 2013.",
-      "teaching": [
-        {
-          "course": "ITCS 6010/8010",
-          "title": "Optimization for Machine Learning and Data Science (Topics in Computer Science)",
-          "term": "Fall 2023"
-        }
-      ],
-      "contact": {
-        "email": ["kuemmerle@uncc.edu"],
-        "phone": ["704-687-1904"],
-        "address": "Room 410D, Woodward Hall",
-        "website": "https://webpages.charlotte.edu/~ckuemme1/"
-      },
-      "photo": "/photos/christian.jpg"
-    },
-    {
-      "name": {
-        "first": "Minwoo",
-        "middle": "Jake",
-        "last": "Lee"
-      },
+      "name": { "first": "Minwoo", "middle": "Jake", "last": "Lee" },
       "position": ["Assistant Professor"],
       "research": [
         "Reinforcement Learning",
@@ -175,12 +138,8 @@
       "photo": "/photos/LeeMinwoo.jpg"
     },
     {
-      "name": {
-        "first": "Srijan",
-        "middle": null,
-        "last": "Das"
-      },
-      "position": ["Assistant Professor"],
+      "name": { "first": "Srijan", "middle": null, "last": "Das" },
+      "position": ["Assistant Professor", "Lab Co-Director"],
       "research": [
         "Computer Vision",
         "Video Representation Learning",
@@ -212,11 +171,7 @@
       "photo": "/photos/srijan.png"
     },
     {
-      "name": {
-        "first": "Li",
-        "middle": null,
-        "last": "Yang"
-      },
+      "name": { "first": "Li", "middle": null, "last": "Yang" },
       "position": ["Assistant Professor"],
       "research": [
         "Efficient Machine Learning",
@@ -240,11 +195,7 @@
       "photo": "/photos/liyang.jpg"
     },
     {
-      "name": {
-        "first": "Razvan",
-        "middle": "Constantin",
-        "last": "Bunescu"
-      },
+      "name": { "first": "Razvan", "middle": "Constantin", "last": "Bunescu" },
       "position": ["Associate Professor"],
       "research": [
         "Natural Language Processing",
@@ -277,15 +228,46 @@
         "website": "https://webpages.charlotte.edu/rbunescu"
       },
       "photo": "/photos/bunescu.jpg"
+    },
+    {
+      "name": { "first": "Liyue", "middle": null, "last": "Fan" },
+      "position": ["Assistant Professor"],
+      "research": [
+        "Machine Learning",
+        "Data Privacy",
+        "Differential Privacy",
+        "Spatiotemporal Modeling"
+      ],
+      "introduction": "Dr. Liyue Fan is an Assistant Professor in the Department of Computer Science at UNC Charlotte, with an affiliated appointment in the School of Data Science. She was named one of the \"Rising Stars in EECS\" by MIT in 2015 and is a recipient of the prestigious NSF CAREER award. Her research, which focuses on data privacy and databases, is supported by the National Science Foundation. Prior to joining UNC Charlotte, she was an Assistant Professor at the University at Albany and a postdoctoral research associate at the University of Southern California. Dr. Fan earned her Ph.D. in Computer Science from Emory University and her B.S. in Mathematics from Zhejiang University",
+      "teaching": [
+        {
+          "course": "ITCS 6010/8010",
+          "title": "Data Privacy",
+          "term": "Spring 2024"
+        },
+        {
+          "course": "ITCS 6160/8160",
+          "title": "Database Systems",
+          "term": "Fall 2023"
+        },
+        {
+          "course": "DSBA 6160",
+          "title": "Database Systems for Data Scientists",
+          "term": "Fall 2022"
+        }
+      ],
+      "contact": {
+        "email": ["liyue.fan@charlotte.edu"],
+        "phone": ["704-687-8542", "704-687-8622"],
+        "address": "Room 430D, Woodward Hall",
+        "website": "https://webpages.charlotte.edu/lfan4"
+      },
+      "photo": "/photos/liyue-fan.jpg"
     }
   ],
   "student": [
     {
-      "name": {
-        "first": "Nan",
-        "middle": null,
-        "last": "Huang"
-      },
+      "name": { "first": "Nan", "middle": null, "last": "Huang" },
       "position": ["PhD Student"],
       "research": [
         "Machine Learning",
@@ -302,11 +284,7 @@
       "photo": "/photos/nan-huang.png"
     },
     {
-      "name": {
-        "first": "Dominick",
-        "middle": null,
-        "last": "Reilly"
-      },
+      "name": { "first": "Dominick", "middle": null, "last": "Reilly" },
       "position": ["PhD Student"],
       "research": ["Computer Vision", "Video Understanding"],
       "introduction": "Dominick is a PhD student in the Department of Computer Science advised by Dr. Srijan Das. His research focuses on understanding human actions in videos, specifically activities of daily living that are observed in real-world environments. He is interested in utilizing both egocentric and third person viewpoints, as well as multiple modalities, to solve the challenges of activities of daily living.",
@@ -318,11 +296,7 @@
       "photo": "/photos/dominick.jpg"
     },
     {
-      "name": {
-        "first": "Arkaprava",
-        "middle": null,
-        "last": "Sinha"
-      },
+      "name": { "first": "Arkaprava", "middle": null, "last": "Sinha" },
       "position": ["PhD Student"],
       "research": [
         "Computer Vision",
@@ -338,11 +312,7 @@
       "photo": "/photos/arkaprava.jpeg"
     },
     {
-      "name": {
-        "first": "Rajatsubhra",
-        "middle": null,
-        "last": "Chakraborty"
-      },
+      "name": { "first": "Rajatsubhra", "middle": null, "last": "Chakraborty" },
       "position": ["PhD Student"],
       "research": [
         "Computer Vision",
@@ -358,11 +328,7 @@
       "photo": "/photos/rajatsubhra.jpg"
     },
     {
-      "name": {
-        "first": "Jonathan",
-        "middle": null,
-        "last": "Lorray"
-      },
+      "name": { "first": "Jonathan", "middle": null, "last": "Lorray" },
       "position": ["Masters Student"],
       "research": ["Computer Vision"],
       "introduction": "Jonathan is a Masters student in the Department of Computer Science. His research focuses on object detection, specifically the use of semi-supervised learning to leverage large quantities of unlabeled data. He is interested in utilizing a number of different architectures and methods to solve the challenges semi-supervised object detection.",
@@ -373,11 +339,7 @@
       "photo": "/photos/johnathan.jpg"
     },
     {
-      "name": {
-        "first": "Vishal",
-        "middle": null,
-        "last": "Bondili"
-      },
+      "name": { "first": "Vishal", "middle": null, "last": "Bondili" },
       "position": ["Masters Student"],
       "research": ["Computer Vision", "Video Understanding"],
       "introduction": "Vishal is a Masters student in the Department of Computer Science advised by Dr. Srijan Das. His research work focuses on creating baseline benchmarks for various action recognition algorithms primarily assisting  Dominick Reilly. ",
@@ -388,11 +350,7 @@
       "photo": "/photos/vishal.jpg"
     },
     {
-      "name": {
-        "first": "Taida",
-        "middle": null,
-        "last": "Li"
-      },
+      "name": { "first": "Taida", "middle": null, "last": "Li" },
       "position": ["PhD Student"],
       "research": [
         "Machine Learning",
@@ -409,11 +367,7 @@
       "photo": "/photos/taida.png"
     },
     {
-      "name": {
-        "first": "Yihe",
-        "middle": null,
-        "last": "Wang"
-      },
+      "name": { "first": "Yihe", "middle": null, "last": "Wang" },
       "position": ["PhD Student"],
       "research": [
         "Machine Learning",
@@ -430,11 +384,7 @@
       "photo": "/photos/yihe-wang.png"
     },
     {
-      "name": {
-        "first": "Aniqa",
-        "middle": "Ayesha",
-        "last": "Arif"
-      },
+      "name": { "first": "Aniqa", "middle": "Ayesha", "last": "Arif" },
       "position": ["Masters Student"],
       "research": ["Machine Learning", "Medical Imaging", "Neuro-imaging"],
       "introduction": "Aniqa is a master's candidate in the Department of Computer Science at UNC Charlotte. She is currently working on Multimodal Machine Learning for neurological disease diagnosis under the supervision of Dr. Zhang. She has previously worked extensively with neuro-imaging acquisition, databases and processing.",
@@ -445,11 +395,7 @@
       "photo": "/photos/aniqa.jpg"
     },
     {
-      "name": {
-        "first": "Benjamin",
-        "middle": null,
-        "last": "Poole"
-      },
+      "name": { "first": "Benjamin", "middle": null, "last": "Poole" },
       "position": ["PhD Student"],
       "research": ["Reinforcement Learning", "Brain-Computer Interfaces"],
       "introduction": "Benjamin is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on understanding different modalities of human feedback to incorporate them to reinforcement learning. He is interested in human brain signals, especially error-related potentials known as to be elicited when humans commit or observe erroneous events to enhance human-guided training of AI. As a senior PhD student, he leads projects guiding junior graduate students.",
@@ -461,11 +407,7 @@
       "photo": "/photos/ben.jpg"
     },
     {
-      "name": {
-        "first": "Raju",
-        "middle": null,
-        "last": "Challagundla"
-      },
+      "name": { "first": "Raju", "middle": null, "last": "Challagundla" },
       "position": ["PhD Student"],
       "research": ["Anomaly Detection", "Fraud Detection"],
       "introduction": "Raju is a PhD student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on anomaly and fraud detection problems, especially in banking and credit card cases. As a senior software engineer, he is passionate about leveraging technology to tackle complex challenges and eager to make a meaningful impact in the field.",
@@ -477,11 +419,7 @@
       "photo": "/photos/raju.jpg"
     },
     {
-      "name": {
-        "first": "David",
-        "middle": null,
-        "last": "Farynyk"
-      },
+      "name": { "first": "David", "middle": null, "last": "Farynyk" },
       "position": ["PhD Student"],
       "research": ["Multi-object Tracking", "Audio/Speech Classificaiton"],
       "introduction": "David is a PhD student in the Department of Computer Science advised by Drs. Min Shin and Jake Lee. His research focuses on social interaction detection for stroke patients' rehabilitation by using audio-based sound classification models with smart watches. His previous research focused on tracking multiple objects.",
@@ -493,11 +431,7 @@
       "photo": "/photos/david.jpg"
     },
     {
-      "name": {
-        "first": "Mohamed",
-        "middle": "Mehdi",
-        "last": "Bourahla"
-      },
+      "name": { "first": "Mohamed", "middle": "Mehdi", "last": "Bourahla" },
       "position": ["Masters Student"],
       "research": [
         "Audio/Speech Classificaiton",
@@ -512,11 +446,7 @@
       "photo": "/photos/mehdi.png"
     },
     {
-      "name": {
-        "first": "Andrew",
-        "middle": null,
-        "last": "Quinn"
-      },
+      "name": { "first": "Andrew", "middle": null, "last": "Quinn" },
       "position": ["Masters Student"],
       "research": ["Reinforcement Learning", "Continual Learning"],
       "introduction": "Andrew is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
@@ -528,11 +458,7 @@
       "photo": "/photos/andrew.jpg"
     },
     {
-      "name": {
-        "first": "Rakesh",
-        "middle": null,
-        "last": "Dulam"
-      },
+      "name": { "first": "Rakesh", "middle": null, "last": "Dulam" },
       "position": ["PhD Student"],
       "research": ["Reinforcement Learning", "Continual Learning"],
       "introduction": "Rakesh is a MS student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on evaluating continual learning algorithms in diverse environments, assisting Ben.",
@@ -544,11 +470,7 @@
       "photo": "/photos/rakesh.jpg"
     },
     {
-      "name": {
-        "first": "Joshua",
-        "middle": null,
-        "last": "Foster"
-      },
+      "name": { "first": "Joshua", "middle": null, "last": "Foster" },
       "position": ["Undergraduate Student"],
       "research": ["Graph Learning", "Complex System Optimization"],
       "introduction": "Joshua is an UG student in the Department of Computer Science advised by Dr. Jake Lee. His research focuses on testing diverse graph construction algorithms, primarily assisting Ben.",
@@ -560,11 +482,7 @@
       "photo": "/photos/JoshuaFoster.jpg"
     },
     {
-      "name": {
-        "first": "Erfan",
-        "middle": null,
-        "last": "Al-Hossami"
-      },
+      "name": { "first": "Erfan", "middle": null, "last": "Al-Hossami" },
       "position": ["PhD Student"],
       "research": [
         "Natural Language Processing",
@@ -581,11 +499,7 @@
       "photo": "/photos/erfan.png"
     },
     {
-      "name": {
-        "first": "Sampada",
-        "middle": "Ravindra",
-        "last": "Sakpal"
-      },
+      "name": { "first": "Sampada", "middle": "Ravindra", "last": "Sakpal" },
       "position": ["Masters Student"],
       "research": ["Machine Learning"],
       "introduction": "Sampada is a M.S. student in the Department of Computer Science at UNC Charlotte. She received her B.S. degree in Computing and Software Systems from The University of Melbourne in 2017. Her research interests include machine learning.",
@@ -598,11 +512,7 @@
       "photo": "/photos/ssakpal.png"
     },
     {
-      "name": {
-        "first": "Justin",
-        "middle": "Riley",
-        "last": "Smith"
-      },
+      "name": { "first": "Justin", "middle": "Riley", "last": "Smith" },
       "position": ["PhD Student"],
       "research": ["Computer Science Education", "Accessibility Services"],
       "introduction": "Justin is a Ph.D. student in the Department of Computer Science at UNC Charlotte. He received his B.S. degree in Computer Science from the University of North Carolina at Chapel Hill. His research interests include computer science education and accessibility services.",
@@ -615,11 +525,7 @@
       "photo": "/photos/justin.png"
     },
     {
-      "name": {
-        "first": "Tonmoy",
-        "middle": null,
-        "last": "Hasan"
-      },
+      "name": { "first": "Tonmoy", "middle": null, "last": "Hasan" },
       "position": ["PhD Student"],
       "research": [
         "Natural Language Processing",
@@ -635,11 +541,7 @@
       "photo": "/photos/tonmoy.jpg"
     },
     {
-      "name": {
-        "first": "Eshan",
-        "middle": null,
-        "last": "Srivastav"
-      },
+      "name": { "first": "Eshan", "middle": null, "last": "Srivastav" },
       "position": ["Research Intern (High School)"],
       "research": ["Machine Learning", "Cryptography"],
       "introduction": "Eshan is a high school senior serving as a research intern since July 2023. He plans on studying computer science in college and intends to focus on artificial intelligence. He is currently working on developing machine learning models for a variety of different purposes. He has also worked in cryptography in the past.",
@@ -650,22 +552,6 @@
         "website": "https://github.com/eshansrivastav05"
       },
       "photo": "/photos/eshan-srivastav.png"
-    },
-    {
-      "name": {
-        "first": "Ipsita",
-        "middle": null,
-        "last": "Ghosh"
-      },
-      "position": ["PhD Student"],
-      "research": ["Machine Learning", "Non-Convex Optimization", "AI theory"],
-      "introduction": "I am currently pursuing PhD under Dr Christian Kuemmerle. Prior to this I completed an MSc in Data Science from CMI, India and an MSc in Mathematics from DU, India. My research focuses on creating scalable and dependable algorithms in Machine Learning and Data Science, particularly at the intersection of Mathematics and Computer Science. I address computational and statistical challenges posed by complex models, such as developing efficient optimization techniques for solving problems with sparsity or low-rank structures. My work leverages various mathematical concepts, including high-dimensional Probability, Non-Convex Optimization, Numerical Linear Algebra, and Advanced Machine Learning to effectively tackle these challenges",
-      "contact": {
-        "email": ["ighosh2@uncc.edu"],
-        "address": "Room 437, Woodward Hall",
-        "website": "https://webpages.charlotte.edu/ighosh2/"
-      },
-      "photo": "/photos/ipsita-ghosh.png"
     }
   ],
   "alumni": []
