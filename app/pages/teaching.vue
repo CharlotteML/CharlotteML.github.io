@@ -89,12 +89,17 @@ faculty.value?.map(
 
 const term2date = (term: string) => {
   const [season, year] = term.split(" ");
-  const month =
-    season.toLowerCase() === "spring"
-      ? "01"
-      : season.toLowerCase() === "fall"
-        ? "09"
-        : "05";
+  const seasonMap = (s: string) => {
+    switch (s.trim().toLowerCase()) {
+      case "spring":
+        return "01";
+      case "fall":
+        return "09";
+      default:
+        return "05";
+    }
+  };
+  const month = seasonMap(season || "");
   return new Date(`${year}-${month}-01`);
 };
 const sortedCourses = useSorted(courses, (a, b) => {
