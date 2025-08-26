@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxt/content",
     "@nuxt/icon",
+    "nuxt-og-image",
   ],
 
   app: {

@@ -4,10 +4,7 @@ const DateParts = z.object({
   "date-parts": z.array(z.array(z.union([z.number(), z.string()]))),
 });
 
-const Author = z.object({
-  family: z.string(),
-  given: z.string(),
-});
+const Author = z.object({ family: z.string(), given: z.string() });
 
 export default defineContentConfig({
   collections: {
@@ -31,25 +28,17 @@ export default defineContentConfig({
     constants: defineCollection({
       source: "**.md",
       type: "page",
-      schema: z.object({
-        cover: z.optional(z.string()),
-      }),
+      schema: z.object({ cover: z.optional(z.string()) }),
     }),
     news: defineCollection({
       source: "news/*.md",
       type: "page",
-      schema: z.object({
-        date: z.date(),
-        cover: z.optional(z.string()),
-      }),
+      schema: z.object({ date: z.date(), cover: z.optional(z.string()) }),
     }),
     blogs: defineCollection({
       source: "blog/*.md",
       type: "page",
-      schema: z.object({
-        date: z.date(),
-        cover: z.optional(z.string()),
-      }),
+      schema: z.object({ date: z.date(), cover: z.optional(z.string()) }),
     }),
     members: defineCollection({
       source: "members/*.json",
@@ -93,10 +82,12 @@ export default defineContentConfig({
           z.object({
             id: z.string(),
             type: z.enum([
-              "article-journal",
-              "paper-conference",
-              "chapter",
               "article",
+              "article-journal",
+              "book",
+              "chapter",
+              "document",
+              "paper-conference",
             ]),
             source: z.string(),
             title: z.string(),
