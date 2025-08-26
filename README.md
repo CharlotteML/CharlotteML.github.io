@@ -1,6 +1,6 @@
 # Charlotte Machine Learning Lab
 
-This is the source code for the UNC Charlotte Machine Learning Lab website. It is built with [Nuxt.js](https://nuxtjs.org) and [Nuxt Contet](https://content.nuxtjs.org/).
+This is the source code for the UNC Charlotte Machine Learning Lab website. It is built with [Nuxt.js](https://nuxtjs.org) and [Nuxt Content](https://content.nuxtjs.org/).
 
 ## Content
 
@@ -50,10 +50,15 @@ The index page's data is stored in `content/index.json`. The data is organized i
 
 ### Members page
 
-The member page's data is stored in `content/members.json`. The data is organized in a tree structure. The data is used to generate the members page. You can refer to the existing data for reference, or follow the specifications below (Note that keys with `?` are optional):
+The member page's data is stored as individual JSON files organized by category in the `content/member/` directory structure:
+- `content/member/faculty/` - Faculty member profiles
+- `content/member/student/` - Student member profiles  
+- `content/member/alumni/` - Alumni member profiles
 
-- `faculty`, `student`, `alumni`: Categories of members to fall into, each consists of an array of objects with the following properties:
-  - `name`: object with the following properties:
+Each member has their own JSON file (e.g., `john-doe.json`) with the following structure (Note that keys with `?` are optional):
+
+Each member profile contains the following properties:
+- `name`: object with the following properties:
     - `first`?: The first name of the member.
     - `middle`?: The middle name of the member.
     - `last`?: The last name of the member.
@@ -73,7 +78,7 @@ The member page's data is stored in `content/members.json`. The data is organize
 
 ### Publication page
 
-The publication page's data is stored in `content/publications.json`. The data should be exported by Zotero in the `CSL JSON` format and post-processed using the [Clean CSL JSON](https://github.com/CharlotteML/Clean-CSL-JSON) tool, in order to clean the exported JSON file before merging it into the existing publications in `collection` array. This tool will remove unnecessary fields and desensitize the data. Follow the instructions in the repository for more details.
+The publication page's data is stored as individual JSON files in the `content/publication/` directory. Each publication has its own JSON file with a unique hash-based filename (e.g., `0e97cdb.json`). The data should be exported by Zotero in the `CSL JSON` format and post-processed using the [Clean CSL JSON](https://github.com/CharlotteML/Clean-CSL-JSON) tool, in order to clean the exported JSON file before splitting it into individual files. This tool will remove unnecessary fields and desensitize the data. Follow the instructions in the repository for more details.
 
 ### Assets
 
@@ -123,4 +128,4 @@ Locally preview production build:
 bun preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
