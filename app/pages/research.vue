@@ -40,9 +40,9 @@
           @click="toggle()"
         >
           <Icon
-            name="ph:caret-right-fill"
+            name="ph:caret-right-bold"
             size="48"
-            class="text-accent-200 dark:text-accent-600"
+            class="text-secondary-950 dark:text-secondary-50"
           />
         </div>
       </div>
@@ -69,8 +69,8 @@ const unwrapImgFromP = (tree: ElementNode) => {
     tree.type === "element" &&
     tree.tag === "p" &&
     tree.children?.length === 1 &&
-    tree.children[0].type === "element" &&
-    tree.children[0].tag === "img"
+    tree.children[0]?.type === "element" &&
+    tree.children[0]?.tag === "img"
   ) {
     return tree.children[0];
   }
