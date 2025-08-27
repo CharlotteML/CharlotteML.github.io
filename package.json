@@ -21,11 +21,9 @@
     "better-sqlite3": "^12.2.0",
     "citation-js": "^0.7.20",
     "fuse.js": "^7.1.0",
-    "node-gyp": "^11.4.2",
     "nuxt": "^4.0.3",
     "patch-package": "^8.0.0",
-    "tailwindcss": "^4.1.12",
-    "ufo": "^1.6.1"
+    "tailwindcss": "^4.1.12"
   },
   "trustedDependencies": [
     "@parcel/watcher",
