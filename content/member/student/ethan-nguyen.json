@@ -1,0 +1,20 @@
+{
+  "name": {
+    "first": "Ethan",
+    "middle": null,
+    "last": "Nguyen"
+  },
+  "position": ["Undergraduate Student"],
+  "research": [
+    "ML Theory",
+    "Non-convex Optimization",
+    "Mechanistic Interpretability"
+  ],
+  "introduction": "Ethan is an undergraduate student studying in Department of Mathematics and Department of Computer Science.  He is currently advised by Dr Christian Kuemmerle (now at UCF).  The primary goal of Ethan's research is to make models more robust to input and efficient. His current focus on primarily on ML theory, Nonconvex Optimization, and Mechanistic Interpretability.",
+  "contact": {
+    "email": ["ethan.nguyen@e-10.net", "enguye17@charlotte.edu"],
+    "address": "Room 412, Woodward Hall",
+    "website": "https://thate10.github.io/"
+  },
+  "photo": "/photos/ethan.jpg"
+}
