@@ -14,7 +14,7 @@
         "@vueuse/core": "13.9.0",
         "@vueuse/nuxt": "13.9.0",
         "better-sqlite3": "12.4.1",
-        "citation-js": "0.7.20",
+        "citation-js": "0.7.21",
         "fuse.js": "7.1.0",
         "nuxt": "4.1.3",
         "patch-package": "8.0.1",
@@ -90,25 +90,25 @@
 
     "@babel/types": ["@babel/types@7.28.2", "", { "dependencies": { "@babel/helper-string-parser": "^7.27.1", "@babel/helper-validator-identifier": "^7.27.1" } }, "sha512-ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ=="],
 
-    "@citation-js/cli": ["@citation-js/cli@0.7.20", "", { "dependencies": { "@citation-js/core": "^0.7.18", "@citation-js/plugin-bibjson": "^0.7.18", "@citation-js/plugin-bibtex": "^0.7.18", "@citation-js/plugin-csl": "^0.7.18", "@citation-js/plugin-doi": "^0.7.18", "@citation-js/plugin-ris": "^0.7.18", "@citation-js/plugin-wikidata": "^0.7.20", "commander": "^11.0.0" }, "bin": { "citation-js": "lib/index.js" } }, "sha512-wKtwQ3lpm0Hy7+FJOB1v9SYTMHvCczLgkbhMvqJeodyXE7W43XjdJKyouFT8mtLFolHbu3bKlIeY5fMzKdixNQ=="],
+    "@citation-js/cli": ["@citation-js/cli@0.7.21", "", { "dependencies": { "@citation-js/core": "^0.7.21", "@citation-js/plugin-bibjson": "^0.7.21", "@citation-js/plugin-bibtex": "^0.7.21", "@citation-js/plugin-csl": "^0.7.21", "@citation-js/plugin-doi": "^0.7.21", "@citation-js/plugin-ris": "^0.7.21", "@citation-js/plugin-wikidata": "^0.7.21", "commander": "^11.0.0" }, "bin": { "citation-js": "lib/index.js" } }, "sha512-9OS49kC7Z8MKar7Wf6rMOuPyU5eg3mYU4q7iQD+ss9G6bEfTWolUFfMVqZ5P0EvgmDoM5He1ENygRdk6is7Btw=="],
 
-    "@citation-js/core": ["@citation-js/core@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "fetch-ponyfill": "^7.1.0", "sync-fetch": "^0.4.1" } }, "sha512-EjLuZWA5156dIFGdF7OnyPyWFBW43B8Ckje6Sn/W2RFxHDu0oACvW4/6TNgWT80jhEA4bVFm7ahrZe9MJ2B2UQ=="],
+    "@citation-js/core": ["@citation-js/core@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "fetch-ponyfill": "^7.1.0", "sync-fetch": "^0.4.1" } }, "sha512-Vobv2/Yfnn6C6BVO/pvj7madQ7Mfzl83/jAWwixbemGF6ZThhGMz8++FD9hWHyHXDMYuLGa6fK68c2VsolZmTA=="],
 
     "@citation-js/date": ["@citation-js/date@0.5.1", "", {}, "sha512-1iDKAZ4ie48PVhovsOXQ+C6o55dWJloXqtznnnKy6CltJBQLIuLLuUqa8zlIvma0ZigjVjgDUhnVaNU1MErtZw=="],
 
     "@citation-js/name": ["@citation-js/name@0.4.2", "", {}, "sha512-brSPsjs2fOVzSnARLKu0qncn6suWjHVQtrqSUrnqyaRH95r/Ad4wPF5EsoWr+Dx8HzkCGb/ogmoAzfCsqlTwTQ=="],
 
-    "@citation-js/plugin-bibjson": ["@citation-js/plugin-bibjson@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-i0iFu26QjfNNTaXmW/QRCUH+8LLgn1ZZppWyAnu+cJWbSLDduTumKt4U4AbPARb40Rewy+Ibqj1LPDfUqEUrrQ=="],
+    "@citation-js/plugin-bibjson": ["@citation-js/plugin-bibjson@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-Q3eRpeV3pDqX91fvJ8xoYGJk4jB5MQD2woEr6GAoAauAzGVE19J5Lw0SksCHegoAn4z0ZbWMXtOq6rwZPtERbA=="],
 
-    "@citation-js/plugin-bibtex": ["@citation-js/plugin-bibtex@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "moo": "^0.5.1" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-TdsZSMpgpfcx2NMPu0KiulEoecllwT5EtRUzAJl2pDsdPD1tUqqbyj/NBi0l8fwNy1r7WwAqSFGiqGPjQWpFdg=="],
+    "@citation-js/plugin-bibtex": ["@citation-js/plugin-bibtex@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "moo": "^0.5.1" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-O008pSsJgiYKn4+7gAWrbNpNdUH++aMeYmZaJ2oFQ8X1tcY5jNBxJcr0zZojNtUi5CVOaXXHQ0yIifoUhuF2Vg=="],
 
-    "@citation-js/plugin-csl": ["@citation-js/plugin-csl@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0", "citeproc": "^2.4.6" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-cJcOdEZurmtIxNj0d4cOERHpVQJB/mN3YPSDNqfI/xTFRN3bWDpFAsaqubPtMO2ZPpoDS+ZGIP1kggbwCfMmlA=="],
+    "@citation-js/plugin-csl": ["@citation-js/plugin-csl@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "citeproc": "^2.4.6" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-23ySPYCWDiU1JqhvqTYLn6+C11LkeJxTfyPKKXCK2wan9iF9ODvY7JYNl/OJgtwvu485dKfDpqqptWv6i71Meg=="],
 
-    "@citation-js/plugin-doi": ["@citation-js/plugin-doi@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-7ccmhfJJSDUhUqpWxesLAp3m1P5dhnZ4QNMctwJnU41T9vKGF7MXPKqMONSvL5JDZ7o7iWQTj2BFhSmh0euQxw=="],
+    "@citation-js/plugin-doi": ["@citation-js/plugin-doi@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-KmViSt6CjfQS5dPHlHI6m6ahfshHUivSd8jQ0z5SvZCj2mKMH+t85tY57/880Xj9hVoXdRLmh53Uf0b+craNHA=="],
 
-    "@citation-js/plugin-ris": ["@citation-js/plugin-ris@0.7.18", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-aHd8isGGxz6P63UjyTR4RfX1alqxu8PQLWeoUBcnTMAPmyn6qzJfdB+iZEFA8HyL4g3I33n431zL/0BV8XlJiw=="],
+    "@citation-js/plugin-ris": ["@citation-js/plugin-ris@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-swVpYTEYHgO8DRjCeWzaQLQa9B9BiO1bCH67sU+U/dbNw7S71wAHjK9MNI5CqRMndwKldOg6SswBQWzLtBsbeA=="],
 
-    "@citation-js/plugin-wikidata": ["@citation-js/plugin-wikidata@0.7.20", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "@larsgw/wikibase-sdk": "^10.2.1" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-NC/Aa2NmNqwslMEtg8oLmXDbesp6PUYuR12TdnoLNBAUJp0ptT6Biht4OnrQNJEsNpyQDOCiIoWtX2cW7KfaoQ=="],
+    "@citation-js/plugin-wikidata": ["@citation-js/plugin-wikidata@0.7.21", "", { "dependencies": { "@citation-js/date": "^0.5.0", "@citation-js/name": "^0.4.2", "@larsgw/wikibase-sdk": "^10.2.1" }, "peerDependencies": { "@citation-js/core": "^0.7.0" } }, "sha512-+2m7nPRa1XstNo/GsqkCJIv1twG7K0hI2fXnQz8ddMzJMp3pKcJyVTd70OFc7x9QX7ZYk3nSQaohU2uTZdvxRQ=="],
 
     "@cloudflare/kv-asset-handler": ["@cloudflare/kv-asset-handler@0.4.0", "", { "dependencies": { "mime": "^3.0.0" } }, "sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA=="],
 
@@ -756,7 +756,7 @@
 
     "ci-info": ["ci-info@3.9.0", "", {}, "sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ=="],
 
-    "citation-js": ["citation-js@0.7.20", "", { "dependencies": { "@citation-js/cli": "0.7.20", "@citation-js/core": "0.7.18", "@citation-js/date": "0.5.1", "@citation-js/name": "0.4.2", "@citation-js/plugin-bibjson": "0.7.18", "@citation-js/plugin-bibtex": "0.7.18", "@citation-js/plugin-csl": "0.7.18", "@citation-js/plugin-doi": "0.7.18", "@citation-js/plugin-ris": "0.7.18", "@citation-js/plugin-wikidata": "0.7.20", "citeproc": "^2.4.59" }, "bin": { "citation-js": "bin/cmd.js" } }, "sha512-3tRZG/rdzTSbx2rzepS7Rv04IODMc2W8QIwpCVuW27dqIgm4FGvdst8DS8yOdWYNHL5CrPwk9YiEuZSq7tORtg=="],
+    "citation-js": ["citation-js@0.7.21", "", { "dependencies": { "@citation-js/cli": "0.7.21", "@citation-js/core": "0.7.21", "@citation-js/date": "0.5.1", "@citation-js/name": "0.4.2", "@citation-js/plugin-bibjson": "0.7.21", "@citation-js/plugin-bibtex": "0.7.21", "@citation-js/plugin-csl": "0.7.21", "@citation-js/plugin-doi": "0.7.21", "@citation-js/plugin-ris": "0.7.21", "@citation-js/plugin-wikidata": "0.7.21", "citeproc": "^2.4.59", "patch-package": "^8.0.1" }, "bin": { "citation-js": "bin/cmd.js" } }, "sha512-h1v3Il3LlCprzJz6qAEfTTcnU67aXpV30E2pLbF14JRLtug06Rajrs2Utf2unUwRaZ20+PNwljqBWRSh/lO0uQ=="],
 
     "citeproc": ["citeproc@2.4.63", "", {}, "sha512-68F95Bp4UbgZU/DBUGQn0qV3HDZLCdI9+Bb2ByrTaNJDL5VEm9LqaiNaxljsvoaExSLEXe1/r6n2Z06SCzW3/Q=="],
 
