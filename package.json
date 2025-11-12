@@ -15,7 +15,7 @@
     "@nuxtjs/seo": "3.2.2",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.1.17",
-    "@types/node": "24.10.0",
+    "@types/node": "24.10.1",
     "@vueuse/core": "14.0.0",
     "@vueuse/nuxt": "14.0.0",
     "better-sqlite3": "12.4.1",
