@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@iconify-json/ph": "1.2.2",
-    "@nuxt/content": "3.9.0",
+    "@nuxt/content": "3.10.0",
     "@nuxt/icon": "2.1.1",
     "@nuxtjs/color-mode": "4.0.0",
     "@nuxtjs/seo": "3.3.0",
