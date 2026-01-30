@@ -17,6 +17,11 @@
       "!**/bun.lockb"
     ]
   },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
   "javascript": {
     "formatter": {
       "trailingCommas": "es5"
