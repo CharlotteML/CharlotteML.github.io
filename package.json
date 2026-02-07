@@ -21,7 +21,7 @@
     "better-sqlite3": "12.6.2",
     "citation-js": "0.7.22",
     "fuse.js": "7.1.0",
-    "nuxt": "4.3.0",
+    "nuxt": "4.3.1",
     "patch-package": "8.0.1",
     "tailwindcss": "4.1.18"
   },
