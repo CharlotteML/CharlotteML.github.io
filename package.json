@@ -20,7 +20,7 @@
     "@vueuse/nuxt": "14.3.0",
     "better-sqlite3": "12.10.0",
     "citation-js": "0.7.22",
-    "fuse.js": "7.3.0",
+    "fuse.js": "7.4.0",
     "nuxt": "4.4.5",
     "patch-package": "8.0.1",
     "tailwindcss": "4.3.0"
