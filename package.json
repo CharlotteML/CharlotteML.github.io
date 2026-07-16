@@ -14,7 +14,7 @@
     "@nuxtjs/color-mode": "4.0.1",
     "@nuxtjs/seo": "3.4.0",
     "@tailwindcss/typography": "0.5.20",
-    "@tailwindcss/vite": "4.3.2",
+    "@tailwindcss/vite": "4.3.3",
     "@types/node": "26.1.1",
     "@vueuse/core": "14.3.0",
     "@vueuse/nuxt": "14.3.0",
@@ -23,7 +23,7 @@
     "fuse.js": "7.5.0",
     "nuxt": "4.4.5",
     "patch-package": "8.0.1",
-    "tailwindcss": "4.3.2"
+    "tailwindcss": "4.3.3"
   },
   "trustedDependencies": [
     "@parcel/watcher",
