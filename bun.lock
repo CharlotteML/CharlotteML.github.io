@@ -14,7 +14,7 @@
         "@types/node": "26.6.6",
         "@vueuse/core": "15.0.0",
         "@vueuse/nuxt": "15.0.0",
-        "better-sqlite3": "13.0.3",
+        "better-sqlite3": "13.1.1",
         "citation-js": "0.9.0",
         "fuse.js": "7.5.0",
         "nuxt": "4.4.5",
@@ -739,7 +739,7 @@
 
     "baseline-browser-mapping": ["baseline-browser-mapping@2.10.24", "", { "bin": { "baseline-browser-mapping": "dist/cli.cjs" } }, "sha512-I2NkZOOrj2XuguvWCK6OVh9GavsNjZjK908Rq3mIBK25+GD8vPX5w2WdxVqnQ7xx3SrZJiCiZFu+/Oz50oSYSA=="],
 
-    "better-sqlite3": ["better-sqlite3@13.0.3", "", { "dependencies": { "node-addon-api": "^8.0.0" } }, "sha512-RbOBxmLBG8uvFUc15X9+9SFemKcQ0WBuISBVkpuiaUB2qblC8UWlHEjdWVoZ8AdhSwmoEgsiXKfopX0CQxaACQ=="],
+    "better-sqlite3": ["better-sqlite3@13.1.1", "", { "dependencies": { "node-addon-api": "^8.0.0" } }, "sha512-JjyLCATp+VLxZVFyWkicyzKYwpEFLCrV4MmshW97xv3JXdhw5jBDcsbEWRGm2L/96E+k7rtjON8q9nml05h3Pw=="],
 
     "bindings": ["bindings@1.5.0", "", { "dependencies": { "file-uri-to-path": "1.0.0" } }, "sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ=="],
 
